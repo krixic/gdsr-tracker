@@ -100,7 +100,7 @@ export const levels = [
     Legend: [
       "Illusion of Hell (38230726)",
       "VSC (63006314)",
-      "Zero Factorial (71132224)",
+      "Tremor (79823052)",
       "CorroZ B (67044214)",
     ],
 
