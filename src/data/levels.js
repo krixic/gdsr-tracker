@@ -1,3 +1,15 @@
+export const rankRequirements = {
+  Bronze: 9,
+  Silver: 13,
+  Gold: 7,
+  Emerald: 5,
+  Ruby: 4,
+  Diamond: 3,
+  Amethyst: 2,
+  Legend: 1,
+  Bonus: 4,
+};
+
 export const levels = [
   {
     Bronze: [

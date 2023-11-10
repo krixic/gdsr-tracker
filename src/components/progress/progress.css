@@ -1,20 +1,24 @@
 .progress {
-    width: 30%;
-    padding: 12px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+  width: 30%;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.progresstitle {
+  margin: 0;
 }
 
 .progresscontainer {
-    display: flex;
+  display: flex;
 }
 
 .progresscontainer > div {
-    margin: 12px
+  margin: 12px;
 }
 
 h1 {
-   margin: 0;
+  margin: 0;
 }

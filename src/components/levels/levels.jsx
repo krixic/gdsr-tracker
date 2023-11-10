@@ -9,13 +9,11 @@ export const Levels = () => {
     JSON.parse(localStorage.getItem("completedLevels")) || {};
   const initialInputValues =
     JSON.parse(localStorage.getItem("inputValues")) || {};
-  const initialAttempts = JSON.parse(localStorage.getItem("attempts")) || {};
 
   const [completedLevels, setCompletedLevels] = useState(
     initialCompletedLevels
   );
   const [inputValues, setInputValues] = useState(initialInputValues);
-  const [attempts, setAttempts] = useState(initialAttempts);
 
   const toggleStatus = (level) => {
     setCompletedLevels((prevCompletedLevels) => {
@@ -60,18 +58,10 @@ export const Levels = () => {
     }));
   };
 
-  const handleAttemptsChange = (level, value) => {
-    setAttempts((prevAttempts) => ({
-      ...prevAttempts,
-      [level]: value,
-    }));
-  };
-
   useEffect(() => {
     localStorage.setItem("completedLevels", JSON.stringify(completedLevels));
     localStorage.setItem("inputValues", JSON.stringify(inputValues));
-    localStorage.setItem("attempts", JSON.stringify(attempts));
-  }, [completedLevels, inputValues, attempts]);
+  }, [completedLevels, inputValues]);
 
   const [currentCarouselPage, setCurrentCarouselPage] = useState(
     parseInt(localStorage.getItem("currentCarouselPage")) || 0
@@ -96,70 +86,67 @@ export const Levels = () => {
         selectedItem={currentCarouselPage} // Set the selected item to the current page
         onChange={handleCarouselPageChange} // Handle changes in the current page
       >
-        {Object.keys(levels[0]).map((rank) => (
-          <div key={rank}>
-            <div className="nameprogress">
-              <div
-                className="rank"
-                style={{ backgroundColor: getRankBackgroundColor(rank) }}
-              >
-                {rank}
-              </div>
-              <div
-                className="progressypoo"
-                style={{ backgroundColor: getRankBackgroundColor(rank) }}
-              >
-                <div className="progressfart">Progress</div>{" "}
-                <div className="progressfart">Atts</div>
-              </div>
-            </div>
+        {Object.keys(levels[0]).map((rank) => {
+          const completedLevelsInRank = levels[0][rank].filter(
+            (level) => completedLevels[level] === "completed"
+          );
 
-            {levels[0][rank].map((level, index) => (
+          return (
+            <div key={rank}>
               <div className="nameprogress">
                 <div
-                  key={index}
-                  className={`level ${completedLevels[level]}`}
-                  onClick={() => toggleStatus(level)}
+                  className="rank"
+                  style={{ backgroundColor: getRankBackgroundColor(rank) }}
                 >
-                  {level.substring(0, level.lastIndexOf(" "))}
+                  {rank} {"("}
+                  {completedLevelsInRank.length}
+                  {")"}
                 </div>
-                <form
+                <div
                   className="progressypoo"
-                  onSubmit={(e) => {
-                    e.preventDefault();
-                  }}
+                  style={{ backgroundColor: getRankBackgroundColor(rank) }}
                 >
-                  <label>
-                    <input
-                      type="text"
-                      className="progressinput"
-                      value={
-                        completedLevels[level] === "completed"
-                          ? "100"
-                          : completedLevels[level] === "uncompleted"
-                          ? ""
-                          : inputValues[level] || ""
-                      }
-                      placeholder="0"
-                      onChange={(e) => handleInputChange(level, e.target.value)}
-                    />
-                  </label>
-                  <label>
-                    <input
-                      type="text"
-                      className="progressinput"
-                      value={attempts[level] || ""}
-                      placeholder="0"
-                      onChange={(e) =>
-                        handleAttemptsChange(level, e.target.value)
-                      }
-                    />
-                  </label>
-                </form>
+                  <div className="progressfart">Progress</div>{" "}
+                </div>
               </div>
-            ))}
-          </div>
-        ))}
+
+              {levels[0][rank].map((level, index) => (
+                <div className="nameprogress" key={index}>
+                  <div
+                    className={`level ${completedLevels[level]}`}
+                    onClick={() => toggleStatus(level)}
+                  >
+                    {level.substring(0, level.lastIndexOf(" "))}
+                  </div>
+                  <form
+                    className="progressypoo"
+                    onSubmit={(e) => {
+                      e.preventDefault();
+                    }}
+                  >
+                    <label>
+                      <input
+                        type="text"
+                        className="progressinput"
+                        value={
+                          completedLevels[level] === "completed"
+                            ? "100"
+                            : completedLevels[level] === "uncompleted"
+                            ? ""
+                            : inputValues[level] || ""
+                        }
+                        placeholder="0"
+                        onChange={(e) =>
+                          handleInputChange(level, e.target.value)
+                        }
+                      />
+                    </label>
+                  </form>
+                </div>
+              ))}
+            </div>
+          );
+        })}
       </Carousel>
     </div>
   );
