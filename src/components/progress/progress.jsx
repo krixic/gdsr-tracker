@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import "./progress.css";
 import { levels as levelsData, rankRequirements } from "../../data/levels.js";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCaretDown, faCaretUp } from "@fortawesome/free-solid-svg-icons";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faCaretDown, faCaretUp } from "@fortawesome/free-solid-svg-icons";
 
 export const Progress = () => {
   const completedLevels =
