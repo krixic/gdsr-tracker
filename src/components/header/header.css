@@ -1,5 +1,4 @@
 .header {
-  /* background-color: rgb(196, 34, 34); */
   width: 100%;
   height: 50px;
   font-size: 30px;
@@ -33,13 +32,16 @@
 }
 
 .header-text {
-  display: inline-block; /* Ensure text-align works as expected */
+  display: flex;
+  font-size: min(4vw, 80%);
+  align-items: center;
+  padding: 4px 8px;
 }
 
 .info {
-  padding: 12px; /* Set padding to 12px */
+  padding: 12px;
   cursor: pointer;
-  font-size: 24px;
+  font-size: min(3vw, 70%);
 }
 
 .popup {
@@ -82,7 +84,7 @@ h3 {
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.5);
-  z-index: 1000; /* Ensure it appears above other elements */
+  z-index: 1000;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -130,11 +132,14 @@ h3 {
 .nav button {
   border: 0;
   font-family: "Readex Pro", sans-serif;
-  font-size: 18px;
+  font-size: min(3vw, 70%);
   padding: 4px 8px;
   cursor: pointer;
   background-color: #ffffff00;
   color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .nav button:hover {
