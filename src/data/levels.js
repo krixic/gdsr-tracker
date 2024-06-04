@@ -7,7 +7,7 @@ export const rankRequirements = {
   Diamond: 3,
   Amethyst: 2,
   Legend: 1,
-  Bonus: 4,
+  Bonus: 12,
 };
 
 export const levels = [
@@ -40,9 +40,9 @@ export const levels = [
       "UBaSUNhW (59910938)",
       "Pennutoh Challenge (64206853)",
       "liverpool (44664220)",
-      " Deterioration (50676530)",
+      "Deterioration (50676530)",
       "hard wave thingy (52107163)",
-      "Applesauce (62990834) ",
+      "Applesauce (62990834)",
       "Zone Wave (63116711)",
       "Not The Golden Wave (63459575)",
       "your mom challenge (62705568)",

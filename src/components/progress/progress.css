@@ -1,24 +1,61 @@
 .progress {
-  width: 30%;
-  padding: 12px;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 100px;
+  height: 100vh;
+}
+.filters {
+  margin: 0 32px;
+}
+.filters form {
+  display: flex;
   flex-direction: column;
 }
-
-.progresstitle {
-  margin: 0;
-}
-
-.progresscontainer {
+.filtertitle {
+  padding: 4px 16px;
+  font-size: 30px;
+  background-color: #484848;
+  user-select: none;
   display: flex;
+  justify-content: center;
+}
+.progresscontainercontainercontainer {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.progresscontainercontainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.progresscontainer {
+  width: 350px;
 }
 
-.progresscontainer > div {
-  margin: 12px;
+.progresscontainertitle {
+  padding: 4px 8px;
+  font-size: 30px;
+  background-color: #484848;
+  display: flex;
+  justify-content: center;
+  user-select: none;
+  cursor: pointer;
 }
-
-h1 {
-  margin: 0;
+.progresscontainertitle:hover {
+  background-color: #404040;
+}
+.progresscontainertitle:active {
+  background-color: #363636;
+}
+.progresscontainercontent {
+  overflow-y: auto;
+  max-height: 350px;
+  background-color: #363636;
+  padding: 8px 0;
+}
+.progresslevel {
+  font-size: 16;
+  display: flex;
+  justify-content: center;
 }

@@ -1,13 +1,20 @@
 .levels {
-  width: 35%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+  width: min(1200px, 85%);
+  margin: 30px 0px;
+}
+
+.levelrank {
+  width: 350px;
 }
 
 .rank {
-  background-color: rgb(196, 34, 34);
   width: 100%;
-  height: 32px;
   font-size: 30px;
-  padding: 24px 0 24px 0;
+  padding: 4px 8px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -21,10 +28,14 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  font-size: 24px;
+  font-size: 16px;
   cursor: pointer;
-  padding: 12px;
+  padding: 4px 8px;
   user-select: none;
+}
+.nameprogresscontainer {
+  overflow-y: auto;
+  max-height: 350px;
 }
 
 .nameprogress {
@@ -32,11 +43,15 @@
   background-color: #484848;
 }
 
+/* .levels-heading {
+  position: sticky;
+  top: 0;
+} */
 .progressypoo {
   width: 35%;
-  padding: 8px;
+  padding: 4px 8px;
   text-align: left;
-  font-size: 18px;
+  font-size: 16px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -52,6 +67,7 @@
 .progressinput {
   width: 100%;
   height: 100%;
+  font-size: 16px;
 }
 
 .level.completed {
@@ -61,8 +77,29 @@
 .level.doing {
   background-color: rgb(206, 203, 43); /* Background color when completed */
 }
+.toast {
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 20px;
+  width: 12%;
+  height: 50px;
+  font-size: 1.5vw;
+  background-color: red;
+  text-align: center;
+  line-height: 40px;
+  border: none;
+  font-family: "Readex Pro", sans-serif;
+  color: white;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
 
-.carousel .control-arrow {
-  height: 48px;
-  width: 24px;
+.toast:hover {
+  background-color: rgb(225, 0, 0);
+}
+
+.toast:active {
+  background-color: rgb(200, 0, 0);
 }
