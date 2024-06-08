@@ -70,12 +70,20 @@ export const Header = () => {
   return (
     <div className={`header ${!top ? "headershadow" : ""}`}>
       <div className="header-content">
-        <span className="header-text">GDSR Wave Tracker</span>
+        <span className="header-text" onClick={() => navigate("/")}>
+          GDSR Wave Tracker
+        </span>
       </div>
       <div className="nav">
-        <button className="home" onClick={() => navigate("/")}>
-          Home
-        </button>
+        <div className="dropdowncontainer">
+          <button className="home" onClick={() => navigate("/")}>
+            Home
+          </button>
+          <div className="dropdown">
+            <button onClick={() => navigate("/dlc")}>DLC</button>
+          </div>
+        </div>
+
         <button className="stats" onClick={() => navigate("/progress")}>
           Progress
         </button>

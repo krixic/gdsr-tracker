@@ -1,8 +1,11 @@
 import React, { useState, useEffect } from "react";
 import "./levels.css";
-import { levels as levelsData, rankRequirements } from "../../data/levels.js";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCopy } from "@fortawesome/free-solid-svg-icons";
+import copy from "copy-to-clipboard";
+import toast, { Toaster } from "react-hot-toast";
 
-export const Levels = () => {
+export const Levels = ({ levelsData, rankRequirements }) => {
   const initialCompletedLevels =
     JSON.parse(localStorage.getItem("completedLevels")) || {};
   const initialInputValues =
@@ -15,11 +18,16 @@ export const Levels = () => {
   const [hasUnsavedChanges, setHasUnsavedChanges] = useState(false);
 
   const displayToastOnUnsavedChange = () => {
-    if (hasUnsavedChanges === false) {
-      return "none";
-    } else {
-      return "block";
-    }
+    return hasUnsavedChanges ? "block" : "none";
+  };
+
+  const handleCopy = (level) => {
+    const id = level.match(/\((.*?)\)/)[1];
+    const copiedLevelName = level.replace(/\s*\(.*?\)\s*/g, "");
+
+    copy(id);
+
+    toast(`Copied ${id} (${copiedLevelName})`);
   };
 
   const toggleStatus = (level) => {
@@ -84,36 +92,54 @@ export const Levels = () => {
 
   const getRankBackgroundColor = (rank) => {
     // const defaultColor = "rgb(196, 34, 34)";
+
     const totalNumberOfLevels = levelsData[0][rank].length;
     const numberOfCompletedLevels = levelsData[0][rank].filter(
       (level) => completedLevels[level] === "completed"
     ).length;
     const requiredLevels = rankRequirements[rank];
+
     if (
       levelsData[0][rank].filter(
         (level) => completedLevels[level] === "completed"
       ).length < requiredLevels
     ) {
-      return [rankColors[rank], `4px solid ${rankColors[rank]}`];
+      return [rankColors[rank], `norank`];
     } else if (
       levelsData[0][rank].filter(
         (level) => completedLevels[level] === "completed"
       ).length >= requiredLevels &&
       totalNumberOfLevels !== numberOfCompletedLevels
     ) {
-      return [rankColors[rank], "4px solid gold"];
+      return [rankColors[rank], "rankachieved"];
     }
 
     if (totalNumberOfLevels === numberOfCompletedLevels) {
-      return [rankColors[rank], "4px solid black"];
+      return [rankColors[rank], "plusrank"];
     }
-
-    return "";
+    return [rankColors[rank], `norank`];
   };
 
   return (
     <>
-      {console.log("poop", hasUnsavedChanges)}
+      <Toaster
+        containerClassName="copytoastcontainer"
+        toastOptions={{
+          duration: 2000,
+
+          style: {
+            backgroundColor: "rgb(0,180,0)",
+            borderRadius: 0,
+            padding: "0 16px",
+            color: "white",
+            height: "50px",
+            fontFamily: "Readex Pro",
+            boxShadow: "0px 0px 10px 0px rgba(0, 0, 0, 0.3)",
+            userSelect: "none",
+          },
+        }}
+      />
+
       <div className="levels">
         {Object.keys(levelsData[0]).map((rank) => {
           const completedLevelsInRank = levelsData[0][rank].filter(
@@ -123,9 +149,11 @@ export const Levels = () => {
           return (
             <div className="levelrank" key={rank}>
               <div
-                className="nameprogress levels-heading"
+                className={`nameprogress levels-heading ${
+                  getRankBackgroundColor(rank)[1]
+                } ${rank}`}
                 style={{
-                  border: getRankBackgroundColor(rank)[1],
+                  // border: getRankBackgroundColor(rank)[1],
                   boxSizing: "border-box",
                   backgroundColor: getRankBackgroundColor(rank)[0],
                 }}
@@ -146,6 +174,14 @@ export const Levels = () => {
               <div className="nameprogresscontainer">
                 {levelsData[0][rank].map((level, index) => (
                   <div className="nameprogress" key={index}>
+                    <button
+                      className={completedLevels[level]}
+                      onClick={() => {
+                        handleCopy(level);
+                      }}
+                    >
+                      <FontAwesomeIcon icon={faCopy} />
+                    </button>
                     <div
                       className={`level ${completedLevels[level]}`}
                       onClick={() => {
@@ -153,7 +189,6 @@ export const Levels = () => {
                         setHasUnsavedChanges(true);
                       }}
                     >
-                      {console.log(hasUnsavedChanges)}
                       {level.substring(0, level.lastIndexOf(" "))}
                     </div>
                     <form
@@ -174,9 +209,10 @@ export const Levels = () => {
                               : inputValues[level] || ""
                           }
                           placeholder="0"
-                          onChange={(e) =>
-                            handleInputChange(level, e.target.value)
-                          }
+                          onChange={(e) => {
+                            handleInputChange(level, e.target.value);
+                            setHasUnsavedChanges(true);
+                          }}
                         />
                       </label>
                     </form>
@@ -192,7 +228,6 @@ export const Levels = () => {
         onClick={() => window.location.reload()}
         style={{ display: displayToastOnUnsavedChange() }}
       >
-        {console.log(displayToastOnUnsavedChange())}
         Save changes
       </button>
     </>

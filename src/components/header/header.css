@@ -36,10 +36,12 @@
   font-size: min(4vw, 80%);
   align-items: center;
   padding: 4px 8px;
+  user-select: none;
+  cursor: pointer;
 }
 
 .info {
-  padding: 12px;
+  padding: 24px;
   cursor: pointer;
   font-size: min(3vw, 70%);
 }
@@ -120,7 +122,7 @@ h3 {
 .infoinfo {
   height: 100%;
   overflow-y: scroll;
-  padding: 12px;
+  padding: 0 24px;
 }
 
 .nav {
@@ -133,13 +135,14 @@ h3 {
   border: 0;
   font-family: "Readex Pro", sans-serif;
   font-size: min(3vw, 70%);
-  padding: 4px 8px;
+  padding: 4px 32px;
   cursor: pointer;
   background-color: #ffffff00;
   color: white;
   display: flex;
   align-items: center;
   justify-content: center;
+  width: min(110px, 8vw);
 }
 
 .nav button:hover {
@@ -148,4 +151,21 @@ h3 {
 
 .nav button:active {
   background-color: #ffffff40;
+}
+.dropdowncontainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  margin-top: 34px;
+}
+.nav .home:hover + .dropdown {
+  display: block;
+}
+
+.dropdown:hover {
+  display: block;
 }

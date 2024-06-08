@@ -50,11 +50,7 @@ export const Progress = () => {
     }
 
     if (totalNumberOfLevels === numberOfCompletedLevels) {
-      return (
-        <strong>
-          {rank}+<br />
-        </strong>
-      );
+      return <strong>{rank}+</strong>;
     }
 
     return "";
@@ -203,10 +199,17 @@ export const Progress = () => {
                       style={{ color: getRankColorByRank(rank) }}
                       className="progresslevel"
                     >
-                      {renderPlus(rank)}
+                      {renderPlus(rank) && (
+                        <>
+                          {renderPlus(rank)}
+                          {"‎ ("}
+                          {levelsData[0][rank].length}
+                          {")"}
+                        </>
+                      )}
                       {!renderPlus(rank) && (
                         <>
-                          {rank} {" ("}
+                          {`${rank} (`}
                           {
                             levelsData[0][rank].filter(
                               (level) => completedLevels[level] === "completed"

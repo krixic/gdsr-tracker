@@ -70,20 +70,22 @@
   font-size: 16px;
 }
 
-.level.completed {
-  background-color: rgb(30, 168, 49); /* Background color when completed */
+.level.completed,
+.nameprogress button.completed {
+  background-color: rgb(30, 168, 49);
 }
 
-.level.doing {
-  background-color: rgb(206, 203, 43); /* Background color when completed */
+.level.doing,
+.nameprogress button.doing {
+  background-color: rgb(206, 203, 43);
 }
 .toast {
   position: fixed;
   bottom: 0;
   margin-bottom: 20px;
-  width: 12%;
+  width: max(12%, 200px);
   height: 50px;
-  font-size: 1.5vw;
+  font-size: max(1.5vw, 24px);
   background-color: red;
   text-align: center;
   line-height: 40px;
@@ -102,4 +104,32 @@
 
 .toast:active {
   background-color: rgb(200, 0, 0);
+}
+
+.nameprogress button {
+  border: 0;
+  background-color: #363636;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 0 8px;
+}
+.copytoastcontainer > div {
+  display: none !important;
+}
+.copytoastcontainer > div:nth-child(-n + 3) {
+  display: flex !important;
+}
+.norank {
+  border: 4px solid transparent;
+}
+.rankachieved {
+  border: 4px solid gold;
+}
+.plusrank {
+  border: 4px solid black;
+}
+
+.plusrank.Legend {
+  border: 4px solid white;
 }
