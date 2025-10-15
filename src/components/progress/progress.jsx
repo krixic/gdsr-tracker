@@ -1,264 +1,233 @@
 import React, { useState } from "react";
 import "./progress.css";
 import { levels as levelsData, rankRequirements } from "../../data/levels.js";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { faCaretDown, faCaretUp } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCaretDown, faCaretUp } from "@fortawesome/free-solid-svg-icons";
+import { difficultyOrder, rankColors } from "../../data/utils.js";
 
 export const Progress = () => {
-  const completedLevels =
-    JSON.parse(localStorage.getItem("completedLevels")) || {};
+    const completed = JSON.parse(localStorage.getItem("completedLevels")) || {};
+    const progress = JSON.parse(localStorage.getItem("inputValues")) || {};
+    const [visible, setVisible] = useState({
+        completed: true,
+        progress: true,
+        ranksDone: true,
+        ranksLeft: true,
+    });
+    const [filter, setFilter] = useState("difficultyDescending");
+    const [asc, setAsc] = useState(false);
 
-  const levelswithprogress =
-    JSON.parse(localStorage.getItem("inputValues")) || {};
+    const getRankColor = (lvl) => {
+        for (const pack of levelsData)
+            for (const [key, val] of Object.entries(pack)) {
+                if (Array.isArray(val) && val.includes(lvl))
+                    return rankColors[key] || "#000";
+                if (typeof val === "object")
+                    for (const [diff, sub] of Object.entries(val))
+                        if (sub.includes(lvl))
+                            return rankColors[diff] || "#000";
+            }
+        return "#000";
+    };
 
-  // Create an array of level names from the levels object
-  const levelNames = Object.keys(completedLevels);
+    const getDiffIndex = (lvl) => {
+        for (const pack of levelsData)
+            for (const [key, val] of Object.entries(pack)) {
+                if (Array.isArray(val) && val.includes(lvl))
+                    return difficultyOrder.indexOf(key);
+                if (typeof val === "object")
+                    for (const [diff, sub] of Object.entries(val))
+                        if (sub.includes(lvl))
+                            return difficultyOrder.indexOf(diff);
+            }
+        return -1;
+    };
 
-  const levelProgresses = Object.keys(levelswithprogress);
+    const getCompletedCount = (rank) =>
+        levelsData.reduce((count, pack) => {
+            const val = pack[rank];
+            if (!val) return count;
+            if (Array.isArray(val))
+                return (
+                    count +
+                    val.filter((l) => completed[l] === "completed").length
+                );
+            if (typeof val === "object")
+                return (
+                    count +
+                    Object.values(val)
+                        .flat()
+                        .filter((l) => completed[l] === "completed").length
+                );
+            return count;
+        }, 0);
 
-  // Sort the level names alphabetically
-  levelNames.sort();
-
-  const achievedRanks = Object.keys(rankRequirements).filter((rank) => {
-    const requiredLevels = rankRequirements[rank];
-    const completedLevelsInRank = levelsData[0][rank].filter(
-      (level) => completedLevels[level] === "completed"
-    );
-
-    return completedLevelsInRank.length >= requiredLevels;
-  });
-
-  const remainingRanks = Object.keys(rankRequirements).filter((rank) => {
-    const requiredLevels = rankRequirements[rank];
-    const completedLevelsInRank = levelsData[0][rank].filter(
-      (level) => completedLevels[level] === "completed"
-    );
-
-    return completedLevelsInRank.length < requiredLevels;
-  });
-
-  const renderPlus = (rank) => {
-    const totalNumberOfLevels = levelsData[0][rank].length;
-    const numberOfCompletedLevels = levelsData[0][rank].filter(
-      (level) => completedLevels[level] === "completed"
-    ).length;
-
-    if (rank === "Bonus") {
-      if (totalNumberOfLevels === numberOfCompletedLevels) {
-        return ""; // Special rendering for Bonus rank
-      }
-    }
-
-    if (totalNumberOfLevels === numberOfCompletedLevels) {
-      return <strong>{rank}+</strong>;
-    }
-
-    return "";
-  };
-
-  const rankColors = {
-    Bronze: "#dd7e6b",
-    Silver: "#b7b7b7",
-    Gold: "#f1c232",
-    Emerald: "#6aa84f",
-    Ruby: "#cc0000",
-    Diamond: "#3d85c6",
-    Amethyst: "#ff00ff",
-    Legend: "#000000",
-    Bonus: "#b4a7d6",
-  };
-
-  const getRankColorByName = (levelName) => {
-    for (const level of levelsData) {
-      for (const [rank, names] of Object.entries(level)) {
-        if (names.includes(levelName)) {
-          return rankColors[rank];
+    const getTotalInRank = (rank) => {
+        let total = 0;
+        for (const pack of levelsData) {
+            const val = pack[rank];
+            if (!val) continue;
+            total += Array.isArray(val)
+                ? val.length
+                : Object.values(val).flat().length;
         }
-      }
-    }
-    return null;
-  };
+        return total;
+    };
 
-  const getRankColorByRank = (rankName) => {
-    return rankColors[rankName];
-  };
+    const sortLevels = (arr) => {
+        const sorted = [...arr];
+        if (filter.includes("alphabetical")) sorted.sort();
+        else sorted.sort((a, b) => getDiffIndex(a) - getDiffIndex(b));
+        if (!asc) sorted.reverse();
+        return sorted;
+    };
 
-  const [isLevelNamesVisible, setIsLevelNamesVisible] = useState(true);
+    const levelsCompleted = sortLevels(
+        Object.keys(completed).filter((l) => completed[l] === "completed")
+    );
+    const levelsInProgress = sortLevels(
+        Object.keys(progress).filter(
+            (l) => progress[l] !== "100" && completed[l] !== "completed"
+        )
+    );
 
-  const [isLevelProgressesVisible, setIsLevelProgressesVisible] =
-    useState(true);
+    const achieved = Object.keys(rankRequirements).filter(
+        (r) => getCompletedCount(r) >= rankRequirements[r]
+    );
+    const remaining = Object.keys(rankRequirements).filter(
+        (r) => getCompletedCount(r) < rankRequirements[r]
+    );
 
-  const [isRanksAchievedVisible, setIsRanksAchievedVisible] = useState(true);
+    const renderPlus = (rank) =>
+        getCompletedCount(rank) === getTotalInRank(rank) ? (
+            <strong>{rank}+</strong>
+        ) : null;
 
-  const [isRanksToAchieveVisible, setIsRanksToAchieveVisible] = useState(true);
+    const toggle = (key) => setVisible({ ...visible, [key]: !visible[key] });
 
-  return (
-    <div className="progress">
-      {/* <div className="filters">
-        <form>
-          <div className="filtertitle">Filter</div>
-          <label for="alphabeticalascending">A-Z</label>
-          <input type="radio" name="filter"></input>
-          <label for="alphabeticaldescending">Z-D</label>
-          <input type="radio" name="filter"></input>
-          <label for="difficultyascending">Difficulty Ascending</label>
-          <input type="radio" name="filter"></input>
-          <label for="difficultydescending">Difficulty Descending</label>
-          <input type="radio" name="filter"></input>
-        </form>
-      </div> */}
-      <div className="progresscontainercontainercontainer">
-        <div className="progresscontainercontainer">
-          <div className="progresscontainer">
-            <div
-              className="progresscontainertitle"
-              onClick={() => {
-                isLevelNamesVisible === true
-                  ? setIsLevelNamesVisible(false)
-                  : setIsLevelNamesVisible(true);
-              }}
-            >
-              Levels Completed
+    return (
+        <div className="progress">
+            <div className="filters">
+                <button
+                    onClick={() =>
+                        setFilter(
+                            filter === "difficultyDescending"
+                                ? "alphabeticalDescending"
+                                : "difficultyDescending"
+                        )
+                    }
+                    className="difficultyalphabetical"
+                >
+                    {filter.includes("difficulty")
+                        ? "Difficulty"
+                        : "Alphabetical"}
+                </button>
+                <button
+                    onClick={() => setAsc(!asc)}
+                    className="ascendingdescending"
+                >
+                    <FontAwesomeIcon icon={asc ? faCaretUp : faCaretDown} />
+                </button>
             </div>
-            <div className="progresscontainercontent">
-              {isLevelNamesVisible && (
-                <div>
-                  {levelNames.map(
-                    (levelName, index) =>
-                      completedLevels[levelName] === "completed" && (
+
+            <div className="progresscontainercontainercontainer">
+                <div className="progresscontainercontainer">
+                    <div className="progresscontainer">
                         <div
-                          key={index}
-                          style={{ color: getRankColorByName(levelName) }}
-                          className="progresslevel"
+                            className="progresscontainertitle"
+                            onClick={() => toggle("completed")}
                         >
-                          {levelName.substring(0, levelName.lastIndexOf(" "))}
+                            Levels Completed
                         </div>
-                      )
-                  )}
-                </div>
-              )}
-            </div>
-          </div>
-          <div className="progresscontainer">
-            <div
-              className="progresscontainertitle"
-              onClick={() => {
-                isLevelProgressesVisible === true
-                  ? setIsLevelProgressesVisible(false)
-                  : setIsLevelProgressesVisible(true);
-              }}
-            >
-              Levels with Progress
-            </div>
-            <div className="progresscontainercontent">
-              {isLevelProgressesVisible && (
-                <div>
-                  {levelProgresses.map((levelProgress, index) => (
-                    <div
-                      key={index}
-                      style={{ color: getRankColorByName(levelProgress) }}
-                    >
-                      <div className="progresslevel">
-                        {levelswithprogress[levelProgress] &&
-                          levelswithprogress[levelProgress] !== "100" && (
-                            <div>
-                              {levelProgress.substring(
-                                0,
-                                levelProgress.lastIndexOf(" ")
-                              )}{" "}
-                              {levelswithprogress[levelProgress]}
-                              {"%"}
+                        {visible.completed && (
+                            <div className="progresscontainercontent">
+                                {levelsCompleted.map((lvl, i) => (
+                                    <div
+                                        key={i}
+                                        className="progresslevel"
+                                        style={{ color: getRankColor(lvl) }}
+                                    >
+                                        {lvl.substring(0, lvl.lastIndexOf(" "))}
+                                    </div>
+                                ))}
                             </div>
-                          )}
-                      </div>
+                        )}
                     </div>
-                  ))}
+
+                    <div className="progresscontainer">
+                        <div
+                            className="progresscontainertitle"
+                            onClick={() => toggle("progress")}
+                        >
+                            Levels with Progress
+                        </div>
+                        {visible.progress && (
+                            <div className="progresscontainercontent">
+                                {levelsInProgress.map((lvl, i) => (
+                                    <div
+                                        key={i}
+                                        className="progresslevel"
+                                        style={{ color: getRankColor(lvl) }}
+                                    >
+                                        {lvl.substring(0, lvl.lastIndexOf(" "))}{" "}
+                                        {progress[lvl]}%
+                                    </div>
+                                ))}
+                            </div>
+                        )}
+                    </div>
                 </div>
-              )}
+
+                <div className="progresscontainercontainer">
+                    <div className="progresscontainer">
+                        <div
+                            className="progresscontainertitle"
+                            onClick={() => toggle("ranksDone")}
+                        >
+                            Ranks Completed
+                        </div>
+                        {visible.ranksDone && (
+                            <div className="progresscontainercontent">
+                                {achieved.map((r) => (
+                                    <div
+                                        key={r}
+                                        className="progresslevel"
+                                        style={{ color: rankColors[r] }}
+                                    >
+                                        {renderPlus(r) ||
+                                            `${r} (${getCompletedCount(
+                                                r
+                                            )}/${getTotalInRank(r)})`}
+                                    </div>
+                                ))}
+                            </div>
+                        )}
+                    </div>
+
+                    <div className="progresscontainer">
+                        <div
+                            className="progresscontainertitle"
+                            onClick={() => toggle("ranksLeft")}
+                        >
+                            Ranks to Achieve
+                        </div>
+                        {visible.ranksLeft && (
+                            <div className="progresscontainercontent">
+                                {remaining.map((r) => (
+                                    <div
+                                        key={r}
+                                        className="progresslevel"
+                                        style={{ color: rankColors[r] }}
+                                    >
+                                        {r} ({getCompletedCount(r)}/
+                                        {rankRequirements[r]})
+                                    </div>
+                                ))}
+                            </div>
+                        )}
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-        <div className="progresscontainercontainer">
-          <div className="progresscontainer">
-            <div
-              className="progresscontainertitle"
-              onClick={() => {
-                isRanksAchievedVisible === true
-                  ? setIsRanksAchievedVisible(false)
-                  : setIsRanksAchievedVisible(true);
-              }}
-            >
-              Ranks Completed
-            </div>
-            <div className="progresscontainercontent">
-              {isRanksAchievedVisible && (
-                <div>
-                  {achievedRanks.reverse().map((rank) => (
-                    <div
-                      key={rank}
-                      style={{ color: getRankColorByRank(rank) }}
-                      className="progresslevel"
-                    >
-                      {renderPlus(rank) && (
-                        <>
-                          {renderPlus(rank)}
-                          {"‎ ("}
-                          {levelsData[0][rank].length}
-                          {")"}
-                        </>
-                      )}
-                      {!renderPlus(rank) && (
-                        <>
-                          {`${rank} (`}
-                          {
-                            levelsData[0][rank].filter(
-                              (level) => completedLevels[level] === "completed"
-                            ).length
-                          }
-                          {")"}
-                        </>
-                      )}
-                    </div>
-                  ))}
-                </div>
-              )}
-            </div>
-          </div>
-          <div className="progresscontainer">
-            <div
-              className="progresscontainertitle"
-              onClick={() => {
-                isRanksToAchieveVisible === true
-                  ? setIsRanksToAchieveVisible(false)
-                  : setIsRanksToAchieveVisible(true);
-              }}
-            >
-              Ranks to Achieve
-            </div>
-            <div className="progresscontainercontent">
-              {isRanksToAchieveVisible && (
-                <div>
-                  {remainingRanks.map((rank) => (
-                    <div
-                      key={rank}
-                      style={{ color: getRankColorByRank(rank) }}
-                      className="progresslevel"
-                    >
-                      {rank} {"("}
-                      {
-                        levelsData[0][rank].filter(
-                          (level) => completedLevels[level] === "completed"
-                        ).length
-                      }
-                      {")"}
-                    </div>
-                  ))}
-                </div>
-              )}
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
+    );
 };

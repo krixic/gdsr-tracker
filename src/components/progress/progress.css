@@ -1,62 +1,97 @@
 .progress {
-  display: flex;
-  margin-top: 30px;
-  margin-bottom: 100px;
-  height: 100vh;
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    height: 100vh;
+    flex-direction: column;
+    gap: 20px;
 }
 .filters {
-  margin: 0 32px;
+    width: min(350px, 90%);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 .filters form {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
+
 .filtertitle {
-  padding: 4px 16px;
-  font-size: 30px;
-  background-color: #484848;
-  user-select: none;
-  display: flex;
-  justify-content: center;
+    padding: 4px 16px;
+    font-size: 30px;
+    background-color: #484848;
+    user-select: none;
+    display: flex;
+    justify-content: center;
 }
 .progresscontainercontainercontainer {
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
 .progresscontainercontainer {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 40px;
-  justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
 }
 .progresscontainer {
-  width: 350px;
+    width: 350px;
 }
 
 .progresscontainertitle {
-  padding: 4px 8px;
-  font-size: 30px;
-  background-color: #484848;
-  display: flex;
-  justify-content: center;
-  user-select: none;
-  cursor: pointer;
+    padding: 4px 8px;
+    font-size: 30px;
+    background-color: #484848;
+    display: flex;
+    justify-content: center;
+    user-select: none;
+    cursor: pointer;
 }
 .progresscontainertitle:hover {
-  background-color: #404040;
+    background-color: #404040;
 }
 .progresscontainertitle:active {
-  background-color: #363636;
+    background-color: #363636;
 }
 .progresscontainercontent {
-  overflow-y: auto;
-  max-height: 350px;
-  background-color: #363636;
-  padding: 8px 0;
+    overflow-y: auto;
+    max-height: 350px;
+    background-color: #363636;
+    padding: 8px 0;
 }
 .progresslevel {
-  font-size: 16px;
-  display: flex;
-  justify-content: center;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.difficultyalphabetical {
+    width: min(175px, 80%);
+}
+
+.ascendingdescending {
+    width: min(50px, 80%);
+}
+
+.difficultyalphabetical,
+.ascendingdescending {
+    padding: 4px;
+    background-color: #484848;
+    border: 0;
+    color: white;
+    font-family: "Readex Pro", sans-serif;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.difficultyalphabetical:hover,
+.ascendingdescending:hover {
+    background-color: #404040;
+}
+
+.difficultyalphabetical:active,
+.ascendingdescending:active {
+    background-color: #363636;
 }

@@ -1,17 +1,14 @@
 import "../App.css";
 import { Levels } from "../components/levels/levels.jsx";
-import {
-  dlcLevels as dlcLevelsData,
-  dlcRankRequirements,
-} from "../data/dlc.js";
+import { levels } from "../data/levels.js";
+// import { normalizeDlcLevels } from "../data/utils";
+
+// const normalizedDlc = normalizeDlcLevels(dlcLevels);
 
 export const DLCPage = () => {
-  return (
-    <div className="levelsprogress">
-      <Levels
-        levelsData={dlcLevelsData}
-        rankRequirements={dlcRankRequirements}
-      />
-    </div>
-  );
+    return (
+        <div className="levelsprogress">
+            <Levels levelsData={levels} />
+        </div>
+    );
 };

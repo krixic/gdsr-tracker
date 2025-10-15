@@ -33,7 +33,7 @@
 
 .header-text {
   display: flex;
-  font-size: min(4vw, 80%);
+  font-size: min(3.5vw, 80%);
   align-items: center;
   padding: 4px 8px;
   user-select: none;
