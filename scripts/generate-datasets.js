@@ -6,7 +6,10 @@ const files = await readdir(dataDir);
 
 const datasetFiles = files
     .filter((file) => file.endsWith(".js"))
-    .filter((file) => file.toLowerCase() !== "index.js")
+    .filter((file) => {
+        const lower = file.toLowerCase();
+        return lower !== "index.js" && lower !== "listconfig.js";
+    })
     .sort((a, b) => a.localeCompare(b));
 
 const imports = datasetFiles
