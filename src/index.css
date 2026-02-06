@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@theme {
+    --color-bg: #242424;
+    --color-level: #363636;
+    --color-input: #484848;
+    --color-completed: #1ea831;
+    --color-doing: #bbaf02;
+    --color-rank-complete: #ffd700;
+}
+
+:root {
+    --toastify-toast-bd-radius: 0 !important;
+}
+
+body {
+    font-family: "Readex Pro", sans-serif;
+    background-color: #242424;
+    color: white;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type="number"] {
+    appearance: textfield;
+    -moz-appearance: textfield;
+}
+
+*::-webkit-scrollbar {
+    width: 16px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #3f3f3f00;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #7a7a7a;
+    border: 3px solid #ffffff00;
+}
