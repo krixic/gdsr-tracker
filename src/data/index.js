@@ -1,11 +1,11 @@
-import { gdsrLevels } from "./gdsr.js";
-import { dlcLevels } from "./dlc.js";
-import { ccplLevels } from "./ccpl.js";
+import ccpl from "./ccpl.js";
+import dlc from "./dlc.js";
+import gdsr from "./gdsr.js";
 
 const datasets = {
-    gdsr: gdsrLevels,
-    dlc: dlcLevels,
-    ccpl: ccplLevels,
+    ccpl,
+    dlc,
+    gdsr,
 };
 
 export default datasets;

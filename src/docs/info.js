@@ -68,7 +68,7 @@ export const infoContent = [
                 id: "rank-requirements",
                 title: "Rank Requirements",
                 description: "How rank progression and completion works",
-                content: `Each rank has a minimum completion requirement before you earn that rank The rank header shows your progress in the format:
+                content: `Each rank has a minimum completion requirement before you earn that rank. The rank header shows your progress in the format:
 
 **Format:** Rank Name (Completed/Requirement)
 
