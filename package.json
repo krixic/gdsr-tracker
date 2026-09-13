@@ -7,12 +7,13 @@
         "node": ">=20.19.0"
     },
     "scripts": {
-        "predev": "node scripts/generate-datasets.js",
+        "predev": "node scripts/import.js && node scripts/generate-datasets.js",
         "dev": "vite",
-        "prebuild": "node scripts/generate-datasets.js",
+        "prebuild": "node scripts/import.js && node scripts/generate-datasets.js",
         "build": "vite build",
         "lint": "eslint .",
-        "preview": "vite preview"
+        "preview": "vite preview",
+        "update-data": "node scripts/import.js"
     },
     "dependencies": {
         "@fortawesome/free-brands-svg-icons": "^7.1.0",
@@ -24,7 +25,8 @@
         "react-dom": "^19.2.0",
         "react-hot-toast": "^2.6.0",
         "react-router-dom": "^7.13.0",
-        "tailwindcss": "^4.1.18"
+        "tailwindcss": "^4.1.18",
+        "xlsx": "^0.18.5"
     },
     "devDependencies": {
         "@eslint/js": "^9.39.1",

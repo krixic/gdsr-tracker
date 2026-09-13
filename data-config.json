@@ -1,0 +1,27 @@
+{
+    "wave": {
+        "spreadsheetId": "1M95yjFSShp_6rgBVUqjzy7dq4rfkx44Mnf-B0N5DpJs",
+        "sheetName": "Wave Challenge BADONKERS"
+    },
+
+    "ship": {
+        "spreadsheetId": "1wbWvtquA85HBJaN5oqXmULJLnyZqeHEoOd0jb7BCHcY",
+        "sheetName": "Main Sheet"
+    },
+
+    "ccpl": {
+        "spreadsheetId": "1ZfhdzVye_452NkZYB1OXKVM6Ha4Mmx08alH9epsScz4",
+        "sheetName": "Wave CCPL",
+        "dlcSheetNames": ["Tiny DLC", "Consistency DLC", "Secret DLC"]
+    },
+
+    "nlw": {
+        "spreadsheetId": "1YxUE2kkvhT2E6AjnkvTf-o8iu_shSLbuFkEFcZOvieA",
+        "sheetName": "Tha Levles"
+    },
+
+    "lw": {
+        "spreadsheetId": "15YvW2rRQKlkNpdFMTaRt9CWefDkng6BSh6xRDXSw9r8",
+        "sheetName": "Tha Levles"
+    }
+}

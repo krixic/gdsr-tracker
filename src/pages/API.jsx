@@ -1,20 +1,20 @@
-import React, { useEffect, useMemo } from "react";
+import React, { useMemo } from "react";
 import { apiDocs } from "../docs/api.js";
-import { rankRequirements } from "../util.js";
+import { listConfigs } from "../data/listConfig.js";
 import { ApiSection } from "../components/api/ApiSection.jsx";
-import { ApiToc } from "../components/api/ApiToc.jsx";
+import { PageShell } from "../components/PageShell.jsx";
+import { Toc } from "../components/Toc.jsx";
 import {
     formatListsInline,
     formatListsPlain,
-} from "../components/api/apiUtils.jsx";
+} from "../components/api/apiUtils.js";
+import { usePageTitle } from "../hooks.js";
 
 export const API = () => {
-    useEffect(() => {
-        document.title = "GDSR";
-    }, []);
+    usePageTitle();
 
     const availableLists = useMemo(
-        () => Object.keys(rankRequirements).sort(),
+        () => listConfigs.map((config) => config.key).sort(),
         [],
     );
     const listTokens = useMemo(
@@ -26,18 +26,24 @@ export const API = () => {
     );
 
     return (
-        <div className="flex w-full max-w-[1200px] mx-auto gap-8 px-4 py-8">
-            <div className="flex-1 min-w-0">
-                {apiDocs.map((section) => (
-                    <ApiSection
-                        key={section.id}
-                        section={section}
-                        tokens={listTokens}
-                    />
-                ))}
-            </div>
-
-            <ApiToc apiDocs={apiDocs} />
-        </div>
+        <PageShell
+            sidebar={
+                <Toc
+                    items={apiDocs}
+                    labelClassName="block text-sm text-white/70 hover:text-white transition-colors py-1 duration-200"
+                    getChildren={(section) => section.sections}
+                    childListClassName="ml-3 mt-1 space-y-1 border-l border-white/10 pl-3"
+                    childLabelClassName="block text-xs text-white/60 hover:text-white/90 transition-colors py-0.5"
+                />
+            }
+        >
+            {apiDocs.map((section) => (
+                <ApiSection
+                    key={section.id}
+                    section={section}
+                    tokens={listTokens}
+                />
+            ))}
+        </PageShell>
     );
 };

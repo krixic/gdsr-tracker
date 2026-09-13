@@ -2,7 +2,7 @@ export const apiDocs = [
     {
         id: "introduction",
         title: "Introduction",
-        content: `This is the documentation for the GDSR API. The API can be used to retrieve data about levels across multiple challenge skill rating lists on Geometry Dash.
+        content: `This is the documentation for the GDSR API. The API can be used to retrieve data about levels across multiple skill rating lists on Geometry Dash.
 
 All endpoints described here are located under \`/api/\` followed by the list name ({listsInline}).
 
@@ -25,6 +25,12 @@ The API returns JSON formatted data. It is always good practice to set the \`Acc
                             "The name of the rank (e.g., 'Bronze', 'Silver', 'Gold')",
                     },
                     {
+                        name: "requirement",
+                        type: "integer",
+                        description:
+                            "The minimum number of completed levels required for this rank",
+                    },
+                    {
                         name: "levels",
                         type: "Level[]",
                         description:
@@ -41,6 +47,7 @@ The API returns JSON formatted data. It is always good practice to set the \`Acc
                 ],
                 example: {
                     rank: "Gold",
+                    requirement: 7,
                     levels: [
                         {
                             name: "Magic Touch",
@@ -185,8 +192,7 @@ Multiple filters can be combined in a single request.`,
                         location: "path",
                         type: "string",
                         required: true,
-                        description:
-                            "The list identifier ({listsInline})",
+                        description: "The list identifier ({listsInline})",
                     },
                 ],
                 queryParams: [
@@ -249,8 +255,7 @@ Accept: application/json`,
                         location: "path",
                         type: "string",
                         required: true,
-                        description:
-                            "The list identifier ({listsInline})",
+                        description: "The list identifier ({listsInline})",
                     },
                 ],
                 queryParams: [

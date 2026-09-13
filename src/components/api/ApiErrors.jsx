@@ -1,5 +1,6 @@
 import React from "react";
-import { applyListTokens, renderInlineTokens } from "./apiUtils.jsx";
+import { applyListTokens } from "./apiUtils.js";
+import { renderInlineTokens } from "../../utils/richText.jsx";
 
 export const ApiErrors = ({ errors, tokens }) => {
     if (!errors || errors.length === 0) return null;

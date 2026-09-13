@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCopy } from "@fortawesome/free-solid-svg-icons";
 import { faYoutube } from "@fortawesome/free-brands-svg-icons";
 import toast from "react-hot-toast";
+import { getLevelKey } from "../util.js";
 
 const IconButton = React.memo(({ onClick, icon, active = true, bg }) => (
     <button
@@ -20,13 +21,16 @@ export const RankCard = ({
     level,
     progress,
     attempts,
+    duplicateIds,
     cycleLevel,
     setDoingValue,
     setAttemptsValue,
     rankColor,
+    rankLabel,
     showAttempts = false,
 }) => {
-    const value = progress[level.id];
+    const levelKey = getLevelKey(level, duplicateIds);
+    const value = progress[levelKey];
     const stringValue = value === undefined ? "" : String(value);
     const isCompleted = value === 100;
     const isDoing = value !== undefined && value < 100;
@@ -38,8 +42,7 @@ export const RankCard = ({
 
     const [prevValue, setPrevValue] = useState(stringValue);
     const [inputValue, setInputValue] = useState(stringValue);
-
-    const attemptValue = attempts[level.id];
+    const attemptValue = attempts[levelKey];
     const stringAttemptValue =
         attemptValue === undefined ? "" : String(attemptValue);
     const [prevAttemptValue, setPrevAttemptValue] =
@@ -63,32 +66,45 @@ export const RankCard = ({
             setInputValue(stringValue);
             return;
         }
-        setDoingValue(level.id, num);
+        setDoingValue(levelKey, num);
     };
 
     const commitAttemptInput = () => {
+        if (attemptInputValue === "") {
+            setAttemptsValue(levelKey, "");
+            return;
+        }
+
         const num = parseInt(attemptInputValue, 10);
+
+        // nan aura
         if (isNaN(num) || num < 0) {
             setAttemptInputValue(stringAttemptValue);
             return;
         }
-        setAttemptsValue(level.id, num);
+
+        setAttemptsValue(levelKey, num);
     };
 
     return (
         <div
-            className="flex flex-row justify-between text-md text-center select-none"
+            className="flex flex-row justify-between text-md text-center select-none [content-visibility:auto] [contain-intrinsic-size:32px]"
             onContextMenu={(e) => {
                 e.preventDefault();
-                setDoingValue(level.id, 100, true);
+                setDoingValue(levelKey, 100, true);
             }}
         >
             <IconButton
                 bg={bgClass}
                 icon={faCopy}
                 onClick={() => {
-                    navigator.clipboard.writeText(level.id);
-                    toast.success(`Copied ${level.name} (${level.id})`);
+                    const copyValue = level.copyValue ?? level.id;
+                    navigator.clipboard.writeText(String(copyValue));
+                    toast.success(
+                        level.id
+                            ? `Copied ${level.name} (${level.id})`
+                            : `Copied ${level.name}`,
+                    );
                 }}
             />
             <IconButton
@@ -101,7 +117,24 @@ export const RankCard = ({
                 }
             />
             <div
-                onClick={() => cycleLevel(level.id)}
+                onClick={() => cycleLevel(levelKey)}
+                onMouseEnter={(event) => {
+                    const element = event.currentTarget;
+                    if (element.scrollWidth > element.clientWidth) {
+                        element.title = level.name;
+                        element.setAttribute("aria-label", level.name);
+                    } else {
+                        element.removeAttribute("title");
+                        element.removeAttribute("aria-label");
+                    }
+                }}
+                onFocus={(event) => {
+                    const element = event.currentTarget;
+                    if (element.scrollWidth > element.clientWidth) {
+                        element.title = level.name;
+                        element.setAttribute("aria-label", level.name);
+                    }
+                }}
                 className={`py-[3px] px-2 w-full cursor-pointer text-nowrap truncate ${bgClass}`}
             >
                 {level.name}
@@ -111,6 +144,8 @@ export const RankCard = ({
                 <div
                     className={showAttempts ? "w-[70px]" : "w-[55px]"}
                     style={{ backgroundColor: rankColor }}
+                    title={rankLabel}
+                    aria-label={rankLabel}
                 />
             )}
 

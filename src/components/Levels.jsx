@@ -1,74 +1,51 @@
-import React, { useState, useEffect } from "react";
-import { rankColors, rankRequirements } from "../util.js";
-import toast, { useToasterStore } from "react-hot-toast";
-import { LevelsToaster } from "./levels/LevelsToaster.jsx";
+import React from "react";
+import { rankColors, getLevelKey } from "../util.js";
+import { AppToaster } from "./AppToaster.jsx";
 import { RankColumn } from "./levels/RankColumn.jsx";
-import { getAllLevels } from "./levels/levelUtils.js";
-
-const TOAST_LIMIT = 3;
-
-const loadProgress = () => JSON.parse(localStorage.getItem("progress") || "{}");
-const loadAttempts = () => JSON.parse(localStorage.getItem("attempts") || "{}");
-const loadSettings = () => {
-    const saved = localStorage.getItem("settings");
-    return saved ? JSON.parse(saved) : { showAttempts: false };
-};
-
-const saveProgress = (data) =>
-    localStorage.setItem("progress", JSON.stringify(data));
-const saveAttempts = (data) =>
-    localStorage.setItem("attempts", JSON.stringify(data));
+import { getAllLevels, migrateProgressKeys } from "../utils/rankLevels.js";
+import { allLevels, duplicateLevelIds } from "../data/listConfig.js";
+import { usePersistedState, usePolledStorage, useToastLimit } from "../hooks.js";
 
 export const Levels = ({ levels, type = "gdsr" }) => {
     const activeTheme = rankColors[type] || {};
-    const activeRequirements = rankRequirements[type] || {};
-    const [progress, setProgress] = useState(loadProgress);
-    const [attempts, setAttempts] = useState(loadAttempts);
-    const [settings, setSettings] = useState(loadSettings);
+    const [progress, setProgress] = usePersistedState(
+        "progress",
+        {},
+        (data) => migrateProgressKeys(data, allLevels),
+    );
+    const [attempts, setAttempts] = usePersistedState(
+        "attempts",
+        {},
+        (data) => migrateProgressKeys(data, allLevels),
+    );
+    const settings = usePolledStorage("settings", { showAttempts: false });
 
-    useEffect(() => {
-        saveProgress(progress);
-    }, [progress]);
-    useEffect(() => {
-        saveAttempts(attempts);
-    }, [attempts]);
+    useToastLimit();
 
-    useEffect(() => {
-        const handleStorageChange = (e) => {
-            if (e.key === "settings") setSettings(loadSettings());
-        };
-        window.addEventListener("storage", handleStorageChange);
-        const interval = setInterval(() => setSettings(loadSettings()), 1000);
-        return () => {
-            window.removeEventListener("storage", handleStorageChange);
-            clearInterval(interval);
-        };
-    }, []);
-
-    const cycleLevel = (id) => {
+    const cycleLevel = (levelKey) => {
         setProgress((prev) => {
             const next = { ...prev };
-            if (!(id in next)) next[id] = 0;
-            else if (next[id] < 100) next[id] = 100;
-            else delete next[id];
+            if (!(levelKey in next)) next[levelKey] = 0;
+            else if (next[levelKey] < 100) next[levelKey] = 100;
+            else delete next[levelKey];
             return next;
         });
     };
 
-    const setDoingValue = (id, value, forceComplete = false) => {
+    const setDoingValue = (levelKey, value, forceComplete = false) => {
         const v = forceComplete ? 100 : Math.min(100, Math.max(1, value));
-        setProgress((prev) => ({ ...prev, [id]: v }));
+        setProgress((prev) => ({ ...prev, [levelKey]: v }));
     };
 
-    const setAttemptsValue = (id, value) => {
+    const setAttemptsValue = (levelKey, value) => {
         if (value === 0 || value === "") {
             setAttempts((prev) => {
                 const next = { ...prev };
-                delete next[id];
+                delete next[levelKey];
                 return next;
             });
         } else {
-            setAttempts((prev) => ({ ...prev, [id]: value }));
+            setAttempts((prev) => ({ ...prev, [levelKey]: value }));
         }
     };
 
@@ -78,44 +55,42 @@ export const Levels = ({ levels, type = "gdsr" }) => {
             e.stopPropagation();
         }
 
-        const allLevels = getAllLevels(rank);
+        const rankLevels = getAllLevels(rank);
         setProgress((prev) => {
             const next = { ...prev };
-            const allCompleted = allLevels.every((lvl) => prev[lvl.id] === 100);
+            const allCompleted = rankLevels.every(
+                (lvl) => prev[getLevelKey(lvl, duplicateLevelIds)] === 100,
+            );
 
             if (allCompleted) {
-                allLevels.forEach((lvl) => delete next[lvl.id]);
+                rankLevels.forEach(
+                    (lvl) => delete next[getLevelKey(lvl, duplicateLevelIds)],
+                );
             } else {
-                allLevels.forEach((lvl) => (next[lvl.id] = 100));
+                rankLevels.forEach(
+                    (lvl) => (next[getLevelKey(lvl, duplicateLevelIds)] = 100),
+                );
             }
 
             return next;
         });
     };
 
-    const { toasts } = useToasterStore();
-    useEffect(() => {
-        toasts
-            .filter((t) => t.visible)
-            .filter((_, i) => i >= TOAST_LIMIT)
-            .forEach((t) => toast.dismiss(t.id));
-    }, [toasts]);
-
     return (
         <>
-            <LevelsToaster />
+            <AppToaster />
             <div
                 className={`max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-3 ${settings.showAttempts ? "gap-8" : "gap-10"} p-4 select-none`}
             >
                 {levels.map((rank) => (
                     <RankColumn
-                        key={rank.rank}
+                        key={rank.rank ?? rank.name}
                         rank={rank}
                         activeTheme={activeTheme}
-                        activeRequirements={activeRequirements}
                         progress={progress}
                         attempts={attempts}
                         showAttempts={settings.showAttempts}
+                        duplicateIds={duplicateLevelIds}
                         onToggleRankBulk={toggleRankBulk}
                         onCycleLevel={cycleLevel}
                         onSetDoingValue={setDoingValue}

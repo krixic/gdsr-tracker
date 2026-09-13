@@ -1,7 +1,7 @@
 import React from "react";
 import { Toaster } from "react-hot-toast";
 
-export const LevelsToaster = () => {
+export const AppToaster = () => {
     return (
         <Toaster
             containerClassName="copytoastcontainer"

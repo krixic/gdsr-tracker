@@ -1,7 +1,8 @@
 import React from "react";
-import { hexToRgba } from "./statsUtils.js";
+import { getContrastTextColor } from "../../util.js";
+import { hexToRgba } from "../../utils/rankLevels.js";
 
-export const CompletedRanks = ({ completedRanks, activeColors }) => {
+export const CompletedRanks = ({ completedRanks }) => {
     return (
         <div className="bg-level p-6">
             <div className="flex items-center justify-between gap-3 mb-4">
@@ -11,27 +12,25 @@ export const CompletedRanks = ({ completedRanks, activeColors }) => {
                 <p className="text-sm text-white/70">No ranks completed</p>
             ) : (
                 <div className="flex flex-wrap gap-2 text-sm">
-                    {completedRanks.map((rankLabel) => {
-                        const baseRank = rankLabel.replace("+", "");
-                        const rankColor = activeColors[baseRank];
-                        const isPlusRank = rankLabel.endsWith("+");
+                    {completedRanks.map(({ label, color }) => {
+                        const isPlusRank = label.endsWith("+");
                         return (
                             <span
-                                key={rankLabel}
-                                className={`px-3 py-1 border border-white/10 ${
+                                key={label}
+                                className={`px-3 py-1 ${
                                     isPlusRank ? "font-bold tracking-wide" : ""
                                 }`}
                                 style={{
-                                    backgroundColor: hexToRgba(rankColor, 0.5),
+                                    backgroundColor: hexToRgba(color, 0.5),
+                                    color: getContrastTextColor(color),
                                 }}
                             >
-                                {isPlusRank ? `${rankLabel}` : rankLabel}
+                                {label}
                             </span>
                         );
                     })}
                 </div>
             )}
-
         </div>
     );
 };

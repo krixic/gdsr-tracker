@@ -3,7 +3,10 @@ import datasets from "../../src/data/index.js";
 export async function onRequest({ request, params }) {
     const listParam = params.list || "";
     const listName = listParam.toLowerCase();
-    const data = datasets[listName];
+    const datasetKey = Object.keys(datasets).find(
+        (key) => key.toLowerCase() === listName,
+    );
+    const data = datasetKey ? datasets[datasetKey] : undefined;
 
     if (!data) {
         return new Response(
@@ -34,7 +37,7 @@ export async function onRequest({ request, params }) {
     if (showRanks) {
         const { ranks, subranks } = extractRanks(data);
         return jsonResponse({
-            list: listName,
+            list: datasetKey,
             ranks,
             subranks,
         });
@@ -61,7 +64,7 @@ export async function onRequest({ request, params }) {
     const paginatedCount = countTotalLevels(paginated);
 
     return jsonResponse({
-        list: listName,
+        list: datasetKey,
         count: paginatedCount,
         total: totalCount,
         found: filteredCount,
@@ -77,14 +80,20 @@ function extractRanks(data) {
         if (item.rank) {
             ranks.add(item.rank);
         }
+        if (item.name) {
+            ranks.add(item.name);
+        }
 
-        if (item.subranks && Array.isArray(item.subranks)) {
-            const subrankNames = item.subranks
+        const nestedRanks = item.ranks ?? item.subranks;
+        if (nestedRanks && Array.isArray(nestedRanks)) {
+            const subrankNames = nestedRanks
                 .map((subrank) => subrank.rank)
                 .filter(Boolean);
 
             if (subrankNames.length > 0) {
-                subranks[item.rank] = Array.from(new Set(subrankNames));
+                subranks[item.rank ?? item.name] = Array.from(
+                    new Set(subrankNames),
+                );
             }
         }
     });
@@ -99,10 +108,11 @@ function countTotalLevels(data) {
     let count = 0;
 
     data.forEach((item) => {
-        if (item.levels && Array.isArray(item.levels)) {
+        if (item.levels?.length && Array.isArray(item.levels)) {
             count += item.levels.length;
-        } else if (item.subranks && Array.isArray(item.subranks)) {
-            item.subranks.forEach((subrank) => {
+        } else {
+            const nestedRanks = item.ranks ?? item.subranks;
+            nestedRanks?.forEach((subrank) => {
                 if (subrank.levels && Array.isArray(subrank.levels)) {
                     count += subrank.levels.length;
                 }
@@ -120,7 +130,7 @@ function filterAndProcessRanks(data, filters) {
         .map((rankItem) => {
             const newRankItem = { ...rankItem };
 
-            if (rankItem.levels && Array.isArray(rankItem.levels)) {
+            if (rankItem.levels?.length && Array.isArray(rankItem.levels)) {
                 let levels = [...rankItem.levels];
 
                 if (id) {
@@ -145,12 +155,20 @@ function filterAndProcessRanks(data, filters) {
                 }
 
                 newRankItem.levels = levels;
-            } else if (rankItem.subranks && Array.isArray(rankItem.subranks)) {
-                newRankItem.subranks = rankItem.subranks
+            } else {
+                const nestedKey = rankItem.ranks ? "ranks" : "subranks";
+                const nestedRanks = rankItem[nestedKey];
+                if (!nestedRanks || !Array.isArray(nestedRanks))
+                    return newRankItem;
+
+                newRankItem[nestedKey] = nestedRanks
                     .map((subrank) => {
                         const newSubrank = { ...subrank };
 
-                        if (subrank.levels && Array.isArray(subrank.levels)) {
+                        if (
+                            subrank.levels?.length &&
+                            Array.isArray(subrank.levels)
+                        ) {
                             let levels = [...subrank.levels];
 
                             if (id) {
@@ -194,7 +212,10 @@ function filterAndProcessRanks(data, filters) {
             if (rankItem.levels && rankItem.levels.length > 0) {
                 return true;
             }
-            if (rankItem.subranks && rankItem.subranks.length > 0) {
+            if (
+                (rankItem.ranks && rankItem.ranks.length > 0) ||
+                (rankItem.subranks && rankItem.subranks.length > 0)
+            ) {
                 return true;
             }
             return false;
@@ -205,7 +226,7 @@ function filterByRankName(data, rank) {
     const targetRank = rank.toLowerCase().trim();
 
     return data.filter((rankItem) => {
-        const itemRank = rankItem.rank ? rankItem.rank.toLowerCase() : "";
+        const itemRank = (rankItem.rank ?? rankItem.name ?? "").toLowerCase();
         return itemRank === targetRank;
     });
 }
@@ -241,10 +262,13 @@ function paginateRanks(data, limit, offset) {
             if (newRankItem.levels.length > 0) {
                 result.push(newRankItem);
             }
-        } else if (rankItem.subranks && Array.isArray(rankItem.subranks)) {
+        } else {
+            const nestedKey = rankItem.ranks ? "ranks" : "subranks";
+            const nestedRanks = rankItem[nestedKey];
+            if (!nestedRanks || !Array.isArray(nestedRanks)) continue;
             const newSubranks = [];
 
-            for (const subrank of rankItem.subranks) {
+            for (const subrank of nestedRanks) {
                 if (collected >= limit) break;
 
                 if (subrank.levels && Array.isArray(subrank.levels)) {
@@ -279,7 +303,7 @@ function paginateRanks(data, limit, offset) {
             }
 
             if (newSubranks.length > 0) {
-                newRankItem.subranks = newSubranks;
+                newRankItem[nestedKey] = newSubranks;
                 result.push(newRankItem);
             }
         }

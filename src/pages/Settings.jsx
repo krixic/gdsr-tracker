@@ -1,30 +1,18 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { settingsConfig } from "../config/settingsConfig.js";
-import toast, { Toaster, useToasterStore } from "react-hot-toast";
-
-const TOAST_LIMIT = 3;
-
-const loadSettings = () => {
-    const saved = localStorage.getItem("settings");
-    return saved ? JSON.parse(saved) : { showAttempts: false };
-};
-
-const saveSettings = (settings) => {
-    localStorage.setItem("settings", JSON.stringify(settings));
-};
+import toast from "react-hot-toast";
+import { AppToaster } from "../components/AppToaster.jsx";
+import { usePersistedState, usePageTitle, useToastLimit } from "../hooks.js";
 
 export const Settings = () => {
-    const [settings, setSettings] = useState(loadSettings);
+    const [settings, setSettings] = usePersistedState("settings", {
+        showAttempts: false,
+    });
     const [showPasteModal, setShowPasteModal] = useState(false);
     const [pasteText, setPasteText] = useState("");
 
-    useEffect(() => {
-        document.title = "GDSR";
-    }, []);
-
-    useEffect(() => {
-        saveSettings(settings);
-    }, [settings]);
+    usePageTitle();
+    useToastLimit();
 
     const toggleSetting = (id) => {
         setSettings((prev) => ({
@@ -112,47 +100,9 @@ export const Settings = () => {
         }
     };
 
-    const { toasts } = useToasterStore();
-
-    useEffect(() => {
-        toasts
-            .filter((t) => t.visible)
-            .filter((_, i) => i >= TOAST_LIMIT)
-            .forEach((t) => toast.dismiss(t.id));
-    }, [toasts]);
-
     return (
         <>
-            <Toaster
-                containerClassName="copytoastcontainer"
-                toastOptions={{
-                    duration: 2000,
-                    style: {
-                        borderRadius: 0,
-                        padding: "0 16px",
-                        color: "white",
-                        height: "50px",
-                        fontFamily: "Readex Pro",
-                        boxShadow: "0px 0px 10px 0px rgba(0, 0, 0, 0.3)",
-                        userSelect: "none",
-                        display: "inline-flex",
-                        maxWidth: "90vw",
-                        whiteSpace: "nowrap",
-                        overflow: "hidden",
-                        textOverflow: "ellipsis",
-                    },
-                    success: {
-                        style: {
-                            background: "rgb(0, 180, 0)",
-                        },
-                    },
-                    error: {
-                        style: {
-                            background: "rgb(180, 0, 0)",
-                        },
-                    },
-                }}
-            />
+            <AppToaster />
             <div className="flex w-full max-w-[1200px] mx-auto gap-8 px-4 py-8">
                 <div className="flex-1 min-w-0">
                     <div className="bg-level p-8 mb-8">
@@ -202,7 +152,7 @@ export const Settings = () => {
             relative inline-flex h-6 w-11 items-center
             transition-colors duration-200 ease-in-out
             focus:outline-none focus:ring-2 focus:ring-white/20
-            rounded-none 
+            rounded-none cursor-pointer
             ${settings[setting.id] ? "bg-green-600" : "bg-white/20"}
         `}
                                                     >

@@ -11,6 +11,14 @@ export const settingsConfig = [
                 type: "toggle",
                 default: false,
             },
+            {
+                id: "showDemons",
+                name: "Show Demons",
+                description:
+                    "Include Demon levels in list select (experimental, laggy, unlikely to be maintained)",
+                type: "toggle",
+                default: false,
+            },
         ],
     },
     {

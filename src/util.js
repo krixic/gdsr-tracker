@@ -17,6 +17,7 @@ const gdsrRankColors = {
     Diamond: "#3d85c6",
     Amethyst: "#ff00ff",
     Legend: "#000000",
+    Obsidian: "#000000",
     Bonus: "#b4a7d6",
     "Pack I": "#bf9000",
     "Pack II": "#e69138",
@@ -49,67 +50,47 @@ const ccplRankColors = {
     Exodium: "#000000",
 };
 
-// --- RANK REQUIREMENTS ---
-
-const gdsrRankRequirements = {
-    Bronze: 9,
-    Silver: 13,
-    Gold: 7,
-    Emerald: 5,
-    Ruby: 4,
-    Diamond: 3,
-    Amethyst: 2,
-    Legend: 1,
-    Bonus: 12,
+export const nlwRankColors = {
+    Fuck: "#000000",
+    Beginner: "#4a86e8",
+    Easy: "#00ffff",
+    Medium: "#00ff00",
+    Hard: "#ffff00",
+    "Very Hard": "#ff9900",
+    Insane: "#ff0000",
+    Extreme: "#ff00ff",
 };
 
-const ccplRankRequirements = {
-    Rock: 9,
-    Copper: 11,
-    Silver: 12,
-    Gold: 13,
-    Platinum: 13,
-    Sapphire: 10,
-    Emerald: 12,
-    Ruby: 10,
-    Diamond: 10,
-    Demonite: 9,
-    Crimtane: 8,
-    Cobalt: 7,
-    Palladium: 6,
-    Mythril: 8,
-    Orichalcum: 8,
-    Adamantite: 8,
-    Titanium: 6,
-    Hallowed: 7,
-    Chlorophyte: 6,
-    Spectre: 5,
-    Shroomite: 4,
-    Luminite: 2,
-    Exodium: 2,
-};
-
-export const gdsrDlcRankRequirements = {
-    "Pack I": 22,
-    "Pack II": 62,
-    "Pack III": 41,
-};
-
-export const rankRequirements = {
-    gdsr: gdsrRankRequirements,
-    ccpl: ccplRankRequirements,
-    dlc: gdsrDlcRankRequirements,
-    // add more later
+export const parserRankColorAliases = {
+    gdsr: {
+        Rock: ["#999999", "#B7B7B7"],
+        Bronze: ["#DD7E6B", "#E6B8AF"],
+        Silver: ["#B7B7B7", "#D9D9D9"],
+        Gold: ["#F1C232", "#FFE599"],
+        Emerald: ["#6AA84F", "#B6D7A8", "#93C47D"],
+        Ruby: ["#CC0000", "#E06666", "#EA9999"],
+        Diamond: ["#3D85C6", "#9FC5E8"],
+        Amethyst: ["#FF00FF", "#FFACEB", "#FF3FC8"],
+        Legend: ["#000000", "#171717"],
+        Obsidian: ["#000000", "#434343"],
+    },
 };
 
 export const rankColors = {
     gdsr: gdsrRankColors,
     ccpl: ccplRankColors,
     dlc: gdsrRankColors,
+    ship: gdsrRankColors,
+    shipDlc: gdsrRankColors,
+    ccplDlc: ccplRankColors,
+    ccplTiny: ccplRankColors,
+    ccplConsistency: ccplRankColors,
+    ccplSecret: ccplRankColors,
+    nlw: nlwRankColors,
     // add more later
 };
 
-export const isColorDark = (hex) => {
+export const isColorDark = (hex, threshold = 225) => {
     if (!hex) return true;
     let c = hex.replace("#", "");
     if (c.length === 3)
@@ -121,5 +102,41 @@ export const isColorDark = (hex) => {
     const g = parseInt(c.substr(2, 2), 16);
     const b = parseInt(c.substr(4, 2), 16);
     const luminance = 0.299 * r + 0.587 * g + 0.114 * b;
-    return luminance < 50; // can tweak later maybe
+    return luminance < threshold;
+};
+
+export const getContrastTextColor = (hex) =>
+    isColorDark(hex) ? "#ffffff" : "#000000";
+
+export const getDuplicateIds = (levels) => {
+    const counts = new Map();
+
+    levels.forEach((level) => {
+        if (!Number.isInteger(level.id)) return;
+        counts.set(level.id, (counts.get(level.id) ?? 0) + 1);
+    });
+
+    return new Set(
+        [...counts].filter(([, count]) => count > 1).map(([id]) => id),
+    );
+};
+
+export const getLevelKey = (level, duplicateIds) => {
+    if (level.progressId) return level.progressId;
+
+    const id = String(level.id);
+    const name =
+        typeof level.name === "string"
+            ? level.name.trim().toLocaleLowerCase()
+            : "";
+
+    if (!name) {
+        return id;
+    }
+
+    if (duplicateIds?.has(level.id)) {
+        return `${id}:${name}`;
+    }
+
+    return id;
 };

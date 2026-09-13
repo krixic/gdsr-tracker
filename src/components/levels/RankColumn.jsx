@@ -5,70 +5,88 @@ import {
     getAllLevels,
     getRankMax,
     getRankStatus,
-} from "./levelUtils.js";
+} from "../../utils/rankLevels.js";
+import { getContrastTextColor, getLevelKey } from "../../util.js";
 
 export const RankColumn = ({
     rank,
     activeTheme,
-    activeRequirements,
     progress,
     attempts,
     showAttempts,
+    duplicateIds,
     onToggleRankBulk,
     onCycleLevel,
     onSetDoingValue,
     onSetAttemptsValue,
 }) => {
     const allLevels = getAllLevels(rank);
-    const completed = countCompletedInRank(rank, progress);
-    const requirement = activeRequirements[rank.rank] || 0;
-    const max = getRankMax(completed, requirement, allLevels.length);
+    const completed = countCompletedInRank(rank, progress, duplicateIds);
+    const requirement = rank.requirement || 0;
+    const max = getRankMax(
+        completed,
+        requirement,
+        allLevels.length,
+        rank.excludeFromTotal,
+    );
+    const excludedRankText = rank.excludeFromTotal
+        ? "text-xl text-white/90 italic font-normal leading-none"
+        : "";
     const rankStatus = getRankStatus({
         rank,
         progress,
-        activeRequirements,
         activeTheme,
+        duplicateIds,
     });
+    const rankLabel = rank.rank ?? rank.name;
+    const subranks = rank.ranks ?? rank.subranks;
+    const headerColor = rank.headerColor
+        ? `#${rank.headerColor.replace("#", "")}`
+        : activeTheme[rankLabel] || "#333";
 
     return (
         <div>
             <div
-                className={`text-3xl px-4 py-1 text-center border-4 ${rankStatus} transition-all hover:brightness-110 relative`}
+                className={`h-[52px] text-3xl px-4 py-1 text-center border-4 ${rankStatus} transition-all hover:brightness-110 relative flex items-center justify-center`}
                 style={{
-                    backgroundColor: activeTheme[rank.rank] || "#333",
+                    backgroundColor: headerColor,
+                    color: getContrastTextColor(headerColor),
                 }}
                 onContextMenu={(e) => onToggleRankBulk(e, rank)}
             >
-                <span className="relative z-10">
-                    {rank.rank} ({completed}/{max})
+                <span className={`relative z-10 ${excludedRankText}`}>
+                    {rankLabel} ({completed}/{max})
                 </span>
             </div>
 
             <div className="max-h-[350px] overflow-y-auto">
                 {rank.levels?.map((level) => (
                     <RankCard
-                        key={level.id}
+                        key={getLevelKey(level, duplicateIds)}
                         level={level}
                         progress={progress}
                         attempts={attempts}
+                        duplicateIds={duplicateIds}
                         cycleLevel={onCycleLevel}
                         setDoingValue={onSetDoingValue}
                         setAttemptsValue={onSetAttemptsValue}
                         showAttempts={showAttempts}
                     />
                 ))}
-                {rank.subranks?.map((sub) => (
+                {subranks?.map((sub) => (
                     <div key={sub.rank}>
                         {sub.levels.map((level) => (
                             <RankCard
-                                key={level.id}
+                                key={getLevelKey(level, duplicateIds)}
                                 level={level}
                                 progress={progress}
                                 attempts={attempts}
+                                duplicateIds={duplicateIds}
                                 cycleLevel={onCycleLevel}
                                 setDoingValue={onSetDoingValue}
                                 setAttemptsValue={onSetAttemptsValue}
                                 rankColor={activeTheme[sub.rank]}
+                                rankLabel={sub.rank}
                                 showAttempts={showAttempts}
                             />
                         ))}

@@ -1,19 +1,13 @@
 import React from "react";
-import { applyListTokens, renderInlineTokens } from "./apiUtils.jsx";
-
-const isNoteBlock = (block) =>
-    block.startsWith("Note:") || block.startsWith("**Note:**");
+import { applyListTokens } from "./apiUtils.js";
+import {
+    renderInlineTokens,
+    isNoteBlock,
+    renderNoteBlock,
+} from "../../utils/richText.jsx";
 
 const isListBlock = (block) =>
     block.startsWith("- ") || block.includes("\n- ");
-
-const renderNoteBlock = (block) => (
-    <div className="p-4 mb-5 border border-blue-500/30 bg-blue-950/30">
-        <p className="text-md text-white/90 leading-relaxed m-0">
-            {renderInlineTokens(block)}
-        </p>
-    </div>
-);
 
 const renderListBlock = (block) => {
     const lines = block.split("\n");
@@ -50,7 +44,11 @@ export const ApiContent = ({ content, tokens }) => {
         <div className="prose prose-invert max-w-none mb-6">
             {blocks.map((block, idx) => {
                 if (isNoteBlock(block)) {
-                    return <div key={idx}>{renderNoteBlock(block)}</div>;
+                    return (
+                        <div key={idx}>
+                            {renderNoteBlock(block, renderInlineTokens)}
+                        </div>
+                    );
                 }
                 if (isListBlock(block)) {
                     return <div key={idx}>{renderListBlock(block)}</div>;

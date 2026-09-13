@@ -1,21 +1,28 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { infoContent } from "../docs/info.js";
 import { InfoSection } from "../components/info/InfoSection.jsx";
-import { InfoToc } from "../components/info/InfoToc.jsx";
+import { PageShell } from "../components/PageShell.jsx";
+import { Toc } from "../components/Toc.jsx";
+import { usePageTitle } from "../hooks.js";
 
 export const Info = () => {
-    useEffect(() => {
-        document.title = "GDSR";
-    }, []);
+    usePageTitle();
 
     return (
-        <div className="flex w-full max-w-[1200px] mx-auto gap-8 px-4 py-8">
-            <div className="flex-1 min-w-0">
-                {infoContent.map((section) => (
-                    <InfoSection key={section.id} section={section} />
-                ))}
-            </div>
-            <InfoToc infoContent={infoContent} />
-        </div>
+        <PageShell
+            sidebar={
+                <Toc
+                    items={infoContent}
+                    labelClassName="block text-sm text-white/70 hover:text-white transition-colors py-1 duration-200 font-medium"
+                    getChildren={(section) => section.sections}
+                    childListClassName="ml-3 mt-1 space-y-1 border-l-2 border-white/10 pl-3"
+                    childLabelClassName="block text-xs text-white/60 transition-colors py-1"
+                />
+            }
+        >
+            {infoContent.map((section) => (
+                <InfoSection key={section.id} section={section} />
+            ))}
+        </PageShell>
     );
 };

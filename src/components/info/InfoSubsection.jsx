@@ -1,19 +1,18 @@
 import React from "react";
-import { renderTextWithBold } from "./infoUtils.jsx";
-
-const isNoteBlock = (block) =>
-    block.startsWith("Note:") || block.startsWith("**Note:**");
+import {
+    renderTextWithBold,
+    isNoteBlock,
+    renderNoteBlock,
+} from "../../utils/richText.jsx";
 
 const isHeadingBlock = (block) =>
     block.startsWith("**") && block.includes(":**");
 
-const isListBlock = (block) => block.includes("\n- ");
+const isListBlock = (block) => block.includes("\n");
 
 const renderHeadingBlock = (block) => {
     const [heading, ...content] = block.split("\n");
-    const headingText = heading
-        .replace(/\*\*/g, "")
-        .replace(/:$/, "");
+    const headingText = heading.replace(/\*\*/g, "").replace(/:$/, "");
 
     return (
         <div className="mb-5">
@@ -27,9 +26,7 @@ const renderHeadingBlock = (block) => {
                             key={lineIdx}
                             className="text-sm text-white/80 leading-relaxed"
                         >
-                            {renderTextWithBold(
-                                line.replace(/^- /, "- "),
-                            )}
+                            {renderTextWithBold(line.replace(/^- /, "- "))}
                         </p>
                     ))}
                 </div>
@@ -39,38 +36,23 @@ const renderHeadingBlock = (block) => {
 };
 
 const renderListBlock = (block) => {
-    const lines = block.split("\n");
-    const intro = lines[0];
-    const items = lines.slice(1).filter((line) => line.startsWith("- "));
+    const items = block.split("\n").filter((line) => line.trim());
 
     return (
         <div className="mb-5">
-            {intro && !intro.startsWith("- ") && (
-                <p className="mb-3 text-white/90 font-medium">
-                    {renderTextWithBold(intro)}
-                </p>
-            )}
-            <ul className="ml-6 space-y-2">
+            <ul className="ml-6 list-disc space-y-2">
                 {items.map((item, itemIdx) => (
                     <li
                         key={itemIdx}
-                        className="text-sm text-white/80 list-disc leading-relaxed"
+                        className="text-sm text-white/80 leading-relaxed"
                     >
-                        {renderTextWithBold(item.replace(/^- /, ""))}
+                        {renderTextWithBold(item)}
                     </li>
                 ))}
             </ul>
         </div>
     );
 };
-
-const renderNoteBlock = (block) => (
-    <div className="p-4 mb-5 border border-blue-500/30 bg-blue-950/30">
-        <p className="text-md text-white/90 leading-relaxed m-0">
-            {renderTextWithBold(block)}
-        </p>
-    </div>
-);
 
 export const InfoSubsection = ({ subsection }) => {
     return (
@@ -86,7 +68,11 @@ export const InfoSubsection = ({ subsection }) => {
             <div className="text-white/85 leading-relaxed space-y-4">
                 {subsection.content.split("\n\n").map((block, idx) => {
                     if (isNoteBlock(block)) {
-                        return <div key={idx}>{renderNoteBlock(block)}</div>;
+                        return (
+                            <div key={idx}>
+                                {renderNoteBlock(block, renderTextWithBold)}
+                            </div>
+                        );
                     }
                     if (isHeadingBlock(block)) {
                         return <div key={idx}>{renderHeadingBlock(block)}</div>;

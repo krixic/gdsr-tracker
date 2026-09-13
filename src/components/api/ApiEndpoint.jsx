@@ -1,6 +1,7 @@
 import React from "react";
 import { ApiParameter } from "./ApiParameter.jsx";
-import { applyListTokens, renderInlineTokens } from "./apiUtils.jsx";
+import { applyListTokens } from "./apiUtils.js";
+import { renderInlineTokens } from "../../utils/richText.jsx";
 
 export const ApiEndpoint = ({ section, tokens }) => {
     return (

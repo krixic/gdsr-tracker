@@ -1,5 +1,5 @@
 import React from "react";
-import { hexToRgba } from "./statsUtils.js";
+import { hexToRgba } from "../../utils/rankLevels.js";
 
 export const InProgressLevels = ({ inProgressLevels }) => {
     return (
@@ -8,12 +8,12 @@ export const InProgressLevels = ({ inProgressLevels }) => {
                 <h3 className="text-xl font-bold">In Progress</h3>
             </div>
             {inProgressLevels.length === 0 ? (
-                <p className="text-sm text-white/70">No in-progress levels</p>
+                <p className="text-sm text-white/70">No levels in progress</p>
             ) : (
                 <div className="flex flex-wrap gap-2 text-sm">
                     {inProgressLevels.map((level) => (
                         <span
-                            key={level.id}
+                            key={level.key}
                             className="px-3 py-1 border border-white/10"
                             style={{
                                 backgroundColor: hexToRgba(

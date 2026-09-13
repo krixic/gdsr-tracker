@@ -1,163 +1,257 @@
-import React, { useEffect, useMemo, useState } from "react";
-import { gdsrLevels } from "../data/gdsr.js";
-import { dlcLevels } from "../data/dlc.js";
-import { ccplLevels } from "../data/ccpl.js";
-import { rankColors, rankRequirements } from "../util.js";
-import { StatsHeader } from "../components/stats/StatsHeader.jsx";
+import React, { useMemo, useState } from "react";
+import {
+    getListPathLabels,
+    listConfigs,
+    getListTree,
+    allLevels,
+    duplicateLevelIds,
+} from "../data/listConfig.js";
+import { getLevelKey, rankColors } from "../util.js";
 import { OverallCompletion } from "../components/stats/OverallCompletion.jsx";
 import { RanksGrid } from "../components/stats/RanksGrid.jsx";
 import { CompletedRanks } from "../components/stats/CompletedRanks.jsx";
 import { SummaryCards } from "../components/stats/SummaryCards.jsx";
 import { InProgressLevels } from "../components/stats/InProgressLevels.jsx";
-import { getAllLevels, sumAttempts } from "../components/stats/statsUtils.js";
+import { ListDropdown } from "../components/ListDropdown.jsx";
+import { PageShell } from "../components/PageShell.jsx";
+import {
+    getAllLevels,
+    getCountedLevels,
+    sumAttempts,
+    migrateProgressKeys,
+} from "../utils/rankLevels.js";
+import { usePolledStorage, usePageTitle } from "../hooks.js";
 
-const loadProgress = () => JSON.parse(localStorage.getItem("progress") || "{}");
-const loadAttempts = () => JSON.parse(localStorage.getItem("attempts") || "{}");
-const loadSettings = () => {
-    const saved = localStorage.getItem("settings");
-    return saved ? JSON.parse(saved) : { showAttempts: false };
-};
+const groupConfigs = [
+    {
+        key: "gdsr-wave",
+        label: "GDSR Wave",
+        configs: ["gdsr", "dlc"],
+    },
+    {
+        key: "gdsr-ship",
+        label: "GDSR Ship",
+        configs: ["ship", "shipDlc"],
+    },
+    {
+        key: "ccpl",
+        label: "CCPL",
+        configs: ["ccpl", "ccplTiny", "ccplConsistency", "ccplSecret"],
+    },
+    {
+        key: "dl",
+        label: "DL",
+        configs: ["nlw", "lw"],
+    },
+];
 
 const EMPTY_OBJECT = Object.freeze({});
 
+const listByKey = listConfigs.reduce(
+    (lists, config) => ({
+        ...lists,
+        [config.key]: config,
+    }),
+    {},
+);
+
+const findListByPath = (path) => {
+    const config = listConfigs.find((item) => item.path === path);
+    return config?.key ?? "gdsr";
+};
+
+const loadLastSelection = () => {
+    const lastPage = localStorage.getItem("lastPage") || "/";
+    return findListByPath(lastPage);
+};
+
 export const Stats = () => {
-    const [progress, setProgress] = useState(loadProgress);
-    const [attempts, setAttempts] = useState(loadAttempts);
-    const [settings, setSettings] = useState(loadSettings);
-    const [openMainMenu, setOpenMainMenu] = useState(false);
-    const [openSubMenu, setOpenSubMenu] = useState(false);
-    const [selectedMain, setSelectedMain] = useState("gdsr");
-    const [selectedSub, setSelectedSub] = useState("wave");
-
-    useEffect(() => {
-        document.title = "GDSR";
-    }, []);
-
-    useEffect(() => {
-        const handleStorageChange = (e) => {
-            if (e.key === "progress") setProgress(loadProgress());
-            if (e.key === "attempts") setAttempts(loadAttempts());
-            if (e.key === "settings") setSettings(loadSettings());
-        };
-        window.addEventListener("storage", handleStorageChange);
-        const interval = setInterval(() => {
-            setProgress(loadProgress());
-            setAttempts(loadAttempts());
-            setSettings(loadSettings());
-        }, 1000);
-        return () => {
-            window.removeEventListener("storage", handleStorageChange);
-            clearInterval(interval);
-        };
-    }, []);
-
-    const listOptions = {
-        gdsr: {
-            label: "GDSR",
-            subs: {
-                wave: { label: "Wave", levels: gdsrLevels, type: "gdsr" },
-                dlc: { label: "DLC", levels: dlcLevels, type: "dlc" },
-            },
-        },
-        ccpl: {
-            label: "CCPL",
-            subs: {
-                wave: { label: "Wave", levels: ccplLevels, type: "ccpl" },
-            },
-        },
-    };
-
-    const activeMain = listOptions[selectedMain] || listOptions.gdsr;
-    const activeSub =
-        activeMain.subs[selectedSub] ||
-        activeMain.subs[Object.keys(activeMain.subs)[0]];
-    const activeList = {
-        label: `${activeMain.label} ${activeSub.label}`,
-        levels: activeSub.levels,
-        type: activeSub.type,
-    };
-    const activeRequirements =
-        rankRequirements[activeList.type] ?? EMPTY_OBJECT;
-    const activeColors = rankColors[activeList.type] ?? EMPTY_OBJECT;
-
-    const allLevels = useMemo(
-        () => activeList.levels.flatMap(getAllLevels),
-        [activeList.levels],
+    const progress = usePolledStorage("progress", {}, (data) =>
+        migrateProgressKeys(data, allLevels),
     );
-    const allMainLevels = useMemo(() => {
-        const mainLevels = Object.values(activeMain.subs)
-            .map((sub) => sub.levels)
-            .flat()
-            .flatMap(getAllLevels);
-        return mainLevels;
-    }, [activeMain.subs]);
+    const attempts = usePolledStorage("attempts", {}, (data) =>
+        migrateProgressKeys(data, allLevels),
+    );
+    const settings = usePolledStorage("settings", { showAttempts: false });
+    const [selectedListKey, setSelectedListKey] = useState(loadLastSelection);
+
+    usePageTitle();
+
+    const activeConfig = listByKey[selectedListKey] ?? listByKey.gdsr;
+    const listTree = useMemo(
+        () => getListTree(Boolean(settings.showDemons)),
+        [settings.showDemons],
+    );
+    const activePathLabels = useMemo(
+        () => getListPathLabels(activeConfig),
+        [activeConfig],
+    );
+    // const selectedRoot = activePathLabels[0];
+    const activeLevels = activeConfig.levels;
+    const activeType = activeConfig.type;
+    const activeList = useMemo(
+        () => ({
+            label: activePathLabels.join(" "),
+            levels: activeLevels,
+            type: activeType,
+        }),
+        [activeLevels, activePathLabels, activeType],
+    );
+    const activeColors = rankColors[activeType] ?? EMPTY_OBJECT;
+
+    const grandLevels = useMemo(
+        () => activeLevels.flatMap(getAllLevels),
+        [activeLevels],
+    );
+    const countedLevels = useMemo(
+        () => activeLevels.flatMap(getCountedLevels),
+        [activeLevels],
+    );
+
+    const summaryGroups = useMemo(() => {
+        const activeGroup = groupConfigs.find((group) =>
+            group.configs.includes(activeConfig.key),
+        );
+
+        if (!activeGroup) return [];
+
+        return [activeGroup]
+            .map((groupConfig) => {
+                const subs = groupConfig.configs
+                    .map((key) => listByKey[key])
+                    .filter(Boolean)
+                    .map((config) => {
+                        const countedLevels =
+                            config.levels.flatMap(getCountedLevels);
+                        const grandLevels = config.levels.flatMap(getAllLevels);
+
+                        const completed = countedLevels.filter(
+                            (level) =>
+                                progress[
+                                    getLevelKey(level, duplicateLevelIds)
+                                ] === 100,
+                        ).length;
+
+                        const grandCompleted = grandLevels.filter(
+                            (level) =>
+                                progress[
+                                    getLevelKey(level, duplicateLevelIds)
+                                ] === 100,
+                        ).length;
+
+                        return {
+                            key: config.key,
+                            label: config.summaryLabel ?? config.sub,
+                            completed,
+                            grandCompleted,
+                        };
+                    });
+
+                return {
+                    key: groupConfig.key,
+                    label: groupConfig.label,
+                    total: subs.reduce((sum, sub) => sum + sub.completed, 0),
+                    grandTotal: subs.reduce(
+                        (sum, sub) => sum + sub.grandCompleted,
+                        0,
+                    ),
+                    subs,
+                };
+            })
+            .filter((group) => group.subs.length > 0);
+    }, [activeConfig, progress]);
 
     const totalCompleted = useMemo(
-        () => allLevels.filter((level) => progress[level.id] === 100).length,
-        [allLevels, progress],
+        () =>
+            grandLevels.filter(
+                (level) =>
+                    progress[getLevelKey(level, duplicateLevelIds)] === 100,
+            ).length,
+        [grandLevels, progress],
     );
     const totalAttemptsAll = useMemo(
-        () => sumAttempts(allLevels, attempts),
-        [allLevels, attempts],
+        () => sumAttempts(countedLevels, attempts, duplicateLevelIds),
+        [countedLevels, attempts],
     );
-    const totalCompletedMain = useMemo(
-        () =>
-            allMainLevels.filter((level) => progress[level.id] === 100).length,
-        [allMainLevels, progress],
-    );
-    const totalCount = allLevels.length;
+    const totalCount = grandLevels.length;
     const overallPercent =
         totalCount > 0 ? Math.round((totalCompleted / totalCount) * 100) : 0;
 
     const completedRanks = useMemo(() => {
-        return activeList.levels
+        return activeLevels
             .map((rank) => {
                 const levels = getAllLevels(rank);
                 const completed = levels.filter(
-                    (level) => progress[level.id] === 100,
+                    (level) =>
+                        progress[getLevelKey(level, duplicateLevelIds)] === 100,
                 ).length;
-                const requirement = activeRequirements[rank.rank] || 0;
-                const isPlusPossible =
-                    !rank.subranks || rank.subranks.length === 0;
+                const requirement = rank.requirement || 0;
+                const nestedRanks = rank.ranks ?? rank.subranks;
+                const isPlusPossible = !nestedRanks || nestedRanks.length === 0;
                 const isPlus =
                     isPlusPossible &&
                     levels.length > 0 &&
                     completed === levels.length;
-                const requirementMet =
-                    requirement > 0 ? completed >= requirement : isPlus;
+                const requirementMet = rank.excludeFromTotal
+                    ? completed === levels.length
+                    : requirement > 0
+                      ? completed >= requirement
+                      : isPlus;
 
                 if (!requirementMet) return null;
-                return isPlus ? `${rank.rank}+` : rank.rank;
+                const rankLabel = rank.rank ?? rank.name;
+                const rankColor = rank.headerColor
+                    ? `#${rank.headerColor.replace("#", "")}`
+                    : activeColors[rankLabel];
+                return {
+                    label:
+                        isPlus && !rank.noPlusRanks
+                            ? `${rankLabel}+`
+                            : rankLabel,
+                    color: rankColor,
+                };
             })
             .filter(Boolean);
-    }, [activeList.levels, activeRequirements, progress]);
+    }, [activeColors, activeLevels, progress]);
 
     const inProgressLevels = useMemo(() => {
         const items = [];
 
-        activeList.levels.forEach((rank) => {
+        activeLevels.forEach((rank) => {
             if (rank.levels) {
                 rank.levels.forEach((level) => {
-                    const pct = Number(progress[level.id]) || 0;
+                    const pct =
+                        Number(
+                            progress[getLevelKey(level, duplicateLevelIds)],
+                        ) || 0;
                     if (pct > 0 && pct < 100) {
                         items.push({
+                            key: getLevelKey(level, duplicateLevelIds),
                             id: level.id,
                             name: level.name,
                             progress: pct,
-                            rankColor: activeColors[rank.rank],
+                            rankColor:
+                                rank.headerColor ||
+                                activeColors[rank.rank ?? rank.name],
                         });
                     }
                 });
             }
 
-            if (rank.subranks) {
-                rank.subranks.forEach((subrank) => {
+            const nestedRanks = rank.ranks ?? rank.subranks;
+            if (nestedRanks) {
+                nestedRanks.forEach((subrank) => {
                     const subColor =
-                        activeColors[subrank.rank] || activeColors[rank.rank];
+                        activeColors[subrank.rank] ||
+                        activeColors[rank.rank ?? rank.name];
                     subrank.levels.forEach((level) => {
-                        const pct = Number(progress[level.id]) || 0;
+                        const pct =
+                            Number(
+                                progress[getLevelKey(level, duplicateLevelIds)],
+                            ) || 0;
                         if (pct > 0 && pct < 100) {
                             items.push({
+                                key: getLevelKey(level, duplicateLevelIds),
                                 id: level.id,
                                 name: level.name,
                                 progress: pct,
@@ -170,57 +264,58 @@ export const Stats = () => {
         });
 
         return items;
-    }, [activeList.levels, progress, activeColors]);
+    }, [activeLevels, progress, activeColors]);
 
     return (
-        <div className="flex w-full max-w-[1200px] mx-auto gap-8 px-4 py-8">
-            <div className="flex-1 min-w-0">
-                <div className="bg-level p-6 mb-6">
-                    <StatsHeader
-                        activeMain={activeMain}
-                        activeSub={activeSub}
-                        listOptions={listOptions}
-                        selectedMain={selectedMain}
-                        selectedSub={selectedSub}
-                        setSelectedMain={setSelectedMain}
-                        setSelectedSub={setSelectedSub}
-                        openMainMenu={openMainMenu}
-                        setOpenMainMenu={setOpenMainMenu}
-                        openSubMenu={openSubMenu}
-                        setOpenSubMenu={setOpenSubMenu}
-                    />
-                    <OverallCompletion
-                        totalCompleted={totalCompleted}
-                        totalCount={totalCount}
-                        overallPercent={overallPercent}
-                    />
+        <PageShell>
+            <div className="bg-level p-6 mb-6">
+                <div className="mb-6">
+                    <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+                        <div>
+                            <h2 className="text-2xl font-bold mb-1">
+                                Stats
+                            </h2>
+                            <p className="text-sm text-white/70">
+                                Track completion progress across each list
+                                and rank
+                            </p>
+                        </div>
+                        <ListDropdown
+                            listTree={listTree}
+                            label={activePathLabels.join(" ")}
+                            activeKey={activeConfig.key}
+                            activePathLabels={activePathLabels}
+                            onSelect={(config) =>
+                                setSelectedListKey(config.key)
+                            }
+                        />
+                    </div>
                 </div>
-
-                <RanksGrid
-                    activeList={activeList}
-                    activeRequirements={activeRequirements}
-                    activeColors={activeColors}
-                    progress={progress}
-                    attempts={attempts}
-                    settings={settings}
+                <OverallCompletion
+                    totalCompleted={totalCompleted}
+                    totalCount={totalCount}
+                    overallPercent={overallPercent}
                 />
-
-                <div className="space-y-6">
-                    <CompletedRanks
-                        completedRanks={completedRanks}
-                        activeColors={activeColors}
-                    />
-                    <InProgressLevels inProgressLevels={inProgressLevels} />
-                    <SummaryCards
-                        totalCompleted={totalCompleted}
-                        totalListCompleted={totalCompletedMain}
-                        totalAttemptsAll={totalAttemptsAll}
-                        showAttempts={settings.showAttempts}
-                        listLabel={activeList.label}
-                        mainLabel={activeMain.label}
-                    />
-                </div>
             </div>
-        </div>
+
+            <RanksGrid
+                activeList={activeList}
+                activeColors={activeColors}
+                progress={progress}
+                attempts={attempts}
+                settings={settings}
+                duplicateIds={duplicateLevelIds}
+            />
+
+            <div className="space-y-6">
+                <CompletedRanks completedRanks={completedRanks} />
+                <InProgressLevels inProgressLevels={inProgressLevels} />
+                <SummaryCards
+                    summaryGroups={summaryGroups}
+                    totalAttemptsAll={totalAttemptsAll}
+                    showAttempts={settings.showAttempts}
+                />
+            </div>
+        </PageShell>
     );
 };
