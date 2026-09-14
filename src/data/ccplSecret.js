@@ -462,26 +462,6 @@ export const ccplSecretLevels = [
                 "name": "Disturb 41-66%",
                 "id": 78956703,
                 "video": "https://youtu.be/pNTu5flT1QA?t=27"
-            },
-            {
-                "name": "Shutdown 24-35%",
-                "id": 78164953,
-                "video": "https://youtu.be/qWFjN9NJUbA?t=28"
-            },
-            {
-                "name": "Goner 56-90",
-                "id": 77310650,
-                "video": "https://youtu.be/tDnPF_YVSQQ?t=50"
-            },
-            {
-                "name": "Slaughterhouse 25-33",
-                "id": 27690100,
-                "video": "https://youtu.be/pKzzz6LQfUk?t=66"
-            },
-            {
-                "name": "Slaughterhouse 74-90",
-                "id": 27690100,
-                "video": "https://youtu.be/pKzzz6LQfUk?t=91"
             }
         ],
         "pack": "Secret DLC"

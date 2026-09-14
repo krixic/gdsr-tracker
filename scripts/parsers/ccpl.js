@@ -1,4 +1,5 @@
 import * as XLSX from "xlsx";
+
 import {
     getCell,
     getCellValue,
@@ -10,6 +11,7 @@ import {
 function getLevel(sheet, row) {
     const nameCell = getCell(sheet, row, 0);
     const idCell = getCell(sheet, row, 1);
+
     const name = getCellValue(nameCell);
     const id = Number(getCellValue(idCell));
 
@@ -22,9 +24,10 @@ function getLevel(sheet, row) {
     };
 }
 
-function parseRanks(sheet) {
+function parseRanks(sheet, stopOnEmpty = false) {
     const ranks = [];
     const range = sheet["!ref"];
+
     if (!range) return ranks;
 
     let current = null;
@@ -33,10 +36,15 @@ function parseRanks(sheet) {
     for (let row = decoded.s.r; row <= decoded.e.r; row++) {
         const cell = getCell(sheet, row, 0);
         const text = getCellValue(cell);
-        if (!text) continue;
+
+        if (!text) {
+            if (stopOnEmpty && current?.levels.length > 0) break;
+            continue;
+        }
 
         const requirementData = parseRequirement(text);
         const heading = text.match(/^(.+?)\s*-\s*clear\b/i);
+
         if (
             heading &&
             (requirementData.requirement || requirementData.clearAll)
@@ -50,6 +58,7 @@ function parseRanks(sheet) {
                     ? { excludeFromTotal: true }
                     : {}),
             };
+
             ranks.push(current);
             continue;
         }
@@ -57,6 +66,7 @@ function parseRanks(sheet) {
         if (/total\s*\(/i.test(text)) continue;
 
         const level = getLevel(sheet, row);
+
         if (level && current) current.levels.push(level);
     }
 
@@ -68,9 +78,12 @@ function parseCCPL(sheet) {
 }
 
 function parseCCPLDLC(sheet, name) {
-    const ranks = parseRanks(sheet);
+    const ranks = parseRanks(sheet, true);
 
-    return ranks.map((rank) => ({ ...rank, pack: name }));
+    return ranks.map((rank) => ({
+        ...rank,
+        pack: name,
+    }));
 }
 
 export { parseCCPL, parseCCPLDLC };

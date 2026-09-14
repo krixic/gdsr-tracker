@@ -1,7 +1,7 @@
 export const nlwLevels = [
     {
         "rank": "Beginner",
-        "requirement": 270,
+        "requirement": 271,
         "headerColor": "4A86E8",
         "levels": [
             {
@@ -1559,338 +1559,345 @@ export const nlwLevels = [
                 "video": "https://youtu.be/lni5zO4qLng?si=VFBpLt8RV1I4Oscq"
             },
             {
+                "name": "Tech Manifestation",
+                "id": null,
+                "progressId": "nlw:Beginner:257:Tech Manifestation",
+                "copyValue": "Tech Manifestation",
+                "video": "https://youtu.be/w7dPmWLeaAA?si=9d2ZFrSpzjxQYcg1"
+            },
+            {
                 "name": "Tech X",
                 "id": null,
-                "progressId": "nlw:Beginner:257:Tech X",
+                "progressId": "nlw:Beginner:258:Tech X",
                 "copyValue": "Tech X",
                 "video": "https://youtu.be/WdgcYa93Abg?si=Z1Uw2MAdJFs10iup"
             },
             {
                 "name": "tensor",
                 "id": null,
-                "progressId": "nlw:Beginner:258:tensor",
+                "progressId": "nlw:Beginner:259:tensor",
                 "copyValue": "tensor",
                 "video": "https://youtu.be/_BdHgIUKAZo?si=xMOHr9n4fj1sBSHM"
             },
             {
                 "name": "TerrorCore",
                 "id": null,
-                "progressId": "nlw:Beginner:259:TerrorCore",
+                "progressId": "nlw:Beginner:260:TerrorCore",
                 "copyValue": "TerrorCore",
                 "video": "https://youtu.be/G7QXVjmbDLQ?si=sFABwcj1BO_qFPIT"
             },
             {
                 "name": "Tesseract",
                 "id": null,
-                "progressId": "nlw:Beginner:260:Tesseract",
+                "progressId": "nlw:Beginner:261:Tesseract",
                 "copyValue": "Tesseract",
                 "video": "https://youtu.be/1vfTRxjBkw0?si=u8tl9pNi1V7re515"
             },
             {
                 "name": "The Depths Above",
                 "id": null,
-                "progressId": "nlw:Beginner:261:The Depths Above",
+                "progressId": "nlw:Beginner:262:The Depths Above",
                 "copyValue": "The Depths Above",
                 "video": "https://youtu.be/hbKHjecK12U?si=Wb2pozuSCdfIxgVG"
             },
             {
                 "name": "The Flawless",
                 "id": null,
-                "progressId": "nlw:Beginner:262:The Flawless",
+                "progressId": "nlw:Beginner:263:The Flawless",
                 "copyValue": "The Flawless",
                 "video": "https://youtu.be/dikvQqEMYiA?si=5Bx2c_ZfjZLeycy8"
             },
             {
                 "name": "THE GLITCHTON",
                 "id": null,
-                "progressId": "nlw:Beginner:263:THE GLITCHTON",
+                "progressId": "nlw:Beginner:264:THE GLITCHTON",
                 "copyValue": "THE GLITCHTON",
                 "video": "https://youtu.be/2M1QSrwLe0Y?si=YsxgnUbPdY-L1q4_"
             },
             {
                 "name": "The Lost Existence",
                 "id": null,
-                "progressId": "nlw:Beginner:264:The Lost Existence",
+                "progressId": "nlw:Beginner:265:The Lost Existence",
                 "copyValue": "The Lost Existence",
                 "video": "https://youtu.be/EUkESo8NNNA?si=-8SUMet0cYpMb_Tm"
             },
             {
                 "name": "the super hotdog",
                 "id": null,
-                "progressId": "nlw:Beginner:265:the super hotdog",
+                "progressId": "nlw:Beginner:266:the super hotdog",
                 "copyValue": "the super hotdog",
                 "video": "https://youtu.be/WTVMRBzq2O4?si=3A7uFTUeKxUrJjBp"
             },
             {
                 "name": "The Tears Beneath",
                 "id": null,
-                "progressId": "nlw:Beginner:266:The Tears Beneath",
+                "progressId": "nlw:Beginner:267:The Tears Beneath",
                 "copyValue": "The Tears Beneath",
                 "video": "https://youtu.be/MlumhKJ8B7A?si=yTd_SxCixT2V3ALD"
             },
             {
                 "name": "The Ultimate Demon",
                 "id": null,
-                "progressId": "nlw:Beginner:267:The Ultimate Demon",
+                "progressId": "nlw:Beginner:268:The Ultimate Demon",
                 "copyValue": "The Ultimate Demon",
                 "video": "https://youtu.be/-HYXf6jRPR8?si=YowIJXKMZWC7pM9h"
             },
             {
                 "name": "The Winged Sword",
                 "id": null,
-                "progressId": "nlw:Beginner:268:The Winged Sword",
+                "progressId": "nlw:Beginner:269:The Winged Sword",
                 "copyValue": "The Winged Sword",
                 "video": "https://www.youtube.com/watch?v=0mvR_ScVXRU"
             },
             {
                 "name": "THIS CITY LIT",
                 "id": null,
-                "progressId": "nlw:Beginner:269:THIS CITY LIT",
+                "progressId": "nlw:Beginner:270:THIS CITY LIT",
                 "copyValue": "THIS CITY LIT",
                 "video": "https://youtu.be/2meyxvOPKzs?si=VgGuZLP8n8BiEiUf"
             },
             {
                 "name": "Through The Decay",
                 "id": null,
-                "progressId": "nlw:Beginner:270:Through The Decay",
+                "progressId": "nlw:Beginner:271:Through The Decay",
                 "copyValue": "Through The Decay",
                 "video": "https://youtu.be/8iSXk6xhLWc?si=OT3cD6br5p0H3RMZ"
             },
             {
                 "name": "Thunder Alphabet",
                 "id": null,
-                "progressId": "nlw:Beginner:271:Thunder Alphabet",
+                "progressId": "nlw:Beginner:272:Thunder Alphabet",
                 "copyValue": "Thunder Alphabet",
                 "video": "https://youtu.be/UWSWqAR1kLw?si=D1HW02ZH8yIKH7YN"
             },
             {
                 "name": "Torgue",
                 "id": null,
-                "progressId": "nlw:Beginner:272:Torgue",
+                "progressId": "nlw:Beginner:273:Torgue",
                 "copyValue": "Torgue",
                 "video": "https://youtu.be/tfj_0GoH0aY?si=IatG00XUyHkU0FFu"
             },
             {
                 "name": "Toxic Sewers",
                 "id": null,
-                "progressId": "nlw:Beginner:273:Toxic Sewers",
+                "progressId": "nlw:Beginner:274:Toxic Sewers",
                 "copyValue": "Toxic Sewers",
                 "video": "https://www.youtube.com/watch?v=3leBARLIqB8"
             },
             {
                 "name": "tran la luot",
                 "id": null,
-                "progressId": "nlw:Beginner:274:tran la luot",
+                "progressId": "nlw:Beginner:275:tran la luot",
                 "copyValue": "tran la luot",
                 "video": "https://www.youtube.com/watch?v=FtvcaEGwqjI&amp;pp=ygUPdHJhbiBsYSBsdW90IGdk"
             },
             {
                 "name": "troll level",
                 "id": null,
-                "progressId": "nlw:Beginner:275:troll level",
+                "progressId": "nlw:Beginner:276:troll level",
                 "copyValue": "troll level",
                 "video": "https://youtu.be/foM4sPg8uEs?si=JKWDRz7L1e6eoWME"
             },
             {
                 "name": "TROLLMACHINE",
                 "id": null,
-                "progressId": "nlw:Beginner:276:TROLLMACHINE",
+                "progressId": "nlw:Beginner:277:TROLLMACHINE",
                 "copyValue": "TROLLMACHINE",
                 "video": "https://youtu.be/CREHVPqTTCM?si=i01BioLqGfUjD4oO"
             },
             {
                 "name": "Tung Tung Sahurcles",
                 "id": null,
-                "progressId": "nlw:Beginner:277:Tung Tung Sahurcles",
+                "progressId": "nlw:Beginner:278:Tung Tung Sahurcles",
                 "copyValue": "Tung Tung Sahurcles",
                 "video": "https://youtu.be/2YN2UpG-EhY?si=OB2SWhE57ako9h1r"
             },
             {
                 "name": "Turnt Temp",
                 "id": null,
-                "progressId": "nlw:Beginner:278:Turnt Temp",
+                "progressId": "nlw:Beginner:279:Turnt Temp",
                 "copyValue": "Turnt Temp",
                 "video": "https://youtu.be/a-FwVSTtkHM?si=kJdTUeu7mcXDST6n"
             },
             {
                 "name": "Twilight Spire",
                 "id": null,
-                "progressId": "nlw:Beginner:279:Twilight Spire",
+                "progressId": "nlw:Beginner:280:Twilight Spire",
                 "copyValue": "Twilight Spire",
                 "video": "https://youtu.be/lOGjsJ06RL8?si=cHYfSuuOzJx1ErOl"
             },
             {
                 "name": "Twitch Denan",
                 "id": null,
-                "progressId": "nlw:Beginner:280:Twitch Denan",
+                "progressId": "nlw:Beginner:281:Twitch Denan",
                 "copyValue": "Twitch Denan",
                 "video": "https://youtu.be/AdSxJRNQIvQ?si=e3wD4OLmNrdWy6QA"
             },
             {
                 "name": "Ultimate Destruction",
                 "id": null,
-                "progressId": "nlw:Beginner:281:Ultimate Destruction",
+                "progressId": "nlw:Beginner:282:Ultimate Destruction",
                 "copyValue": "Ultimate Destruction",
                 "video": "https://youtu.be/E-TKSHhOiCA?si=nndOxMpJPIER7CJD"
             },
             {
                 "name": "UltraSans",
                 "id": null,
-                "progressId": "nlw:Beginner:282:UltraSans",
+                "progressId": "nlw:Beginner:283:UltraSans",
                 "copyValue": "UltraSans",
                 "video": "https://youtu.be/yFOeo7KIKpE?si=_Y1inyKQMsOOsN_Q"
             },
             {
                 "name": "UNG",
                 "id": null,
-                "progressId": "nlw:Beginner:283:UNG",
+                "progressId": "nlw:Beginner:284:UNG",
                 "copyValue": "UNG",
                 "video": "https://www.youtube.com/watch?v=eRv0HwU6yBU&amp;pp=ygUGVU5HIGdk"
             },
             {
                 "name": "Unknown Civilization",
                 "id": null,
-                "progressId": "nlw:Beginner:284:Unknown Civilization",
+                "progressId": "nlw:Beginner:285:Unknown Civilization",
                 "copyValue": "Unknown Civilization",
                 "video": "https://youtu.be/MNn6jgqYlYY?si=TAZyP-Vi0V71tgeT"
             },
             {
                 "name": "UNLEASH WHALE WHALES",
                 "id": null,
-                "progressId": "nlw:Beginner:285:UNLEASH WHALE WHALES",
+                "progressId": "nlw:Beginner:286:UNLEASH WHALE WHALES",
                 "copyValue": "UNLEASH WHALE WHALES",
                 "video": "https://youtu.be/TdN_VN8PQnM?si=0_sRNkKLlDDsZAMc"
             },
             {
                 "name": "Uplink",
                 "id": null,
-                "progressId": "nlw:Beginner:286:Uplink",
+                "progressId": "nlw:Beginner:287:Uplink",
                 "copyValue": "Uplink",
                 "video": "https://youtu.be/N1PyCr-YgW4?si=oEsjxGIoH2kHiUQQ"
             },
             {
                 "name": "Uprise",
                 "id": null,
-                "progressId": "nlw:Beginner:287:Uprise",
+                "progressId": "nlw:Beginner:288:Uprise",
                 "copyValue": "Uprise",
                 "video": "https://youtu.be/tjWTVHSg2oM?si=NW4QDXp-QxbupH4e"
             },
             {
                 "name": "V O L L E Y",
                 "id": null,
-                "progressId": "nlw:Beginner:288:V O L L E Y",
+                "progressId": "nlw:Beginner:289:V O L L E Y",
                 "copyValue": "V O L L E Y",
                 "video": "https://youtu.be/w0L7ZRL1dR8?si=k86wD9uIhJ0BJKJi"
             },
             {
                 "name": "Vacant",
                 "id": null,
-                "progressId": "nlw:Beginner:289:Vacant",
+                "progressId": "nlw:Beginner:290:Vacant",
                 "copyValue": "Vacant",
                 "video": "https://youtu.be/XO3_1WGHSQw?si=tXOjOL4tc3P4fdym"
             },
             {
                 "name": "Vanish",
                 "id": null,
-                "progressId": "nlw:Beginner:290:Vanish",
+                "progressId": "nlw:Beginner:291:Vanish",
                 "copyValue": "Vanish",
                 "video": "https://youtu.be/WLJBjn6V-uw?si=ZZpbZF-JYBJB3Zz6"
             },
             {
                 "name": "verisimilitude",
                 "id": null,
-                "progressId": "nlw:Beginner:291:verisimilitude",
+                "progressId": "nlw:Beginner:292:verisimilitude",
                 "copyValue": "verisimilitude",
                 "video": "https://youtu.be/V0e8QZaci9M?si=wQLXyBwFoStZY4Gb"
             },
             {
                 "name": "Vertigo",
                 "id": null,
-                "progressId": "nlw:Beginner:292:Vertigo",
+                "progressId": "nlw:Beginner:293:Vertigo",
                 "copyValue": "Vertigo",
                 "video": "https://youtu.be/q34ruYcKp_E?si=bzLCpC48gQk-gve0"
             },
             {
                 "name": "violetwall",
                 "id": null,
-                "progressId": "nlw:Beginner:293:violetwall",
+                "progressId": "nlw:Beginner:294:violetwall",
                 "copyValue": "violetwall",
                 "video": "https://www.youtube.com/watch?v=UQ8X3--yEVo"
             },
             {
                 "name": "Virtual Collapse",
                 "id": null,
-                "progressId": "nlw:Beginner:294:Virtual Collapse",
+                "progressId": "nlw:Beginner:295:Virtual Collapse",
                 "copyValue": "Virtual Collapse",
                 "video": "https://youtu.be/38o9tSrPxn0?si=JH3_2HiQ9XcjXQWm"
             },
             {
                 "name": "Voided",
                 "id": null,
-                "progressId": "nlw:Beginner:295:Voided",
+                "progressId": "nlw:Beginner:296:Voided",
                 "copyValue": "Voided",
                 "video": "https://youtu.be/EHvOgEcpFmA?si=su9wkpnsNg8k-ieo"
             },
             {
                 "name": "Voluto",
                 "id": null,
-                "progressId": "nlw:Beginner:296:Voluto",
+                "progressId": "nlw:Beginner:297:Voluto",
                 "copyValue": "Voluto",
                 "video": "https://youtu.be/O0y81_H75Hc?si=ZsPdvIdG8Z73pbMk"
             },
             {
                 "name": "Wavetrip",
                 "id": null,
-                "progressId": "nlw:Beginner:297:Wavetrip",
+                "progressId": "nlw:Beginner:298:Wavetrip",
                 "copyValue": "Wavetrip",
                 "video": "https://youtu.be/-G5G7Bl4b9s?si=ak_lcsNVp53InAxR"
             },
             {
                 "name": "WHITE LIGHT",
                 "id": null,
-                "progressId": "nlw:Beginner:298:WHITE LIGHT",
+                "progressId": "nlw:Beginner:299:WHITE LIGHT",
                 "copyValue": "WHITE LIGHT",
                 "video": "https://www.youtube.com/watch?v=WcBsATjPohM"
             },
             {
                 "name": "White Noise",
                 "id": null,
-                "progressId": "nlw:Beginner:299:White Noise",
+                "progressId": "nlw:Beginner:300:White Noise",
                 "copyValue": "White Noise",
                 "video": "https://youtu.be/4He8KjrLCCU?si=u8_3p7ZE_E4RF9Oy"
             },
             {
                 "name": "Witching Hour",
                 "id": null,
-                "progressId": "nlw:Beginner:300:Witching Hour",
+                "progressId": "nlw:Beginner:301:Witching Hour",
                 "copyValue": "Witching Hour",
                 "video": "https://youtu.be/phB9Ql4bkzY?si=6EV8csMsSdvyGD0-"
             },
             {
                 "name": "Without U",
                 "id": null,
-                "progressId": "nlw:Beginner:301:Without U",
+                "progressId": "nlw:Beginner:302:Without U",
                 "copyValue": "Without U",
                 "video": "https://youtu.be/0ofmyxJHbFM?si=w8a8nkwSa0FyFOiV"
             },
             {
                 "name": "XxXxXxXxXxX",
                 "id": null,
-                "progressId": "nlw:Beginner:302:XxXxXxXxXxX",
+                "progressId": "nlw:Beginner:303:XxXxXxXxXxX",
                 "copyValue": "XxXxXxXxXxX",
                 "video": "https://youtu.be/obuoLn99kEw?si=Dy5GW3H4vkZOERL_"
             },
             {
                 "name": "Yggdrasil",
                 "id": null,
-                "progressId": "nlw:Beginner:303:Yggdrasil",
+                "progressId": "nlw:Beginner:304:Yggdrasil",
                 "copyValue": "Yggdrasil",
                 "video": "https://youtu.be/Ao6cUKxR9HY?si=2sIV8z6nfVSEpcWU"
             },
             {
                 "name": "Zettabyte",
                 "id": null,
-                "progressId": "nlw:Beginner:304:Zettabyte",
+                "progressId": "nlw:Beginner:305:Zettabyte",
                 "copyValue": "Zettabyte",
                 "video": "https://www.youtube.com/watch?v=RaLZDb5p-1o&amp;pp=ygUMWmV0dGFieXRlIGdk0gcJCQMKAYcqIYzv"
             }
@@ -1898,1142 +1905,1135 @@ export const nlwLevels = [
     },
     {
         "rank": "Easy",
-        "requirement": 200,
+        "requirement": 199,
         "headerColor": "00FFFF",
         "levels": [
             {
                 "name": "0 mind",
                 "id": null,
-                "progressId": "nlw:Easy:306:0 mind",
+                "progressId": "nlw:Easy:307:0 mind",
                 "copyValue": "0 mind",
                 "video": "https://youtu.be/mrjtsBUHPr0?si=1b1L89eGDsjmMCTw"
             },
             {
                 "name": "15 Step",
                 "id": null,
-                "progressId": "nlw:Easy:307:15 Step",
+                "progressId": "nlw:Easy:308:15 Step",
                 "copyValue": "15 Step",
                 "video": "https://www.youtube.com/watch?v=6gSqNB8QTG4"
             },
             {
                 "name": "4Elements",
                 "id": null,
-                "progressId": "nlw:Easy:308:4Elements",
+                "progressId": "nlw:Easy:309:4Elements",
                 "copyValue": "4Elements",
                 "video": "https://youtu.be/dO7R4OLmsQw?si=zj-G3KX0hrGcAk_d"
             },
             {
                 "name": "4ucked Up",
                 "id": null,
-                "progressId": "nlw:Easy:309:4ucked Up",
+                "progressId": "nlw:Easy:310:4ucked Up",
                 "copyValue": "4ucked Up",
                 "video": "https://youtu.be/hbkmlWYQwQ4?si=Htkw8Nap3fDur_2a"
             },
             {
                 "name": "A2Marbl",
                 "id": null,
-                "progressId": "nlw:Easy:310:A2Marbl",
+                "progressId": "nlw:Easy:311:A2Marbl",
                 "copyValue": "A2Marbl",
                 "video": "https://youtu.be/e3o9EM8kbT4?si=DZ2nVLht6lysucam"
             },
             {
                 "name": "ABSURDIA",
                 "id": null,
-                "progressId": "nlw:Easy:311:ABSURDIA",
+                "progressId": "nlw:Easy:312:ABSURDIA",
                 "copyValue": "ABSURDIA",
                 "video": "https://youtu.be/_hKfeBVetB0?si=5D8tGQVVdY88xm41"
             },
             {
                 "name": "Acrozis",
                 "id": null,
-                "progressId": "nlw:Easy:312:Acrozis",
+                "progressId": "nlw:Easy:313:Acrozis",
                 "copyValue": "Acrozis",
                 "video": "https://youtu.be/sK0vh-HmeLE?si=VuoxfxZDQhUPB8yP"
             },
             {
                 "name": "Aksion",
                 "id": null,
-                "progressId": "nlw:Easy:313:Aksion",
+                "progressId": "nlw:Easy:314:Aksion",
                 "copyValue": "Aksion",
                 "video": "https://youtu.be/3xj-te6kG68?si=GGZ60vTg5wp8B02j"
             },
             {
                 "name": "AMPLIFY",
                 "id": null,
-                "progressId": "nlw:Easy:314:AMPLIFY",
+                "progressId": "nlw:Easy:315:AMPLIFY",
                 "copyValue": "AMPLIFY",
                 "video": "https://youtu.be/kncDckeGLIQ?si=apz_wt4KD9indoSV"
             },
             {
                 "name": "Another Phase",
                 "id": null,
-                "progressId": "nlw:Easy:315:Another Phase",
+                "progressId": "nlw:Easy:316:Another Phase",
                 "copyValue": "Another Phase",
                 "video": "https://youtu.be/UCSC8IEtQDY?si=pv_fYyQRhZiA4jqn"
             },
             {
                 "name": "any percent",
                 "id": null,
-                "progressId": "nlw:Easy:316:any percent",
+                "progressId": "nlw:Easy:317:any percent",
                 "copyValue": "any percent",
                 "video": "https://youtu.be/2LjRc6wrJ4U?si=RUqinzuy2p-epCMo"
             },
             {
                 "name": "Armageddon",
                 "id": null,
-                "progressId": "nlw:Easy:317:Armageddon",
+                "progressId": "nlw:Easy:318:Armageddon",
                 "copyValue": "Armageddon",
                 "video": "https://youtu.be/A4_43v-vnfM?si=TDbt3ybstwtUtdB3"
             },
             {
                 "name": "Artificial Dream",
                 "id": null,
-                "progressId": "nlw:Easy:318:Artificial Dream",
+                "progressId": "nlw:Easy:319:Artificial Dream",
                 "copyValue": "Artificial Dream",
                 "video": "https://youtu.be/NpJvTuphV1s?si=bMA4plO_X7FfvQwA"
             },
             {
                 "name": "Aurorae",
                 "id": null,
-                "progressId": "nlw:Easy:319:Aurorae",
+                "progressId": "nlw:Easy:320:Aurorae",
                 "copyValue": "Aurorae",
                 "video": "https://youtu.be/9CXM-jWYPRE?si=LIgStZ5QGSFOd3AL"
             },
             {
                 "name": "Avalanche",
                 "id": null,
-                "progressId": "nlw:Easy:320:Avalanche",
+                "progressId": "nlw:Easy:321:Avalanche",
                 "copyValue": "Avalanche",
                 "video": "https://www.youtube.com/watch?v=xQMkyMER4eE"
             },
             {
                 "name": "Ballistic Funk",
                 "id": null,
-                "progressId": "nlw:Easy:321:Ballistic Funk",
+                "progressId": "nlw:Easy:322:Ballistic Funk",
                 "copyValue": "Ballistic Funk",
                 "video": "https://youtu.be/L1k8mO6NRVU?si=BwFWtC97H71yhfqJ"
             },
             {
                 "name": "Betelgeuse",
                 "id": null,
-                "progressId": "nlw:Easy:322:Betelgeuse",
+                "progressId": "nlw:Easy:323:Betelgeuse",
                 "copyValue": "Betelgeuse",
                 "video": "https://youtu.be/K5aOQvndI-0?si=29PARLL4dv9RNCBz"
             },
             {
                 "name": "BOINKERS",
                 "id": null,
-                "progressId": "nlw:Easy:323:BOINKERS",
+                "progressId": "nlw:Easy:324:BOINKERS",
                 "copyValue": "BOINKERS",
                 "video": "https://www.youtube.com/watch?v=leaS-4h1d5U"
             },
             {
                 "name": "Bored Walk",
                 "id": null,
-                "progressId": "nlw:Easy:324:Bored Walk",
+                "progressId": "nlw:Easy:325:Bored Walk",
                 "copyValue": "Bored Walk",
                 "video": "https://www.youtube.com/watch?v=bvQc5-27YYg"
             },
             {
                 "name": "Brain Power",
                 "id": null,
-                "progressId": "nlw:Easy:325:Brain Power",
+                "progressId": "nlw:Easy:326:Brain Power",
                 "copyValue": "Brain Power",
                 "video": "https://youtu.be/ThroGkahQFw?si=D72HziSAgsYxhppl"
             },
             {
                 "name": "Brave",
                 "id": null,
-                "progressId": "nlw:Easy:326:Brave",
+                "progressId": "nlw:Easy:327:Brave",
                 "copyValue": "Brave",
                 "video": "https://youtu.be/UnV4-ZqQiwE?si=eOMpRm5_XAPZ9ZwK"
             },
             {
                 "name": "Breakout",
                 "id": null,
-                "progressId": "nlw:Easy:327:Breakout",
+                "progressId": "nlw:Easy:328:Breakout",
                 "copyValue": "Breakout",
                 "video": "https://youtu.be/Px7XFrBBRHE?si=ST_G9xrNFUmjY8g6"
             },
             {
                 "name": "BYE",
                 "id": null,
-                "progressId": "nlw:Easy:328:BYE",
+                "progressId": "nlw:Easy:329:BYE",
                 "copyValue": "BYE",
                 "video": "https://youtu.be/bDi59AoQx6U?si=fgWu1dgRXFyrJd65"
             },
             {
                 "name": "Canneles au chocolat",
                 "id": null,
-                "progressId": "nlw:Easy:329:Canneles au chocolat",
+                "progressId": "nlw:Easy:330:Canneles au chocolat",
                 "copyValue": "Canneles au chocolat",
                 "video": "https://youtu.be/c-zsX0MIgmI?si=cX1UWLdLoyjxvFPw"
             },
             {
                 "name": "Carbon",
                 "id": null,
-                "progressId": "nlw:Easy:330:Carbon",
+                "progressId": "nlw:Easy:331:Carbon",
                 "copyValue": "Carbon",
                 "video": "https://youtu.be/2TyReJ8nk48?si=8sZdDAmCtGP-xxiy"
             },
             {
                 "name": "cerebral hemorrhage",
                 "id": null,
-                "progressId": "nlw:Easy:331:cerebral hemorrhage",
+                "progressId": "nlw:Easy:332:cerebral hemorrhage",
                 "copyValue": "cerebral hemorrhage",
                 "video": "https://youtu.be/OXGzVsLGPFI?si=9kYloIxJg8uHXDfr"
             },
             {
                 "name": "CHERRYCRUSH",
                 "id": null,
-                "progressId": "nlw:Easy:332:CHERRYCRUSH",
+                "progressId": "nlw:Easy:333:CHERRYCRUSH",
                 "copyValue": "CHERRYCRUSH",
                 "video": "https://www.youtube.com/watch?v=-RWp78vw16E"
             },
             {
                 "name": "CholeriX",
                 "id": null,
-                "progressId": "nlw:Easy:333:CholeriX",
+                "progressId": "nlw:Easy:334:CholeriX",
                 "copyValue": "CholeriX",
                 "video": "https://youtu.be/COhMMPaw3SU?si=8NzBs-HMn1QAAh7c"
             },
             {
                 "name": "Chub Chub",
                 "id": null,
-                "progressId": "nlw:Easy:334:Chub Chub",
+                "progressId": "nlw:Easy:335:Chub Chub",
                 "copyValue": "Chub Chub",
                 "video": "https://youtu.be/Ijs_DriI6gM?si=gfzr897LabdPDwBH"
             },
             {
                 "name": "cloudscape",
                 "id": null,
-                "progressId": "nlw:Easy:335:cloudscape",
+                "progressId": "nlw:Easy:336:cloudscape",
                 "copyValue": "cloudscape",
                 "video": "https://youtu.be/vRRH0PL3KFY?si=04GJtlz_4zPyrWu4"
             },
             {
                 "name": "Clown Control",
                 "id": null,
-                "progressId": "nlw:Easy:336:Clown Control",
+                "progressId": "nlw:Easy:337:Clown Control",
                 "copyValue": "Clown Control",
                 "video": "https://youtu.be/Q7MGAmOw_Q8?si=ATl3UEd8YwJoC46o"
             },
             {
                 "name": "Convulsing Light",
                 "id": null,
-                "progressId": "nlw:Easy:337:Convulsing Light",
+                "progressId": "nlw:Easy:338:Convulsing Light",
                 "copyValue": "Convulsing Light",
                 "video": "https://www.youtube.com/watch?v=ZVcyHxw_XAU"
             },
             {
                 "name": "Cosmic Cluster",
                 "id": null,
-                "progressId": "nlw:Easy:338:Cosmic Cluster",
+                "progressId": "nlw:Easy:339:Cosmic Cluster",
                 "copyValue": "Cosmic Cluster",
                 "video": "https://youtu.be/aM3Aqpk3z2U?si=j5vcWj-W7pKktNI_"
             },
             {
                 "name": "Crowd Control",
                 "id": null,
-                "progressId": "nlw:Easy:339:Crowd Control",
+                "progressId": "nlw:Easy:340:Crowd Control",
                 "copyValue": "Crowd Control",
                 "video": "https://youtu.be/zGgtVb98qZo?si=MOCCF0tMDxr7HCK-"
             },
             {
                 "name": "Crowded Void",
                 "id": null,
-                "progressId": "nlw:Easy:340:Crowded Void",
+                "progressId": "nlw:Easy:341:Crowded Void",
                 "copyValue": "Crowded Void",
                 "video": "https://youtu.be/eBC1t71PSLg?si=DidT_QwbVEaE8SWC"
             },
             {
                 "name": "CRUEL",
                 "id": null,
-                "progressId": "nlw:Easy:341:CRUEL",
+                "progressId": "nlw:Easy:342:CRUEL",
                 "copyValue": "CRUEL",
                 "video": "https://youtu.be/TVMz9Qp4hPA?si=NgNm899ry60EzBPp"
             },
             {
                 "name": "Cupid",
                 "id": null,
-                "progressId": "nlw:Easy:342:Cupid",
+                "progressId": "nlw:Easy:343:Cupid",
                 "copyValue": "Cupid",
                 "video": "https://youtu.be/WllwuMNKoig?si=d1Bblg5Cryc8DVIi"
             },
             {
                 "name": "Cyberstorm",
                 "id": null,
-                "progressId": "nlw:Easy:343:Cyberstorm",
+                "progressId": "nlw:Easy:344:Cyberstorm",
                 "copyValue": "Cyberstorm",
                 "video": "https://youtu.be/k27saSKENLE?si=ksvwD9v7tsTcnEaA"
             },
             {
                 "name": "Dark Rivalry",
                 "id": null,
-                "progressId": "nlw:Easy:344:Dark Rivalry",
+                "progressId": "nlw:Easy:345:Dark Rivalry",
                 "copyValue": "Dark Rivalry",
                 "video": "https://youtu.be/kWM75IC0RKM?si=5qAGIZLrbKzCfj6x"
             },
             {
                 "name": "Death Sentence",
                 "id": null,
-                "progressId": "nlw:Easy:345:Death Sentence",
+                "progressId": "nlw:Easy:346:Death Sentence",
                 "copyValue": "Death Sentence",
                 "video": "https://www.youtube.com/watch?v=xir4bbNSwxA"
             },
             {
                 "name": "Destinies",
                 "id": null,
-                "progressId": "nlw:Easy:346:Destinies",
+                "progressId": "nlw:Easy:347:Destinies",
                 "copyValue": "Destinies",
                 "video": "https://youtu.be/z_6vZlon6Qg?si=Qh6F1TMhknGnVrXr"
             },
             {
                 "name": "Diligence",
                 "id": null,
-                "progressId": "nlw:Easy:347:Diligence",
+                "progressId": "nlw:Easy:348:Diligence",
                 "copyValue": "Diligence",
                 "video": "https://youtu.be/xdBGAgXBL-M?si=gjEjfxwrUdtgJd6w"
             },
             {
                 "name": "Dismay",
                 "id": null,
-                "progressId": "nlw:Easy:348:Dismay",
+                "progressId": "nlw:Easy:349:Dismay",
                 "copyValue": "Dismay",
                 "video": "https://youtu.be/nbgyEbfE5Vs?si=RmFNVDvkRaKP96N7"
             },
             {
                 "name": "Doop",
                 "id": null,
-                "progressId": "nlw:Easy:349:Doop",
+                "progressId": "nlw:Easy:350:Doop",
                 "copyValue": "Doop",
                 "video": "https://youtu.be/tL1mDVXVD7w?si=m9t1KSLlOXGuCMbm"
             },
             {
                 "name": "doradura",
                 "id": null,
-                "progressId": "nlw:Easy:350:doradura",
+                "progressId": "nlw:Easy:351:doradura",
                 "copyValue": "doradura",
                 "video": "https://youtu.be/GE0y_Yv-fTU?si=MDlJI_RgCUUArtE-"
             },
             {
                 "name": "Draco Meteor",
                 "id": null,
-                "progressId": "nlw:Easy:351:Draco Meteor",
+                "progressId": "nlw:Easy:352:Draco Meteor",
                 "copyValue": "Draco Meteor",
                 "video": "https://youtu.be/QCGegnpEdJU?si=Qwd0VgbMF_ZG-WKZ"
             },
             {
                 "name": "DREAMS TAKE OVER",
                 "id": null,
-                "progressId": "nlw:Easy:352:DREAMS TAKE OVER",
+                "progressId": "nlw:Easy:353:DREAMS TAKE OVER",
                 "copyValue": "DREAMS TAKE OVER",
                 "video": "https://youtu.be/q4Utrq6KtKQ?si=GDdN8MhCoOpJeTZN"
             },
             {
                 "name": "Dumbest Girl Alive",
                 "id": null,
-                "progressId": "nlw:Easy:353:Dumbest Girl Alive",
+                "progressId": "nlw:Easy:354:Dumbest Girl Alive",
                 "copyValue": "Dumbest Girl Alive",
                 "video": "https://youtu.be/uPKQiz3x_Zc?si=WBSDKtHMmgqJb_-r"
             },
             {
                 "name": "Electrical Fusion",
                 "id": null,
-                "progressId": "nlw:Easy:354:Electrical Fusion",
+                "progressId": "nlw:Easy:355:Electrical Fusion",
                 "copyValue": "Electrical Fusion",
                 "video": "https://youtu.be/5CpFm3gTt4U?si=N0P76Skf2Sso4umY"
             },
             {
                 "name": "ElectroLux",
                 "id": null,
-                "progressId": "nlw:Easy:355:ElectroLux",
+                "progressId": "nlw:Easy:356:ElectroLux",
                 "copyValue": "ElectroLux",
                 "video": "https://youtu.be/y3UmmzvR2PI?si=VklHko0bmfdtrRvJ"
             },
             {
                 "name": "Elite Z Rebirth",
                 "id": null,
-                "progressId": "nlw:Easy:356:Elite Z Rebirth",
+                "progressId": "nlw:Easy:357:Elite Z Rebirth",
                 "copyValue": "Elite Z Rebirth",
                 "video": "https://youtu.be/oSGsc_v5_1o?si=rWopitCaxMD7kmg9"
             },
             {
                 "name": "Endurance",
                 "id": null,
-                "progressId": "nlw:Easy:357:Endurance",
+                "progressId": "nlw:Easy:358:Endurance",
                 "copyValue": "Endurance",
                 "video": "https://youtu.be/eZbLgjWjOf8?si=5dlGEPcPEOwXhn15"
             },
             {
                 "name": "Enlightened memories",
                 "id": null,
-                "progressId": "nlw:Easy:358:Enlightened memories",
+                "progressId": "nlw:Easy:359:Enlightened memories",
                 "copyValue": "Enlightened memories",
                 "video": "https://youtu.be/Fi84BEnyRAk?si=w00J_py-8CJko8Yu"
             },
             {
                 "name": "Eternal Dreams",
                 "id": null,
-                "progressId": "nlw:Easy:359:Eternal Dreams",
+                "progressId": "nlw:Easy:360:Eternal Dreams",
                 "copyValue": "Eternal Dreams",
                 "video": "https://youtu.be/49esQfkb9FU?si=QFI1hQW1Yj6oJRZo"
             },
             {
                 "name": "Evil Depths",
                 "id": null,
-                "progressId": "nlw:Easy:360:Evil Depths",
+                "progressId": "nlw:Easy:361:Evil Depths",
                 "copyValue": "Evil Depths",
                 "video": "https://youtu.be/7PhbCMuM0rA?si=s811ERbP6S1OUY18"
             },
             {
                 "name": "Evil Inside",
                 "id": null,
-                "progressId": "nlw:Easy:361:Evil Inside",
+                "progressId": "nlw:Easy:362:Evil Inside",
                 "copyValue": "Evil Inside",
                 "video": "https://www.youtube.com/watch?v=u18zUdFbY28&amp;list=PLbBH4BTaExaC2DSqovJxCY8ozOU_K47qO&amp;index=1"
             },
             {
                 "name": "EX",
                 "id": null,
-                "progressId": "nlw:Easy:362:EX",
+                "progressId": "nlw:Easy:363:EX",
                 "copyValue": "EX",
                 "video": "https://youtu.be/yTgEHrMsWEo?si=AVw1AFfa2ox5ZNen"
             },
             {
                 "name": "Existentia",
                 "id": null,
-                "progressId": "nlw:Easy:363:Existentia",
+                "progressId": "nlw:Easy:364:Existentia",
                 "copyValue": "Existentia",
                 "video": "https://www.youtube.com/watch?v=yCDttQ7HC9Y"
             },
             {
                 "name": "EXTREME MEMORY MIX",
                 "id": null,
-                "progressId": "nlw:Easy:364:EXTREME MEMORY MIX",
+                "progressId": "nlw:Easy:365:EXTREME MEMORY MIX",
                 "copyValue": "EXTREME MEMORY MIX",
                 "video": "https://www.youtube.com/watch?v=JgoR9rI6VAA"
             },
             {
                 "name": "Extremoduro",
                 "id": null,
-                "progressId": "nlw:Easy:365:Extremoduro",
+                "progressId": "nlw:Easy:366:Extremoduro",
                 "copyValue": "Extremoduro",
                 "video": "https://www.youtube.com/watch?v=nwxP150kHOI"
             },
             {
                 "name": "Fair Morning",
                 "id": null,
-                "progressId": "nlw:Easy:366:Fair Morning",
+                "progressId": "nlw:Easy:367:Fair Morning",
                 "copyValue": "Fair Morning",
                 "video": "https://www.youtube.com/watch?v=fXB_0TVjGEA"
             },
             {
                 "name": "Faith",
                 "id": null,
-                "progressId": "nlw:Easy:367:Faith",
+                "progressId": "nlw:Easy:368:Faith",
                 "copyValue": "Faith",
                 "video": "https://youtu.be/rv3O6eLz-KY?si=1EfG-cGeav5-UD21"
             },
             {
                 "name": "Falling Up",
                 "id": null,
-                "progressId": "nlw:Easy:368:Falling Up",
+                "progressId": "nlw:Easy:369:Falling Up",
                 "copyValue": "Falling Up",
                 "video": "https://youtu.be/dsyvbmz1Yls?si=bzds1oDR4zp9LsOa"
             },
             {
                 "name": "FanTasticLand",
                 "id": null,
-                "progressId": "nlw:Easy:369:FanTasticLand",
+                "progressId": "nlw:Easy:370:FanTasticLand",
                 "copyValue": "FanTasticLand",
                 "video": "https://youtu.be/aZcYZm8jbr8?si=XWd4ghBaH7K5Ts9J"
             },
             {
                 "name": "Ferrum Frenzy",
                 "id": null,
-                "progressId": "nlw:Easy:370:Ferrum Frenzy",
+                "progressId": "nlw:Easy:371:Ferrum Frenzy",
                 "copyValue": "Ferrum Frenzy",
                 "video": "https://youtu.be/0BWMgiCuvjQ?si=Cz_SW6A5TF9vnOtZ"
             },
             {
                 "name": "FirePower",
                 "id": null,
-                "progressId": "nlw:Easy:371:FirePower",
+                "progressId": "nlw:Easy:372:FirePower",
                 "copyValue": "FirePower",
                 "video": "https://youtu.be/arCsUtcjt3o?si=js0boNLGNOd1sC6F"
             },
             {
                 "name": "Four",
                 "id": null,
-                "progressId": "nlw:Easy:372:Four",
+                "progressId": "nlw:Easy:373:Four",
                 "copyValue": "Four",
                 "video": "https://youtu.be/zJpJIcLsBmQ?si=ciWTL0OVKDpdug_O"
             },
             {
                 "name": "Frightful Melody",
                 "id": null,
-                "progressId": "nlw:Easy:373:Frightful Melody",
+                "progressId": "nlw:Easy:374:Frightful Melody",
                 "copyValue": "Frightful Melody",
                 "video": "https://youtu.be/07qrgoM8n4k?si=eXj7uVO67l6dGIMP"
             },
             {
                 "name": "FULLPOWER",
                 "id": null,
-                "progressId": "nlw:Easy:374:FULLPOWER",
+                "progressId": "nlw:Easy:375:FULLPOWER",
                 "copyValue": "FULLPOWER",
                 "video": "https://youtu.be/-hFt-juqzCI?si=JfS2BB0LqYW6SNGu"
             },
             {
                 "name": "FUTURE DEMON MACHINE",
                 "id": null,
-                "progressId": "nlw:Easy:375:FUTURE DEMON MACHINE",
+                "progressId": "nlw:Easy:376:FUTURE DEMON MACHINE",
                 "copyValue": "FUTURE DEMON MACHINE",
                 "video": "https://youtu.be/5BhFnRjN3I0?si=gqMQWa2tQpnxNFo3"
             },
             {
                 "name": "Gaming",
                 "id": null,
-                "progressId": "nlw:Easy:376:Gaming",
+                "progressId": "nlw:Easy:377:Gaming",
                 "copyValue": "Gaming",
                 "video": "https://youtu.be/zoo1AizciZ0?si=D4Rg1uId1gJB3zyk"
             },
             {
                 "name": "Gaming 35",
                 "id": null,
-                "progressId": "nlw:Easy:377:Gaming 35",
+                "progressId": "nlw:Easy:378:Gaming 35",
                 "copyValue": "Gaming 35",
                 "video": "https://youtu.be/EVwO915ewRY?si=OC-L5MWI2sY9LgNm"
             },
             {
                 "name": "Generic Glow Level",
                 "id": null,
-                "progressId": "nlw:Easy:378:Generic Glow Level",
+                "progressId": "nlw:Easy:379:Generic Glow Level",
                 "copyValue": "Generic Glow Level",
                 "video": "https://youtu.be/izPrFLVmaao?si=kKTJibsNLIldPypH"
             },
             {
                 "name": "GEODE",
                 "id": null,
-                "progressId": "nlw:Easy:379:GEODE",
+                "progressId": "nlw:Easy:380:GEODE",
                 "copyValue": "GEODE",
                 "video": "https://youtu.be/I1MffO22W9E?si=EwjqyFQvO3IlhJ1v"
             },
             {
                 "name": "Gloss",
                 "id": null,
-                "progressId": "nlw:Easy:380:Gloss",
+                "progressId": "nlw:Easy:381:Gloss",
                 "copyValue": "Gloss",
                 "video": "https://youtu.be/iRVcLYFKJew?si=OjJziYFixQW_ltUI"
             },
             {
                 "name": "Grill Kill",
                 "id": null,
-                "progressId": "nlw:Easy:381:Grill Kill",
+                "progressId": "nlw:Easy:382:Grill Kill",
                 "copyValue": "Grill Kill",
                 "video": "https://youtu.be/y2nMpz5Q-Hw?si=Ifw69_NKzrkE56en"
             },
             {
                 "name": "Hades",
                 "id": null,
-                "progressId": "nlw:Easy:382:Hades",
+                "progressId": "nlw:Easy:383:Hades",
                 "copyValue": "Hades",
                 "video": "https://youtu.be/ljkidZDmjFs?si=_eBnxJ1tOvtlN9Se"
             },
             {
                 "name": "Halberd",
                 "id": null,
-                "progressId": "nlw:Easy:383:Halberd",
+                "progressId": "nlw:Easy:384:Halberd",
                 "copyValue": "Halberd",
                 "video": "https://youtu.be/N0ice5Vv8Sg?si=L405dPIwI12VL0XW"
             },
             {
                 "name": "HAPPY PILLS",
                 "id": null,
-                "progressId": "nlw:Easy:384:HAPPY PILLS",
+                "progressId": "nlw:Easy:385:HAPPY PILLS",
                 "copyValue": "HAPPY PILLS",
                 "video": "https://youtu.be/1HgIzPkGmW8"
             },
             {
                 "name": "headlock",
                 "id": null,
-                "progressId": "nlw:Easy:385:headlock",
+                "progressId": "nlw:Easy:386:headlock",
                 "copyValue": "headlock",
                 "video": "https://youtu.be/F22sORJ87Is?si=xC1QYiFX19qyyvmh"
             },
             {
                 "name": "Hopping Over Puddles",
                 "id": null,
-                "progressId": "nlw:Easy:386:Hopping Over Puddles",
+                "progressId": "nlw:Easy:387:Hopping Over Puddles",
                 "copyValue": "Hopping Over Puddles",
                 "video": "https://youtu.be/SVwLPw-tR50?si=XdDnn6DweSFLjrCw"
             },
             {
                 "name": "HURRICANE",
                 "id": null,
-                "progressId": "nlw:Easy:387:HURRICANE",
+                "progressId": "nlw:Easy:388:HURRICANE",
                 "copyValue": "HURRICANE",
                 "video": "https://youtu.be/vAcWr-humik?si=sTFtKdIcMH0soNEH"
             },
             {
                 "name": "Hydraulic Overdrive",
                 "id": null,
-                "progressId": "nlw:Easy:388:Hydraulic Overdrive",
+                "progressId": "nlw:Easy:389:Hydraulic Overdrive",
                 "copyValue": "Hydraulic Overdrive",
                 "video": "https://youtu.be/8zHlJz2Gl8Y?si=pGiPbUuk8fY8CDcZ"
             },
             {
                 "name": "HyperHyperHyperHyper",
                 "id": null,
-                "progressId": "nlw:Easy:389:HyperHyperHyperHyper",
+                "progressId": "nlw:Easy:390:HyperHyperHyperHyper",
                 "copyValue": "HyperHyperHyperHyper",
                 "video": "https://www.youtube.com/watch?v=msa3i-o8H4Q"
             },
             {
                 "name": "IH8",
                 "id": null,
-                "progressId": "nlw:Easy:390:IH8",
+                "progressId": "nlw:Easy:391:IH8",
                 "copyValue": "IH8",
                 "video": "https://www.youtube.com/watch?v=i89jK76Ng-w"
             },
             {
                 "name": "I NEVER DREAM",
                 "id": null,
-                "progressId": "nlw:Easy:391:I NEVER DREAM",
+                "progressId": "nlw:Easy:392:I NEVER DREAM",
                 "copyValue": "I NEVER DREAM",
                 "video": "https://youtu.be/CS7WJbO4uaw?si=5Ffxw8_3-zMctplG"
             },
             {
                 "name": "iI HOT Ii",
                 "id": null,
-                "progressId": "nlw:Easy:392:iI HOT Ii",
+                "progressId": "nlw:Easy:393:iI HOT Ii",
                 "copyValue": "iI HOT Ii",
                 "video": "https://youtu.be/FEJEk81kINw?si=oYW_Qdbq2XDNgS0U"
             },
             {
                 "name": "Impasse",
                 "id": null,
-                "progressId": "nlw:Easy:393:Impasse",
+                "progressId": "nlw:Easy:394:Impasse",
                 "copyValue": "Impasse",
                 "video": "https://youtu.be/Xee1kw66ISM?si=M2j0ctWdebOWq5Xj"
             },
             {
                 "name": "In Circles",
                 "id": null,
-                "progressId": "nlw:Easy:394:In Circles",
+                "progressId": "nlw:Easy:395:In Circles",
                 "copyValue": "In Circles",
                 "video": "https://youtu.be/pI4oR_7xgTQ?si=P-RJTJwgs11seCDG"
             },
             {
                 "name": "INFLAMMABLE INFUSION",
                 "id": null,
-                "progressId": "nlw:Easy:395:INFLAMMABLE INFUSION",
+                "progressId": "nlw:Easy:396:INFLAMMABLE INFUSION",
                 "copyValue": "INFLAMMABLE INFUSION",
                 "video": "https://youtu.be/395-lYdY-nE?si=tuB5DwrUSw5O00H8"
             },
             {
                 "name": "inMind",
                 "id": null,
-                "progressId": "nlw:Easy:396:inMind",
+                "progressId": "nlw:Easy:397:inMind",
                 "copyValue": "inMind",
                 "video": "https://youtu.be/nvnQpNYjQwE?si=c50dJ75x57Fduh56"
             },
             {
                 "name": "Interstellar Entropy",
                 "id": null,
-                "progressId": "nlw:Easy:397:Interstellar Entropy",
+                "progressId": "nlw:Easy:398:Interstellar Entropy",
                 "copyValue": "Interstellar Entropy",
                 "video": "https://youtu.be/DFYUMI_e7Nc?si=Mt8qCNYxqRwO2suS"
             },
             {
                 "name": "Jail Break",
                 "id": null,
-                "progressId": "nlw:Easy:398:Jail Break",
+                "progressId": "nlw:Easy:399:Jail Break",
                 "copyValue": "Jail Break",
                 "video": "https://youtu.be/KRzwSHxGlg4?si=BLC8CJ0qyEqUtxBO"
             },
             {
                 "name": "JRJRJR",
                 "id": null,
-                "progressId": "nlw:Easy:399:JRJRJR",
+                "progressId": "nlw:Easy:400:JRJRJR",
                 "copyValue": "JRJRJR",
                 "video": "https://youtu.be/bWNhn_-K8Zw?si=je_3AtKFuOKB5nrK"
             },
             {
                 "name": "KOLOR KORE",
                 "id": null,
-                "progressId": "nlw:Easy:400:KOLOR KORE",
+                "progressId": "nlw:Easy:401:KOLOR KORE",
                 "copyValue": "KOLOR KORE",
                 "video": "https://www.youtube.com/watch?v=Nb0HneKIE9g"
             },
             {
                 "name": "KUB",
                 "id": null,
-                "progressId": "nlw:Easy:401:KUB",
+                "progressId": "nlw:Easy:402:KUB",
                 "copyValue": "KUB",
                 "video": "https://youtu.be/LAHpX9QpQx0?si=eVWu3oZmkBVMSOPn"
             },
             {
                 "name": "LA43",
                 "id": null,
-                "progressId": "nlw:Easy:402:LA43",
+                "progressId": "nlw:Easy:403:LA43",
                 "copyValue": "LA43",
                 "video": "https://youtu.be/_E3ArfMZRxM?si=b1vaJ-oh_EGXmtEl"
             },
             {
                 "name": "Lightness",
                 "id": null,
-                "progressId": "nlw:Easy:403:Lightness",
+                "progressId": "nlw:Easy:404:Lightness",
                 "copyValue": "Lightness",
                 "video": "https://youtu.be/R6HGUvYeTsY?si=PpWhj4pJPhBovMB6"
             },
             {
                 "name": "Lonely Lights",
                 "id": null,
-                "progressId": "nlw:Easy:404:Lonely Lights",
+                "progressId": "nlw:Easy:405:Lonely Lights",
                 "copyValue": "Lonely Lights",
                 "video": "https://youtu.be/dAe1vXdX0mo?si=OGHtkV_Ua5iXqZJ1"
             },
             {
                 "name": "loop",
                 "id": null,
-                "progressId": "nlw:Easy:405:loop",
+                "progressId": "nlw:Easy:406:loop",
                 "copyValue": "loop",
                 "video": "https://youtu.be/aQ2VYWEWuZ8?si=4LTubanb6B3eEKE-"
             },
             {
                 "name": "LOOSE ENDS",
                 "id": null,
-                "progressId": "nlw:Easy:406:LOOSE ENDS",
+                "progressId": "nlw:Easy:407:LOOSE ENDS",
                 "copyValue": "LOOSE ENDS",
                 "video": "https://youtu.be/U4WVAJmRC18?si=qAICWaPxhjtiyCKx"
             },
             {
                 "name": "Luma",
                 "id": null,
-                "progressId": "nlw:Easy:407:Luma",
+                "progressId": "nlw:Easy:408:Luma",
                 "copyValue": "Luma",
                 "video": "https://youtu.be/R3ckIVfamC0?si=v2msCodW-O4wnmQv"
             },
             {
                 "name": "M A N I X",
                 "id": null,
-                "progressId": "nlw:Easy:408:M A N I X",
+                "progressId": "nlw:Easy:409:M A N I X",
                 "copyValue": "M A N I X",
                 "video": "https://youtu.be/D8h7lGTbLZs?si=gAYmjD-58GKUV0mI"
             },
             {
                 "name": "MAKE ME SAD",
                 "id": null,
-                "progressId": "nlw:Easy:409:MAKE ME SAD",
+                "progressId": "nlw:Easy:410:MAKE ME SAD",
                 "copyValue": "MAKE ME SAD",
                 "video": "https://youtu.be/GmJvT80g9Vs?si=5NhkSyfgZd9lIUJW"
             },
             {
                 "name": "Mandragora",
                 "id": null,
-                "progressId": "nlw:Easy:410:Mandragora",
+                "progressId": "nlw:Easy:411:Mandragora",
                 "copyValue": "Mandragora",
                 "video": "https://youtu.be/6PVr-FFrM_M?si=3K5t6spSt8kwfGJs"
             },
             {
                 "name": "Marlboro reds",
                 "id": null,
-                "progressId": "nlw:Easy:411:Marlboro reds",
+                "progressId": "nlw:Easy:412:Marlboro reds",
                 "copyValue": "Marlboro reds",
                 "video": "https://youtu.be/PjoSUR8FTyw?si=Yl-d2CGUh0cf1fgr"
             },
             {
                 "name": "MasmeCrescent",
                 "id": null,
-                "progressId": "nlw:Easy:412:MasmeCrescent",
+                "progressId": "nlw:Easy:413:MasmeCrescent",
                 "copyValue": "MasmeCrescent",
                 "video": "https://youtu.be/SyV2TGH1a4k?si=Y3eU38zMTZi9DX3U"
             },
             {
                 "name": "Mazemory",
                 "id": null,
-                "progressId": "nlw:Easy:413:Mazemory",
+                "progressId": "nlw:Easy:414:Mazemory",
                 "copyValue": "Mazemory",
                 "video": "https://youtu.be/NE3cae0MV7g?si=VqyDqj6XM664m6Tj"
             },
             {
                 "name": "Mjolnir",
                 "id": null,
-                "progressId": "nlw:Easy:414:Mjolnir",
+                "progressId": "nlw:Easy:415:Mjolnir",
                 "copyValue": "Mjolnir",
                 "video": "https://youtu.be/ehfRYc65f4c?si=mnSEfYV-U61UM3MN"
             },
             {
                 "name": "morning vibe",
                 "id": null,
-                "progressId": "nlw:Easy:415:morning vibe",
+                "progressId": "nlw:Easy:416:morning vibe",
                 "copyValue": "morning vibe",
                 "video": "https://youtu.be/FINGx9Ma-F8?si=Rpyw2O3_sWTf1SPu"
             },
             {
                 "name": "Myocardia",
                 "id": null,
-                "progressId": "nlw:Easy:416:Myocardia",
+                "progressId": "nlw:Easy:417:Myocardia",
                 "copyValue": "Myocardia",
                 "video": "https://www.youtube.com/watch?v=YM57bl_8zcw"
             },
             {
                 "name": "Napalm",
                 "id": null,
-                "progressId": "nlw:Easy:417:Napalm",
+                "progressId": "nlw:Easy:418:Napalm",
                 "copyValue": "Napalm",
                 "video": "https://youtu.be/X_tjfsjP7Rg?si=NA1-bQkGZVeFFKqv"
             },
             {
                 "name": "NecropoliX",
                 "id": null,
-                "progressId": "nlw:Easy:418:NecropoliX",
+                "progressId": "nlw:Easy:419:NecropoliX",
                 "copyValue": "NecropoliX",
                 "video": "https://youtu.be/inkO5PKPEFA?si=mP-7hg-Ztg2jwxRN"
             },
             {
                 "name": "NEKOTINE",
                 "id": null,
-                "progressId": "nlw:Easy:419:NEKOTINE",
+                "progressId": "nlw:Easy:420:NEKOTINE",
                 "copyValue": "NEKOTINE",
                 "video": "https://www.youtube.com/watch?v=RcczDz2YWeM"
             },
             {
                 "name": "NO MORE",
                 "id": null,
-                "progressId": "nlw:Easy:420:NO MORE",
+                "progressId": "nlw:Easy:421:NO MORE",
                 "copyValue": "NO MORE",
                 "video": "https://youtu.be/rNg61Iz0Llc?si=-CWsfhkmGGR1Q2JX"
             },
             {
                 "name": "Noble Plague",
                 "id": null,
-                "progressId": "nlw:Easy:421:Noble Plague",
+                "progressId": "nlw:Easy:422:Noble Plague",
                 "copyValue": "Noble Plague",
                 "video": "https://youtu.be/xUv3FEnYQMU?si=MrbWdVea1iHpLHdG"
             },
             {
                 "name": "Northern Essence",
                 "id": null,
-                "progressId": "nlw:Easy:422:Northern Essence",
+                "progressId": "nlw:Easy:423:Northern Essence",
                 "copyValue": "Northern Essence",
                 "video": "https://youtu.be/MYaER718G8I?si=Q18Aw7uRHTwWOKRF"
             },
             {
                 "name": "nowdead",
                 "id": null,
-                "progressId": "nlw:Easy:423:nowdead",
+                "progressId": "nlw:Easy:424:nowdead",
                 "copyValue": "nowdead",
                 "video": "https://youtu.be/iGmGQZnlh4k?si=eNckzMi7_4gIvT3H"
             },
             {
                 "name": "Once Again",
                 "id": null,
-                "progressId": "nlw:Easy:424:Once Again",
+                "progressId": "nlw:Easy:425:Once Again",
                 "copyValue": "Once Again",
                 "video": "https://youtu.be/0zai0lpI8eU?si=u4pY_7PxOdYHoHxk"
             },
             {
                 "name": "ONVIL FACTORY",
                 "id": null,
-                "progressId": "nlw:Easy:425:ONVIL FACTORY",
+                "progressId": "nlw:Easy:426:ONVIL FACTORY",
                 "copyValue": "ONVIL FACTORY",
                 "video": "https://www.youtube.com/watch?v=S3bdDnGxggY"
             },
             {
                 "name": "Our Fountain",
                 "id": null,
-                "progressId": "nlw:Easy:426:Our Fountain",
+                "progressId": "nlw:Easy:427:Our Fountain",
                 "copyValue": "Our Fountain",
                 "video": "https://www.youtube.com/watch?v=yFwWsO5NRGU"
             },
             {
                 "name": "Outside Eyesight",
                 "id": null,
-                "progressId": "nlw:Easy:427:Outside Eyesight",
+                "progressId": "nlw:Easy:428:Outside Eyesight",
                 "copyValue": "Outside Eyesight",
                 "video": "https://youtu.be/BWD2vulQwq4?si=o8QFrUoSMGapcpDB"
             },
             {
                 "name": "PAINFUL PLAYLAND",
                 "id": null,
-                "progressId": "nlw:Easy:428:PAINFUL PLAYLAND",
+                "progressId": "nlw:Easy:429:PAINFUL PLAYLAND",
                 "copyValue": "PAINFUL PLAYLAND",
                 "video": "https://youtu.be/R_b3U7xXmnI?si=h6hHG8T7jJX6NnFr"
             },
             {
                 "name": "PARANOIA",
                 "id": null,
-                "progressId": "nlw:Easy:429:PARANOIA",
+                "progressId": "nlw:Easy:430:PARANOIA",
                 "copyValue": "PARANOIA",
                 "video": "https://www.youtube.com/watch?v=XA2EE3K9HJg"
             },
             {
                 "name": "Paranoid",
                 "id": null,
-                "progressId": "nlw:Easy:430:Paranoid",
+                "progressId": "nlw:Easy:431:Paranoid",
                 "copyValue": "Paranoid",
                 "video": "https://youtu.be/2xwMmoUNsw0?si=7le1fXnxb5aHM-Z6"
             },
             {
                 "name": "Pessimism",
                 "id": null,
-                "progressId": "nlw:Easy:431:Pessimism",
+                "progressId": "nlw:Easy:432:Pessimism",
                 "copyValue": "Pessimism",
                 "video": "https://youtu.be/FHuGBHXsR-A?si=Nmp-2PLBU20Q9ucP"
             },
             {
                 "name": "PLUS ULTRA",
                 "id": null,
-                "progressId": "nlw:Easy:432:PLUS ULTRA",
+                "progressId": "nlw:Easy:433:PLUS ULTRA",
                 "copyValue": "PLUS ULTRA",
                 "video": "https://youtu.be/i48ESR4IyBY?si=PP_vwJe1Bewf4tRR"
             },
             {
                 "name": "Pound Town",
                 "id": null,
-                "progressId": "nlw:Easy:433:Pound Town",
+                "progressId": "nlw:Easy:434:Pound Town",
                 "copyValue": "Pound Town",
                 "video": "https://youtu.be/B_gWzIQUnUw?si=NYJzatm6oufDi8NB"
             },
             {
                 "name": "Pumped Up Kicks",
                 "id": null,
-                "progressId": "nlw:Easy:434:Pumped Up Kicks",
+                "progressId": "nlw:Easy:435:Pumped Up Kicks",
                 "copyValue": "Pumped Up Kicks",
                 "video": "https://youtu.be/X6cwQeJWGtg?si=evom4XVbz-QeroM3"
             },
             {
                 "name": "Quadratic Function",
                 "id": null,
-                "progressId": "nlw:Easy:435:Quadratic Function",
+                "progressId": "nlw:Easy:436:Quadratic Function",
                 "copyValue": "Quadratic Function",
                 "video": "https://youtu.be/-p2mFAsNlW4?si=PLh3QOi16-n6cwh8"
             },
             {
                 "name": "Reanimate",
                 "id": null,
-                "progressId": "nlw:Easy:436:Reanimate",
+                "progressId": "nlw:Easy:437:Reanimate",
                 "copyValue": "Reanimate",
                 "video": "https://youtu.be/jk-r4_Nctes?si=ntPCZMZbD5MSRStR"
             },
             {
                 "name": "Reaper Lair",
                 "id": null,
-                "progressId": "nlw:Easy:437:Reaper Lair",
+                "progressId": "nlw:Easy:438:Reaper Lair",
                 "copyValue": "Reaper Lair",
                 "video": "https://youtu.be/vTZmN-_WC8s"
             },
             {
                 "name": "Recrystallize",
                 "id": null,
-                "progressId": "nlw:Easy:438:Recrystallize",
+                "progressId": "nlw:Easy:439:Recrystallize",
                 "copyValue": "Recrystallize",
                 "video": "https://youtu.be/kYvENpZHVuc?si=WQ7WrHpN1ck3ces4"
             },
             {
                 "name": "Red World Rebirth",
                 "id": null,
-                "progressId": "nlw:Easy:439:Red World Rebirth",
+                "progressId": "nlw:Easy:440:Red World Rebirth",
                 "copyValue": "Red World Rebirth",
                 "video": "https://youtu.be/SwcFG6bAVsU?si=lE741k8yppAQWVcV"
             },
             {
                 "name": "Reeses Potentially 2",
                 "id": null,
-                "progressId": "nlw:Easy:440:Reeses Potentially 2",
+                "progressId": "nlw:Easy:441:Reeses Potentially 2",
                 "copyValue": "Reeses Potentially 2",
                 "video": "https://youtu.be/x_IoQJ0OBiY?si=p-HUIZ3rfH2-voU9"
             },
             {
                 "name": "Reflective",
                 "id": null,
-                "progressId": "nlw:Easy:441:Reflective",
+                "progressId": "nlw:Easy:442:Reflective",
                 "copyValue": "Reflective",
                 "video": "https://youtu.be/Y-Cn-DC7OoY?si=yGZvO45iE_yxx4mR"
             },
             {
                 "name": "Retention",
                 "id": null,
-                "progressId": "nlw:Easy:442:Retention",
+                "progressId": "nlw:Easy:443:Retention",
                 "copyValue": "Retention",
                 "video": "https://youtu.be/PrN3EVKs5zk?si=OOJMY9s2V8yuEtmm"
             },
             {
                 "name": "Reunite",
                 "id": null,
-                "progressId": "nlw:Easy:443:Reunite",
+                "progressId": "nlw:Easy:444:Reunite",
                 "copyValue": "Reunite",
                 "video": "https://youtu.be/rjYbhmatrhU?si=pPbqQLlbZXU-eLaY"
             },
             {
                 "name": "reverence",
                 "id": null,
-                "progressId": "nlw:Easy:444:reverence",
+                "progressId": "nlw:Easy:445:reverence",
                 "copyValue": "reverence",
                 "video": "https://youtu.be/wMpzEMKlFKs?si=Pdf1AFXTbuRQeG-0"
             },
             {
                 "name": "RIVERS OF NAZARETH",
                 "id": null,
-                "progressId": "nlw:Easy:445:RIVERS OF NAZARETH",
+                "progressId": "nlw:Easy:446:RIVERS OF NAZARETH",
                 "copyValue": "RIVERS OF NAZARETH",
                 "video": "https://youtu.be/GYNgjfd9-fM?si=J6cAUfWFNCiAvQEu"
             },
             {
                 "name": "RTX ON",
                 "id": null,
-                "progressId": "nlw:Easy:446:RTX ON",
+                "progressId": "nlw:Easy:447:RTX ON",
                 "copyValue": "RTX ON",
                 "video": "https://youtu.be/YtjUFUXCdjw?si=hD1MdyrSSJo5hjhz"
             },
             {
                 "name": "Runtime Error",
                 "id": null,
-                "progressId": "nlw:Easy:447:Runtime Error",
+                "progressId": "nlw:Easy:448:Runtime Error",
                 "copyValue": "Runtime Error",
                 "video": "https://youtu.be/21o0nvX5lh8?si=gMwVNTVPx6AuSVtJ"
             },
             {
                 "name": "sarthix",
                 "id": null,
-                "progressId": "nlw:Easy:448:sarthix",
+                "progressId": "nlw:Easy:449:sarthix",
                 "copyValue": "sarthix",
                 "video": "https://youtu.be/0CpWK9Fey_c?si=Fn3TFgBAS0F8RsQI"
             },
             {
                 "name": "SEGFAULT",
                 "id": null,
-                "progressId": "nlw:Easy:449:SEGFAULT",
+                "progressId": "nlw:Easy:450:SEGFAULT",
                 "copyValue": "SEGFAULT",
                 "video": "https://youtu.be/hTMTRwocuBo?si=kqttFsPSYdbUt_0K"
             },
             {
                 "name": "Semicolon 3",
                 "id": null,
-                "progressId": "nlw:Easy:450:Semicolon 3",
+                "progressId": "nlw:Easy:451:Semicolon 3",
                 "copyValue": "Semicolon 3",
                 "video": "https://youtu.be/j956yga1Tu8?si=g1frewGuRpCpVNGT"
             },
             {
                 "name": "Shimmer",
                 "id": null,
-                "progressId": "nlw:Easy:451:Shimmer",
+                "progressId": "nlw:Easy:452:Shimmer",
                 "copyValue": "Shimmer",
                 "video": "https://youtu.be/Ar5bQvrnPyU?si=2AGL9zsRzplUu-8v"
             },
             {
                 "name": "SHINE",
                 "id": null,
-                "progressId": "nlw:Easy:452:SHINE",
+                "progressId": "nlw:Easy:453:SHINE",
                 "copyValue": "SHINE",
                 "video": "https://youtu.be/VtvIwfkZock?si=iuE_GlArYpOwq5d3"
             },
             {
                 "name": "Shukufuku",
                 "id": null,
-                "progressId": "nlw:Easy:453:Shukufuku",
+                "progressId": "nlw:Easy:454:Shukufuku",
                 "copyValue": "Shukufuku",
                 "video": "https://youtu.be/jcJmQ6L98JE?si=qg7eG93P_l5wuNUX"
             },
             {
                 "name": "Sky tech",
                 "id": null,
-                "progressId": "nlw:Easy:454:Sky tech",
+                "progressId": "nlw:Easy:455:Sky tech",
                 "copyValue": "Sky tech",
                 "video": "https://youtu.be/_tLaFXCtVpE?si=xkq0GL8Cg2DnfZFL"
             },
             {
                 "name": "Sleepwalking",
                 "id": null,
-                "progressId": "nlw:Easy:455:Sleepwalking",
+                "progressId": "nlw:Easy:456:Sleepwalking",
                 "copyValue": "Sleepwalking",
                 "video": "https://youtu.be/7WrM8rSHqhE?si=GO60R8ICcYIldjoV"
             },
             {
                 "name": "SMARTISH MODE",
                 "id": null,
-                "progressId": "nlw:Easy:456:SMARTISH MODE",
+                "progressId": "nlw:Easy:457:SMARTISH MODE",
                 "copyValue": "SMARTISH MODE",
                 "video": "https://youtu.be/o3KROKAaxC8?si=kNLLN1KCdt8YLrRW"
             },
             {
                 "name": "SMASH",
                 "id": null,
-                "progressId": "nlw:Easy:457:SMASH",
+                "progressId": "nlw:Easy:458:SMASH",
                 "copyValue": "SMASH",
                 "video": "https://youtu.be/DdIr17RWbA4?si=pTcVFgI9Hx4LPJKW"
             },
             {
                 "name": "Soundwave",
                 "id": null,
-                "progressId": "nlw:Easy:458:Soundwave",
+                "progressId": "nlw:Easy:459:Soundwave",
                 "copyValue": "Soundwave",
                 "video": "https://youtu.be/4eHnl9j1vmU?si=md8SRXO76Z5LsDAv"
             },
             {
                 "name": "Spacious Senses",
                 "id": null,
-                "progressId": "nlw:Easy:459:Spacious Senses",
+                "progressId": "nlw:Easy:460:Spacious Senses",
                 "copyValue": "Spacious Senses",
                 "video": "https://youtu.be/U-aW534KOUg?si=BKN12_x3761W7kn5"
             },
             {
                 "name": "stand in the snow",
                 "id": null,
-                "progressId": "nlw:Easy:460:stand in the snow",
+                "progressId": "nlw:Easy:461:stand in the snow",
                 "copyValue": "stand in the snow",
                 "video": "https://youtu.be/zB3BASJ--lg?si=gC0Gc7T_MmFFEele"
             },
             {
                 "name": "STARBREAKER",
                 "id": null,
-                "progressId": "nlw:Easy:461:STARBREAKER",
+                "progressId": "nlw:Easy:462:STARBREAKER",
                 "copyValue": "STARBREAKER",
                 "video": "https://youtu.be/ZJR7N4l0dTg?si=6vcszDvn-oyOdUPP"
             },
             {
                 "name": "Stasis",
                 "id": null,
-                "progressId": "nlw:Easy:462:Stasis",
+                "progressId": "nlw:Easy:463:Stasis",
                 "copyValue": "Stasis",
                 "video": "https://www.youtube.com/watch?v=soy5vOLrmpk"
             },
             {
                 "name": "Steel Terrors",
                 "id": null,
-                "progressId": "nlw:Easy:463:Steel Terrors",
+                "progressId": "nlw:Easy:464:Steel Terrors",
                 "copyValue": "Steel Terrors",
                 "video": "https://www.youtube.com/watch?v=1xgwTXusxVM"
             },
             {
                 "name": "Stellaluna",
                 "id": null,
-                "progressId": "nlw:Easy:464:Stellaluna",
+                "progressId": "nlw:Easy:465:Stellaluna",
                 "copyValue": "Stellaluna",
                 "video": "https://youtu.be/ua1NkLLPTyg?si=LR_FrRrx7KnxU4aQ"
             },
             {
                 "name": "sunburn",
                 "id": null,
-                "progressId": "nlw:Easy:465:sunburn",
+                "progressId": "nlw:Easy:466:sunburn",
                 "copyValue": "sunburn",
                 "video": "https://youtu.be/TJW0igkGVSw?si=3yOLgjcp7MnNhVTt"
             },
             {
                 "name": "Swirling Serenity",
                 "id": null,
-                "progressId": "nlw:Easy:466:Swirling Serenity",
+                "progressId": "nlw:Easy:467:Swirling Serenity",
                 "copyValue": "Swirling Serenity",
                 "video": "https://youtu.be/ul5FQywU_7s?si=TzLhALE4HTOG1y3A"
-            },
-            {
-                "name": "Tech Manifestation",
-                "id": null,
-                "progressId": "nlw:Easy:467:Tech Manifestation",
-                "copyValue": "Tech Manifestation",
-                "video": "https://youtu.be/w7dPmWLeaAA?si=9d2ZFrSpzjxQYcg1"
             },
             {
                 "name": "Techno Flashes",

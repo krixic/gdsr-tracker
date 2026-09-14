@@ -103,6 +103,11 @@ export const ccplTinyLevels = [
                 "video": ""
             },
             {
+                "name": "SATANOSTIC WAVE",
+                "id": 148226275,
+                "video": ""
+            },
+            {
                 "name": "Bored Wave Bonus",
                 "id": 82107447,
                 "video": "https://youtu.be/84RLvzMWRFI?t=273"
@@ -156,6 +161,11 @@ export const ccplTinyLevels = [
                 "video": "https://youtu.be/84RLvzMWRFI?t=230"
             },
             {
+                "name": "Skillset Challenge",
+                "id": 75062893,
+                "video": ""
+            },
+            {
                 "name": "nightschool",
                 "id": 90962794,
                 "video": ""
@@ -194,23 +204,23 @@ export const ccplTinyLevels = [
                 "video": ""
             },
             {
-                "name": "Skillset Challenge",
-                "id": 75062893,
-                "video": ""
-            },
-            {
-                "name": "spaces never clear",
-                "id": 94368626,
-                "video": "https://youtu.be/5r0N758hb6M?si=Q8OgZG7_WeqQ_i49"
-            },
-            {
                 "name": "8063",
                 "id": 32714994,
                 "video": "https://youtu.be/sA8vPjaVZak"
             },
             {
+                "name": "heavenistic wave",
+                "id": 148375483,
+                "video": ""
+            },
+            {
                 "name": "Tunnel",
                 "id": 114382516,
+                "video": ""
+            },
+            {
+                "name": "Penny Pink",
+                "id": 148557106,
                 "video": ""
             },
             {
@@ -222,6 +232,11 @@ export const ccplTinyLevels = [
                 "name": "Albondiga",
                 "id": 62177486,
                 "video": "https://youtu.be/Z4j6F78Lszs"
+            },
+            {
+                "name": "spaces never clear",
+                "id": 94368626,
+                "video": "https://youtu.be/5r0N758hb6M?si=Q8OgZG7_WeqQ_i49"
             },
             {
                 "name": "stitches",
@@ -353,14 +368,14 @@ export const ccplTinyLevels = [
                 "video": "https://youtu.be/gKagmkplR7g?si=jw70L3VXH-h9oDqb"
             },
             {
-                "name": "lebron james",
-                "id": 112934309,
-                "video": "https://www.youtube.com/watch?v=CwuLCJiX4c0"
-            },
-            {
                 "name": "Distraught",
                 "id": 89699296,
                 "video": "https://youtu.be/B26YibmqhMs"
+            },
+            {
+                "name": "lebron james",
+                "id": 112934309,
+                "video": "https://www.youtube.com/watch?v=CwuLCJiX4c0"
             },
             {
                 "name": "BeAT ReaPeR",
@@ -404,21 +419,6 @@ export const ccplTinyLevels = [
                 "name": "Fluctuation",
                 "id": 138437339,
                 "video": "https://youtu.be/7nkph5CVdBo?si=Dg_z36xNrzuyHaB3"
-            },
-            {
-                "name": "PsychoRAT",
-                "id": 88728693,
-                "video": "https://youtu.be/KkasAKaZVtY"
-            },
-            {
-                "name": "Train hard or RAT",
-                "id": 88694411,
-                "video": "https://youtu.be/nT6_fvDbuks"
-            },
-            {
-                "name": "DEORUM 2",
-                "id": 73227169,
-                "video": ""
             }
         ],
         "pack": "Tiny DLC"
