@@ -8,7 +8,11 @@ const datasetFiles = files
     .filter((file) => file.endsWith(".js"))
     .filter((file) => {
         const lower = file.toLowerCase();
-        return lower !== "index.js" && lower !== "listconfig.js";
+        return (
+            lower !== "index.js" &&
+            lower !== "listconfig.js" &&
+            lower !== "hardcodedoverrides.js"
+        );
     })
     .sort((a, b) => a.localeCompare(b));
 
