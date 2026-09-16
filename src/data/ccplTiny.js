@@ -100,12 +100,12 @@ export const ccplTinyLevels = [
             {
                 "name": "mini",
                 "id": 103246509,
-                "video": ""
+                "video": "https://www.youtube.com/watch?v=eEH_x8X_tBo&amp;pp=ygUOa2F0bmJsYWNrIG1pbmk%3D"
             },
             {
                 "name": "SATANOSTIC WAVE",
                 "id": 148226275,
-                "video": ""
+                "video": "https://youtu.be/AhxnWhciDGs?si=nGhESYLcq6FBPrU3&amp;t=7"
             },
             {
                 "name": "Bored Wave Bonus",
@@ -143,17 +143,17 @@ export const ccplTinyLevels = [
             {
                 "name": "fast wave",
                 "id": 84900072,
-                "video": ""
+                "video": "https://www.youtube.com/watch?v=yU7FO7IpHAM&amp;pp=ygUQa2F0bmJsYWNrIGxlc3Nvbg%3D%3D"
             },
             {
                 "name": "hork",
                 "id": 95138629,
-                "video": ""
+                "video": "https://youtu.be/UcFlinr-nJY?si=-K9ZYza5s_whU8Nl"
             },
             {
                 "name": "hork ii",
                 "id": 95141404,
-                "video": ""
+                "video": "https://youtu.be/UcFlinr-nJY?si=3q2j1aL--RmWSBZB&amp;t=12"
             },
             {
                 "name": "Silent Circles 95 p",
@@ -163,12 +163,12 @@ export const ccplTinyLevels = [
             {
                 "name": "Skillset Challenge",
                 "id": 75062893,
-                "video": ""
+                "video": "https://www.youtube.com/watch?v=ju70-Md4DUM&amp;pp=ygUSc2tpbGxzZXQgY2hhbGxlbmdl"
             },
             {
                 "name": "nightschool",
                 "id": 90962794,
-                "video": ""
+                "video": "https://www.youtube.com/watch?v=uk9Y6sYRf3A&amp;pp=ygUSbXMxMTIxIG5pZ2h0c2Nob29s"
             },
             {
                 "name": "KatnBlack Chal 1",
@@ -201,7 +201,7 @@ export const ccplTinyLevels = [
             {
                 "name": "Alotau",
                 "id": 91888843,
-                "video": ""
+                "video": "https://files.catbox.moe/ofykc7.mp4"
             },
             {
                 "name": "8063",
@@ -209,19 +209,24 @@ export const ccplTinyLevels = [
                 "video": "https://youtu.be/sA8vPjaVZak"
             },
             {
+                "name": "Trash Lol",
+                "id": 65235620,
+                "video": "https://youtu.be/0rm_F5cqBzQ"
+            },
+            {
                 "name": "heavenistic wave",
                 "id": 148375483,
-                "video": ""
+                "video": "https://www.youtube.com/watch?v=AhxnWhciDGs"
             },
             {
                 "name": "Tunnel",
                 "id": 114382516,
-                "video": ""
+                "video": "https://www.youtube.com/watch?v=3OJLut1eCO0&amp;pp=ygUTZGVuc2VjYWJiYWdlIHR1bm5lbA%3D%3D"
             },
             {
                 "name": "Penny Pink",
                 "id": 148557106,
-                "video": ""
+                "video": "https://www.youtube.com/watch?v=3zFTqvUDI_w"
             },
             {
                 "name": "Wave Challenge Z",
@@ -244,14 +249,14 @@ export const ccplTinyLevels = [
                 "video": "https://www.youtube.com/watch?v=LUZVF7x9Vls"
             },
             {
+                "name": "RAGE NO I",
+                "id": 89699290,
+                "video": "https://www.youtube.com/watch?v=6qwuCsY77tc&amp;pp=ygUTa2F0bmJsYWNrIHJhZ2Ugbm8gaQ%3D%3D"
+            },
+            {
                 "name": "Chromebook mp4",
                 "id": 77431704,
                 "video": "https://youtu.be/i4NZKvCVUkk"
-            },
-            {
-                "name": "Trash Lol",
-                "id": 65235620,
-                "video": "https://youtu.be/0rm_F5cqBzQ"
             }
         ],
         "pack": "Tiny DLC"
@@ -380,7 +385,7 @@ export const ccplTinyLevels = [
             {
                 "name": "BeAT ReaPeR",
                 "id": 140201838,
-                "video": "https://cdn.discordapp.com/attachments/770487953179934721/1503686835245944853/BeAT_RaPPeR.mp4?ex=6a0440fe&amp;is=6a02ef7e&amp;hm=e74621e2b73f589deac540881bc4a3c71719b7aa7d7b4a8079313f7fac37a8b2&amp;"
+                "video": "https://files.catbox.moe/pzt982.mp4"
             },
             {
                 "name": "Beside You",

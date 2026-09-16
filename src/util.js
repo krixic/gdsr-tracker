@@ -1,3 +1,5 @@
+import { levelKeySyncOverrides } from "./data/hardcodedOverrides.js";
+
 export const utilityPages = [
     { name: "Stats", path: "/stats" },
     { name: "Info", path: "/info" },
@@ -121,6 +123,15 @@ export const getDuplicateIds = (levels) => {
     );
 };
 
+const levelKeySyncOverrideMap = new Map(
+    levelKeySyncOverrides.flatMap(({ id, names }) =>
+        names.map((name) => [
+            `${id}:${name.trim().toLocaleLowerCase()}`,
+            String(id),
+        ]),
+    ),
+);
+
 export const getLevelKey = (level, duplicateIds) => {
     if (level.progressId) return level.progressId;
 
@@ -133,6 +144,9 @@ export const getLevelKey = (level, duplicateIds) => {
     if (!name) {
         return id;
     }
+
+    const overrideKey = levelKeySyncOverrideMap.get(`${id}:${name}`);
+    if (overrideKey) return overrideKey;
 
     if (duplicateIds?.has(level.id)) {
         return `${id}:${name}`;

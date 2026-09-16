@@ -4,6 +4,7 @@ import ccplSecret from "./ccplSecret.js";
 import ccplTiny from "./ccplTiny.js";
 import dlc from "./dlc.js";
 import gdsr from "./gdsr.js";
+import hardcodedOverrides from "./hardcodedOverrides.js";
 import lw from "./lw.js";
 import nlw from "./nlw.js";
 import ship from "./ship.js";
@@ -16,6 +17,7 @@ const datasets = {
     ccplTiny,
     dlc,
     gdsr,
+    hardcodedOverrides,
     lw,
     nlw,
     ship,
