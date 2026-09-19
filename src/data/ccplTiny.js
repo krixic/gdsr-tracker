@@ -39,7 +39,7 @@ export const ccplTinyLevels = [
     },
     {
         "rank": "Silver",
-        "requirement": 8,
+        "requirement": 11,
         "headerColor": "B7B7B7",
         "levels": [
             {
@@ -127,7 +127,7 @@ export const ccplTinyLevels = [
     },
     {
         "rank": "Gold",
-        "requirement": 5,
+        "requirement": 6,
         "headerColor": "F1C232",
         "levels": [
             {
@@ -185,7 +185,7 @@ export const ccplTinyLevels = [
     },
     {
         "rank": "Emerald",
-        "requirement": 6,
+        "requirement": 9,
         "headerColor": "6AA84F",
         "levels": [
             {
@@ -263,7 +263,7 @@ export const ccplTinyLevels = [
     },
     {
         "rank": "Ruby",
-        "requirement": 5,
+        "requirement": 6,
         "headerColor": "CC0000",
         "levels": [
             {
