@@ -1,5 +1,13 @@
 export const changelogContent = [
     {
+        id: "2026-09-23",
+        title: "1tD22KypFdYC9tz4HGWHG_zR7tWJxZJRTCEs5tr340w4",
+        changes: [
+            "Small update, added new list Wave Pattern Progression List, better contrast for ranks that are yellow and reaching requirement",
+            "[I got Gold+ on GDSR Wave](https://youtu.be/AKufNJW-HC0)",
+        ],
+    },
+    {
         id: "2026-09-12",
         title: "Other Minds",
         changes: [
@@ -15,7 +23,7 @@ export const changelogContent = [
         id: "2026-02-06",
         title: "Genesis",
         changes: [
-            "Full site rewrite! When I first started making this site which you can [see here](https://d8e99368.gdsr.pages.dev/), I just was just testing the waters of web development and inspired by [GDDP](https://gddp.pro), I decided to make a GDSR Wave tracker.",
+            "Full site rewrite! When I first started making this site which you can [see here](https://d8e99368.gdsr.pages.dev/), I just was just testing the waters of web development and inspired by [GDDP](https://gddp.pro) and [JPerm's algorithm trainer](https://www.jperm.net/algs/pll), I decided to make a GDSR Wave tracker.",
             "Now obviously the first versions of this site was rough but slowly and surely I got the hang of it and decided on a robust and simplistic design philosophy when developing this site. Along the line, I wanted more out of this site and a single-page, static site where all of the levels was on a single carousel wasn't going to cut it. That's where I decided a rewrite was in order. As I kept developing and there were more and more features that I wanted, the original codebase wasn't robust enough for actual maintenance, so building from the ground up was the easiest.",
             "As far as rewrites go, I obviously still wanted it to be faithful to the original look, of which the designs were never prototyped or mocked up LOL, I basically winged the whole process and just messed around with CSS, but this rewrite I decided to use Tailwind to speed up the development process and it also helped for consistent design choices and make the site overall look better",
             "This changelog was also written retroactively, at the time the second site update releases, so this is mostly just a reflection on the site's development process.",

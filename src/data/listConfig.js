@@ -8,6 +8,7 @@ import { ccplConsistencyLevels } from "./ccplConsistency.js";
 import { ccplSecretLevels } from "./ccplSecret.js";
 import { nlwLevels } from "./nlw.js";
 import { lwLevels } from "./lw.js";
+import { wpplLevels } from "./wppl.js";
 import { getDuplicateIds } from "../util.js";
 
 export const listConfigs = [
@@ -90,6 +91,14 @@ export const listConfigs = [
         title: "Secret DLC",
         levels: ccplSecretLevels,
         type: "ccplSecret",
+    },
+    {
+        key: "wppl",
+        main: "WPPL",
+        path: "/wppl",
+        title: "WPPL",
+        levels: wpplLevels,
+        type: "wppl",
     },
     {
         key: "nlw",

@@ -8,6 +8,7 @@ import lw from "./lw.js";
 import nlw from "./nlw.js";
 import ship from "./ship.js";
 import shipDlc from "./shipDlc.js";
+import wppl from "./wppl.js";
 
 const datasets = {
     ccpl,
@@ -20,6 +21,7 @@ const datasets = {
     nlw,
     ship,
     shipDlc,
+    wppl,
 };
 
 export default datasets;

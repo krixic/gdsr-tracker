@@ -43,6 +43,14 @@ const groupConfigs = [
         label: "DL",
         configs: ["nlw", "lw"],
     },
+    {
+        key: "wppl",
+        label: "WPPL",
+        configs: ["wppl"],
+        // WPPL is a single flat list with no bonus/excluded content, so a
+        // separate "grand total" would just duplicate the regular total.
+        hideGrandTotal: true,
+    },
 ];
 
 const EMPTY_OBJECT = Object.freeze({});
@@ -155,6 +163,7 @@ export const Stats = () => {
                         (sum, sub) => sum + sub.grandCompleted,
                         0,
                     ),
+                    hideGrandTotal: Boolean(groupConfig.hideGrandTotal),
                     subs,
                 };
             })

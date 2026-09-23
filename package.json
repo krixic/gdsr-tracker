@@ -7,7 +7,6 @@
         "node": ">=20.19.0"
     },
     "scripts": {
-        "predev": "node scripts/import.js && node scripts/generate-datasets.js",
         "dev": "vite",
         "prebuild": "node scripts/import.js && node scripts/generate-datasets.js",
         "build": "vite build",

@@ -5,10 +5,20 @@ export const SummaryCards = ({
     totalAttemptsAll,
     showAttempts,
 }) => {
+    const grandTotalGroups = summaryGroups.filter(
+        (group) => !group.hideGrandTotal,
+    );
+    const cardCount =
+        1 + (grandTotalGroups.length > 0 ? 1 : 0) + (showAttempts ? 1 : 0);
+
     return (
         <div
             className={`grid grid-cols-1 gap-6 ${
-                showAttempts ? "md:grid-cols-3" : "md:grid-cols-2"
+                cardCount >= 3
+                    ? "md:grid-cols-3"
+                    : cardCount === 2
+                      ? "md:grid-cols-2"
+                      : ""
             }`}
         >
             <div className="bg-level p-6">
@@ -18,21 +28,23 @@ export const SummaryCards = ({
                 <div className="space-y-4">
                     {summaryGroups.map((group) => (
                         <div key={group.key}>
-                            <div className="space-y-1 text-sm">
-                                {group.subs.map((sub) => (
-                                    <div
-                                        key={sub.key}
-                                        className="flex items-center justify-between gap-3"
-                                    >
-                                        <span className="text-white/70">
-                                            {sub.label} Total
-                                        </span>
-                                        <span className="text-white">
-                                            {sub.completed}
-                                        </span>
-                                    </div>
-                                ))}
-                            </div>
+                            {group.subs.length > 1 && (
+                                <div className="space-y-1 text-sm">
+                                    {group.subs.map((sub) => (
+                                        <div
+                                            key={sub.key}
+                                            className="flex items-center justify-between gap-3"
+                                        >
+                                            <span className="text-white/70">
+                                                {sub.label} Total
+                                            </span>
+                                            <span className="text-white">
+                                                {sub.completed}
+                                            </span>
+                                        </div>
+                                    ))}
+                                </div>
+                            )}
                             <div className="mt-4 border-t border-white/10 pt-4 flex items-center justify-between gap-3">
                                 <span className="text-white font-bold">
                                     {group.label} Total
@@ -43,40 +55,44 @@ export const SummaryCards = ({
                     ))}
                 </div>
             </div>
-            <div className="bg-level p-6">
-                <div className="flex items-center justify-between gap-3 mb-4">
-                    <h3 className="text-xl font-bold">Grand Totals</h3>
-                </div>
-                <div className="space-y-4">
-                    {summaryGroups.map((group) => (
-                        <div key={group.key}>
-                            <div className="space-y-1 text-sm">
-                                {group.subs.map((sub) => (
-                                    <div
-                                        key={sub.key}
-                                        className="flex items-center justify-between gap-3"
-                                    >
-                                        <span className="text-white/70">
-                                            {sub.label} Grand Total
-                                        </span>
-                                        <span className="text-white">
-                                            {sub.grandCompleted}
-                                        </span>
+            {grandTotalGroups.length > 0 && (
+                <div className="bg-level p-6">
+                    <div className="flex items-center justify-between gap-3 mb-4">
+                        <h3 className="text-xl font-bold">Grand Totals</h3>
+                    </div>
+                    <div className="space-y-4">
+                        {grandTotalGroups.map((group) => (
+                            <div key={group.key}>
+                                {group.subs.length > 1 && (
+                                    <div className="space-y-1 text-sm">
+                                        {group.subs.map((sub) => (
+                                            <div
+                                                key={sub.key}
+                                                className="flex items-center justify-between gap-3"
+                                            >
+                                                <span className="text-white/70">
+                                                    {sub.label} Grand Total
+                                                </span>
+                                                <span className="text-white">
+                                                    {sub.grandCompleted}
+                                                </span>
+                                            </div>
+                                        ))}
                                     </div>
-                                ))}
+                                )}
+                                <div className="mt-4 border-t border-white/10 pt-4 flex items-center justify-between gap-3">
+                                    <span className="text-white font-bold">
+                                        {group.label} Grand Total
+                                    </span>
+                                    <span className="text-3xl">
+                                        {group.grandTotal}
+                                    </span>
+                                </div>
                             </div>
-                            <div className="mt-4 border-t border-white/10 pt-4 flex items-center justify-between gap-3">
-                                <span className="text-white font-bold">
-                                    {group.label} Grand Total
-                                </span>
-                                <span className="text-3xl">
-                                    {group.grandTotal}
-                                </span>
-                            </div>
-                        </div>
-                    ))}
+                        ))}
+                    </div>
                 </div>
-            </div>
+            )}
             {showAttempts && (
                 <div className="bg-level p-6">
                     <div className="flex items-center justify-between gap-3 mb-4">

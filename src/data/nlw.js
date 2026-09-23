@@ -898,7 +898,7 @@ export const nlwLevels = [
                 "id": null,
                 "progressId": "nlw:Beginner:162:Lone",
                 "copyValue": "Lone",
-                "video": ""
+                "video": "https://www.youtube.com/watch?v=mgNqq-mSB14"
             },
             {
                 "name": "Lost Love",
@@ -5048,7 +5048,7 @@ export const nlwLevels = [
     },
     {
         "rank": "Very Hard",
-        "requirement": 98,
+        "requirement": 100,
         "headerColor": "FF9900",
         "levels": [
             {
@@ -5514,226 +5514,240 @@ export const nlwLevels = [
                 "video": "https://youtu.be/u3kt58rw7oo?si=GoPVGSXJ2ZqKAKSp"
             },
             {
+                "name": "Putrefaction",
+                "id": null,
+                "progressId": "nlw:Very Hard:822:Putrefaction",
+                "copyValue": "Putrefaction",
+                "video": "https://www.youtube.com/watch?v=h9qn-lhkT6A"
+            },
+            {
                 "name": "Radiant Activation",
                 "id": null,
-                "progressId": "nlw:Very Hard:822:Radiant Activation",
+                "progressId": "nlw:Very Hard:823:Radiant Activation",
                 "copyValue": "Radiant Activation",
                 "video": "https://www.youtube.com/watch?v=AmNo8Y0hDN4"
             },
             {
                 "name": "RAWSTAR",
                 "id": null,
-                "progressId": "nlw:Very Hard:823:RAWSTAR",
+                "progressId": "nlw:Very Hard:824:RAWSTAR",
                 "copyValue": "RAWSTAR",
                 "video": "https://youtu.be/GLspiCBfxpA?si=k7abxCZHGpHPqPTP"
             },
             {
                 "name": "Removed Submission",
                 "id": null,
-                "progressId": "nlw:Very Hard:824:Removed Submission",
+                "progressId": "nlw:Very Hard:825:Removed Submission",
                 "copyValue": "Removed Submission",
                 "video": "https://www.youtube.com/watch?v=ymWtF2JksHA&amp;pp=ygUVcmVtb3ZlZCBzdWJtaXNzaW9uIGdk0gcJCesJAYcqIYzv"
             },
             {
                 "name": "reset your mind",
                 "id": null,
-                "progressId": "nlw:Very Hard:825:reset your mind",
+                "progressId": "nlw:Very Hard:826:reset your mind",
                 "copyValue": "reset your mind",
                 "video": "https://www.youtube.com/watch?v=f_D78Df46Hc"
             },
             {
+                "name": "Revelations",
+                "id": null,
+                "progressId": "nlw:Very Hard:827:Revelations",
+                "copyValue": "Revelations",
+                "video": "https://youtu.be/1J-BTip-5o8?si=399yeyEf7vwpORXu"
+            },
+            {
                 "name": "Revolution 1993",
                 "id": null,
-                "progressId": "nlw:Very Hard:826:Revolution 1993",
+                "progressId": "nlw:Very Hard:828:Revolution 1993",
                 "copyValue": "Revolution 1993",
                 "video": "https://youtu.be/q3436xcewqA?si=TytfFtzJ5zEOjJuZ"
             },
             {
                 "name": "Ruler of Everything",
                 "id": null,
-                "progressId": "nlw:Very Hard:827:Ruler of Everything",
+                "progressId": "nlw:Very Hard:829:Ruler of Everything",
                 "copyValue": "Ruler of Everything",
                 "video": "https://youtu.be/mpyuaaaSWzk?si=abFL_Vf_LcABaIIO"
             },
             {
                 "name": "Sakupen Hell",
                 "id": null,
-                "progressId": "nlw:Very Hard:828:Sakupen Hell",
+                "progressId": "nlw:Very Hard:830:Sakupen Hell",
                 "copyValue": "Sakupen Hell",
                 "video": "https://www.youtube.com/watch?v=oiCaP5Qaql0&amp;pp=ygUPc2FrdXBlbiBoZWxsIGdk"
             },
             {
                 "name": "SANTA FE",
                 "id": null,
-                "progressId": "nlw:Very Hard:829:SANTA FE",
+                "progressId": "nlw:Very Hard:831:SANTA FE",
                 "copyValue": "SANTA FE",
                 "video": "https://www.youtube.com/watch?v=4dDJzbbqBDg&amp;pp=ygULc2FudGEgZmUgZ2TSBwkJ6wkBhyohjO8%3D"
             },
             {
                 "name": "Sapphire Angel",
                 "id": null,
-                "progressId": "nlw:Very Hard:830:Sapphire Angel",
+                "progressId": "nlw:Very Hard:832:Sapphire Angel",
                 "copyValue": "Sapphire Angel",
                 "video": "https://www.youtube.com/watch?v=KNJxByXU9mk&amp;pp=ygURc2FwcGhpcmUgYW5nZWwgZ2Q%3D"
             },
             {
                 "name": "Shibui",
                 "id": null,
-                "progressId": "nlw:Very Hard:831:Shibui",
+                "progressId": "nlw:Very Hard:833:Shibui",
                 "copyValue": "Shibui",
                 "video": "https://www.youtube.com/watch?v=2OlRPNlX1O0&amp;pp=ygUJc2hpYnVpIGdk"
             },
             {
                 "name": "Showdown",
                 "id": null,
-                "progressId": "nlw:Very Hard:832:Showdown",
+                "progressId": "nlw:Very Hard:834:Showdown",
                 "copyValue": "Showdown",
                 "video": "https://www.youtube.com/watch?v=OLi-sQp9YxQ&amp;pp=ygULc2hvd2Rvd24gZ2Q%3D"
             },
             {
                 "name": "Silentium Gradas",
                 "id": null,
-                "progressId": "nlw:Very Hard:833:Silentium Gradas",
+                "progressId": "nlw:Very Hard:835:Silentium Gradas",
                 "copyValue": "Silentium Gradas",
                 "video": "https://www.youtube.com/watch?v=Pzx01Z616DM&amp;pp=ygUTc2lsZW50aXVtIGdyYWRhcyBnZA%3D%3D"
             },
             {
                 "name": "So Wrong To Life",
                 "id": null,
-                "progressId": "nlw:Very Hard:834:So Wrong To Life",
+                "progressId": "nlw:Very Hard:836:So Wrong To Life",
                 "copyValue": "So Wrong To Life",
                 "video": "https://youtu.be/JddEfBX0WPQ?si=XXMSjAYbmdRe_u2R"
             },
             {
                 "name": "Summer Sky",
                 "id": null,
-                "progressId": "nlw:Very Hard:835:Summer Sky",
+                "progressId": "nlw:Very Hard:837:Summer Sky",
                 "copyValue": "Summer Sky",
                 "video": "https://youtu.be/qIJ0RvHqZ1Q?si=KatPGQH4oIBmrXko"
             },
             {
                 "name": "Supercharged",
                 "id": null,
-                "progressId": "nlw:Very Hard:836:Supercharged",
+                "progressId": "nlw:Very Hard:838:Supercharged",
                 "copyValue": "Supercharged",
                 "video": "https://www.youtube.com/watch?v=EcbsKvC2gO0&amp;pp=ygUPc3VwZXJjaGFyZ2VkIGdk"
             },
             {
                 "name": "SUPERCONDUCTOR",
                 "id": null,
-                "progressId": "nlw:Very Hard:837:SUPERCONDUCTOR",
+                "progressId": "nlw:Very Hard:839:SUPERCONDUCTOR",
                 "copyValue": "SUPERCONDUCTOR",
                 "video": "https://www.youtube.com/watch?v=8LnV6xTgSp4"
             },
             {
                 "name": "Tempest Tornado",
                 "id": null,
-                "progressId": "nlw:Very Hard:838:Tempest Tornado",
+                "progressId": "nlw:Very Hard:840:Tempest Tornado",
                 "copyValue": "Tempest Tornado",
                 "video": "https://www.youtube.com/watch?v=TShcspQLgOk&amp;pp=ygUSdGVtcGVzdCB0b3JuYWRvIGdk"
             },
             {
                 "name": "Tenth Circle",
                 "id": null,
-                "progressId": "nlw:Very Hard:839:Tenth Circle",
+                "progressId": "nlw:Very Hard:841:Tenth Circle",
                 "copyValue": "Tenth Circle",
                 "video": "https://www.youtube.com/watch?v=EQwnAt4F0pI&amp;pp=ygUPdGVudGggY2lyY2xlIGdk"
             },
             {
                 "name": "The Hell Factory",
                 "id": null,
-                "progressId": "nlw:Very Hard:840:The Hell Factory",
+                "progressId": "nlw:Very Hard:842:The Hell Factory",
                 "copyValue": "The Hell Factory",
                 "video": "https://www.youtube.com/watch?v=IhWIN_EvFNc&amp;pp=ygUTdGhlIGhlbGwgZmFjdG9yeSBnZA%3D%3D"
             },
             {
                 "name": "THE J",
                 "id": null,
-                "progressId": "nlw:Very Hard:841:THE J",
+                "progressId": "nlw:Very Hard:843:THE J",
                 "copyValue": "THE J",
                 "video": "https://www.youtube.com/watch?v=HFT3fMDbx00&amp;pp=ygUIdGhlIGogZ2Q%3D"
             },
             {
                 "name": "THE PRINCE",
                 "id": null,
-                "progressId": "nlw:Very Hard:842:THE PRINCE",
+                "progressId": "nlw:Very Hard:844:THE PRINCE",
                 "copyValue": "THE PRINCE",
                 "video": "https://www.youtube.com/watch?v=7qz33j9QGwo&amp;pp=ygUNdGhlIHByaW5jZSBnZA%3D%3D"
             },
             {
                 "name": "Titanic Thunderstorm",
                 "id": null,
-                "progressId": "nlw:Very Hard:843:Titanic Thunderstorm",
+                "progressId": "nlw:Very Hard:845:Titanic Thunderstorm",
                 "copyValue": "Titanic Thunderstorm",
                 "video": "https://www.youtube.com/watch?v=p0u88VawCT8"
             },
             {
                 "name": "Triadic Trials",
                 "id": null,
-                "progressId": "nlw:Very Hard:844:Triadic Trials",
+                "progressId": "nlw:Very Hard:846:Triadic Trials",
                 "copyValue": "Triadic Trials",
                 "video": "https://www.youtube.com/watch?v=QRvOrQZBIBw&amp;pp=ygURdHJpYWRpYyB0cmlhbHMgZ2Q%3D"
             },
             {
                 "name": "Twilight Coexistence",
                 "id": null,
-                "progressId": "nlw:Very Hard:845:Twilight Coexistence",
+                "progressId": "nlw:Very Hard:847:Twilight Coexistence",
                 "copyValue": "Twilight Coexistence",
                 "video": "https://www.youtube.com/watch?v=rGl0ModTftU&amp;pp=ygUXdHdpbGlnaHQgY29leGlzdGVuY2UgZ2Q%3D"
             },
             {
                 "name": "Universe on fire",
                 "id": null,
-                "progressId": "nlw:Very Hard:846:Universe on fire",
+                "progressId": "nlw:Very Hard:848:Universe on fire",
                 "copyValue": "Universe on fire",
                 "video": "https://www.youtube.com/watch?v=9kK5x9mZBLk&amp;pp=ygUTdW5pdmVyc2Ugb24gZmlyZSBnZA%3D%3D"
             },
             {
                 "name": "Up and Down",
                 "id": null,
-                "progressId": "nlw:Very Hard:847:Up and Down",
+                "progressId": "nlw:Very Hard:849:Up and Down",
                 "copyValue": "Up and Down",
                 "video": "https://www.youtube.com/watch?v=QUKwUe-XEOA&amp;pp=ygUOdXAgYW5kIGRvd24gZ2Q%3D"
             },
             {
                 "name": "VendetTa",
                 "id": null,
-                "progressId": "nlw:Very Hard:848:VendetTa",
+                "progressId": "nlw:Very Hard:850:VendetTa",
                 "copyValue": "VendetTa",
                 "video": "https://www.youtube.com/watch?v=gvK14ExP89s&amp;pp=ygULdmVuZGV0dGEgZ2TSBwkJ6wkBhyohjO8%3D"
             },
             {
                 "name": "Vertigo",
                 "id": null,
-                "progressId": "nlw:Very Hard:849:Vertigo",
+                "progressId": "nlw:Very Hard:851:Vertigo",
                 "copyValue": "Vertigo",
                 "video": "https://www.youtube.com/watch?v=MzGi6Es9mus&amp;pp=ygUPdmVydGlnbyBub3RsZXZv"
             },
             {
                 "name": "Vivacious",
                 "id": null,
-                "progressId": "nlw:Very Hard:850:Vivacious",
+                "progressId": "nlw:Very Hard:852:Vivacious",
                 "copyValue": "Vivacious",
                 "video": "https://www.youtube.com/watch?v=x-cfWZAofAk"
             },
             {
                 "name": "Vortex of Time",
                 "id": null,
-                "progressId": "nlw:Very Hard:851:Vortex of Time",
+                "progressId": "nlw:Very Hard:853:Vortex of Time",
                 "copyValue": "Vortex of Time",
                 "video": "https://www.youtube.com/watch?v=ZqVnELxr7xw&amp;pp=ygURdm9ydGV4IG9mIHRpbWUgZ2Q%3D"
             },
             {
                 "name": "water demon",
                 "id": null,
-                "progressId": "nlw:Very Hard:852:water demon",
+                "progressId": "nlw:Very Hard:854:water demon",
                 "copyValue": "water demon",
                 "video": "https://www.youtube.com/watch?v=3jxy09nLzfo&amp;pp=ygUUd2F0ZXIgZGVtb24gaGV4aXRpbmU%3D"
             },
             {
                 "name": "Zinhwa",
                 "id": null,
-                "progressId": "nlw:Very Hard:853:Zinhwa",
+                "progressId": "nlw:Very Hard:855:Zinhwa",
                 "copyValue": "Zinhwa",
                 "video": "https://www.youtube.com/watch?v=ABInGVYHQT8"
             }
@@ -5747,623 +5761,623 @@ export const nlwLevels = [
             {
                 "name": "Adrenaline",
                 "id": null,
-                "progressId": "nlw:Insane:855:Adrenaline",
+                "progressId": "nlw:Insane:857:Adrenaline",
                 "copyValue": "Adrenaline",
                 "video": "https://www.youtube.com/watch?v=ANYzgoO1oEw"
             },
             {
                 "name": "aether",
                 "id": null,
-                "progressId": "nlw:Insane:856:aether",
+                "progressId": "nlw:Insane:858:aether",
                 "copyValue": "aether",
                 "video": "https://www.youtube.com/watch?v=KJM4HHDr_ds"
             },
             {
                 "name": "Air Fryer",
                 "id": null,
-                "progressId": "nlw:Insane:857:Air Fryer",
+                "progressId": "nlw:Insane:859:Air Fryer",
                 "copyValue": "Air Fryer",
                 "video": "https://www.youtube.com/watch?v=wmOwUqT10O0"
             },
             {
                 "name": "Ancestral Calamity",
                 "id": null,
-                "progressId": "nlw:Insane:858:Ancestral Calamity",
+                "progressId": "nlw:Insane:860:Ancestral Calamity",
                 "copyValue": "Ancestral Calamity",
                 "video": "https://www.youtube.com/watch?v=mhoy8L3tyWM&amp;pp=ygUVYW5jZXN0cmFsIGNhbGFtaXR5IGdk"
             },
             {
                 "name": "Anoxysm",
                 "id": null,
-                "progressId": "nlw:Insane:859:Anoxysm",
+                "progressId": "nlw:Insane:861:Anoxysm",
                 "copyValue": "Anoxysm",
                 "video": "https://www.youtube.com/watch?v=DcCSqCI-g9c"
             },
             {
                 "name": "Athanatos",
                 "id": null,
-                "progressId": "nlw:Insane:860:Athanatos",
+                "progressId": "nlw:Insane:862:Athanatos",
                 "copyValue": "Athanatos",
                 "video": "https://www.youtube.com/watch?v=J5cULwobUlo"
             },
             {
                 "name": "Audio Expulsion",
                 "id": null,
-                "progressId": "nlw:Insane:861:Audio Expulsion",
+                "progressId": "nlw:Insane:863:Audio Expulsion",
                 "copyValue": "Audio Expulsion",
                 "video": "https://www.youtube.com/watch?v=jnNjiVBh9Fo"
             },
             {
                 "name": "AUTONOMICA",
                 "id": null,
-                "progressId": "nlw:Insane:862:AUTONOMICA",
+                "progressId": "nlw:Insane:864:AUTONOMICA",
                 "copyValue": "AUTONOMICA",
                 "video": "https://youtu.be/oPiR6cu_wN8?si=4o68qWmV42pQbLyQ"
             },
             {
                 "name": "Autumnal Remanence",
                 "id": null,
-                "progressId": "nlw:Insane:863:Autumnal Remanence",
+                "progressId": "nlw:Insane:865:Autumnal Remanence",
                 "copyValue": "Autumnal Remanence",
                 "video": "https://youtu.be/IqaF8Z2fBgI?si=am4L50sRqQYbDnjv"
             },
             {
                 "name": "Betrayal of Destiny",
                 "id": null,
-                "progressId": "nlw:Insane:864:Betrayal of Destiny",
+                "progressId": "nlw:Insane:866:Betrayal of Destiny",
                 "copyValue": "Betrayal of Destiny",
                 "video": "https://www.youtube.com/watch?v=OguFTccUSxg"
             },
             {
                 "name": "Boogie!",
                 "id": null,
-                "progressId": "nlw:Insane:865:Boogie!",
+                "progressId": "nlw:Insane:867:Boogie!",
                 "copyValue": "Boogie!",
                 "video": "https://www.youtube.com/watch?v=EuAe95EIahE"
             },
             {
                 "name": "Bordon Factory",
                 "id": null,
-                "progressId": "nlw:Insane:866:Bordon Factory",
+                "progressId": "nlw:Insane:868:Bordon Factory",
                 "copyValue": "Bordon Factory",
                 "video": "https://youtu.be/h-M4macw9qU?si=ImqNryHUP4-QcMBe"
             },
             {
                 "name": "BURNOUT",
                 "id": null,
-                "progressId": "nlw:Insane:867:BURNOUT",
+                "progressId": "nlw:Insane:869:BURNOUT",
                 "copyValue": "BURNOUT",
                 "video": "https://www.youtube.com/watch?v=of5jlriZYgI"
             },
             {
                 "name": "Carmine Cascade",
                 "id": null,
-                "progressId": "nlw:Insane:868:Carmine Cascade",
+                "progressId": "nlw:Insane:870:Carmine Cascade",
                 "copyValue": "Carmine Cascade",
                 "video": "https://youtu.be/ANwEZFD31So?si=eXrGZaeiXbq6wNIs"
             },
             {
                 "name": "Carnage Mode",
                 "id": null,
-                "progressId": "nlw:Insane:869:Carnage Mode",
+                "progressId": "nlw:Insane:871:Carnage Mode",
                 "copyValue": "Carnage Mode",
                 "video": "https://www.youtube.com/watch?v=ALQ_hEw5Ygo"
             },
             {
                 "name": "Cheyenne",
                 "id": null,
-                "progressId": "nlw:Insane:870:Cheyenne",
+                "progressId": "nlw:Insane:872:Cheyenne",
                 "copyValue": "Cheyenne",
                 "video": "https://www.youtube.com/watch?v=ls7SfGuWe1o"
             },
             {
                 "name": "Crippled Depression",
                 "id": null,
-                "progressId": "nlw:Insane:871:Crippled Depression",
+                "progressId": "nlw:Insane:873:Crippled Depression",
                 "copyValue": "Crippled Depression",
                 "video": "https://www.youtube.com/watch?v=_h4eQ2ghV24"
             },
             {
                 "name": "Cryothorn Hell",
                 "id": null,
-                "progressId": "nlw:Insane:872:Cryothorn Hell",
+                "progressId": "nlw:Insane:874:Cryothorn Hell",
                 "copyValue": "Cryothorn Hell",
                 "video": "https://www.youtube.com/watch?v=k2h4EKNzSSk"
             },
             {
                 "name": "Curie",
                 "id": null,
-                "progressId": "nlw:Insane:873:Curie",
+                "progressId": "nlw:Insane:875:Curie",
                 "copyValue": "Curie",
                 "video": "https://www.youtube.com/watch?v=CIztwng2cTs"
             },
             {
                 "name": "DARKENED",
                 "id": null,
-                "progressId": "nlw:Insane:874:DARKENED",
+                "progressId": "nlw:Insane:876:DARKENED",
                 "copyValue": "DARKENED",
                 "video": "https://www.youtube.com/watch?v=LeKzMYexVgE"
             },
             {
                 "name": "devoid",
                 "id": null,
-                "progressId": "nlw:Insane:875:devoid",
+                "progressId": "nlw:Insane:877:devoid",
                 "copyValue": "devoid",
                 "video": "https://www.youtube.com/watch?v=ZmkKbWpgNsM"
             },
             {
                 "name": "Dimensional Breaking",
                 "id": null,
-                "progressId": "nlw:Insane:876:Dimensional Breaking",
+                "progressId": "nlw:Insane:878:Dimensional Breaking",
                 "copyValue": "Dimensional Breaking",
                 "video": "https://www.youtube.com/watch?v=nEz7sbvEtMU"
             },
             {
                 "name": "Dolos",
                 "id": null,
-                "progressId": "nlw:Insane:877:Dolos",
+                "progressId": "nlw:Insane:879:Dolos",
                 "copyValue": "Dolos",
                 "video": "https://www.youtube.com/watch?v=VYHOC7428pk"
             },
             {
                 "name": "Dusker Processing",
                 "id": null,
-                "progressId": "nlw:Insane:878:Dusker Processing",
+                "progressId": "nlw:Insane:880:Dusker Processing",
                 "copyValue": "Dusker Processing",
                 "video": "https://www.youtube.com/watch?v=H2sqMqeaMNc"
             },
             {
                 "name": "Eleos",
                 "id": null,
-                "progressId": "nlw:Insane:879:Eleos",
+                "progressId": "nlw:Insane:881:Eleos",
                 "copyValue": "Eleos",
                 "video": "https://www.youtube.com/watch?v=UgGn9kTbBaY"
             },
             {
                 "name": "Endless Dream",
                 "id": null,
-                "progressId": "nlw:Insane:880:Endless Dream",
+                "progressId": "nlw:Insane:882:Endless Dream",
                 "copyValue": "Endless Dream",
                 "video": "https://www.youtube.com/watch?v=ZGhfrZABZCY"
             },
             {
                 "name": "EnvY",
                 "id": null,
-                "progressId": "nlw:Insane:881:EnvY",
+                "progressId": "nlw:Insane:883:EnvY",
                 "copyValue": "EnvY",
                 "video": "https://www.youtube.com/watch?v=2ZuW_AosWWo"
             },
             {
                 "name": "ErebuS",
                 "id": null,
-                "progressId": "nlw:Insane:882:ErebuS",
+                "progressId": "nlw:Insane:884:ErebuS",
                 "copyValue": "ErebuS",
                 "video": "https://www.youtube.com/watch?v=QWhbKFimn18"
             },
             {
                 "name": "eternal entropy",
                 "id": null,
-                "progressId": "nlw:Insane:883:eternal entropy",
+                "progressId": "nlw:Insane:885:eternal entropy",
                 "copyValue": "eternal entropy",
                 "video": "https://www.youtube.com/watch?v=-webK_haPKE"
             },
             {
                 "name": "Faded Dream",
                 "id": null,
-                "progressId": "nlw:Insane:884:Faded Dream",
+                "progressId": "nlw:Insane:886:Faded Dream",
                 "copyValue": "Faded Dream",
                 "video": "https://www.youtube.com/watch?v=wtVeCgrIUpc"
             },
             {
                 "name": "fire emoji",
                 "id": null,
-                "progressId": "nlw:Insane:885:fire emoji",
+                "progressId": "nlw:Insane:887:fire emoji",
                 "copyValue": "fire emoji",
                 "video": "https://www.youtube.com/watch?v=is5RFRsv3Gk"
             },
             {
                 "name": "FusionDynamix",
                 "id": null,
-                "progressId": "nlw:Insane:886:FusionDynamix",
+                "progressId": "nlw:Insane:888:FusionDynamix",
                 "copyValue": "FusionDynamix",
                 "video": "https://www.youtube.com/watch?v=M_q73NXMN0M"
             },
             {
                 "name": "Gateway",
                 "id": null,
-                "progressId": "nlw:Insane:887:Gateway",
+                "progressId": "nlw:Insane:889:Gateway",
                 "copyValue": "Gateway",
                 "video": "https://www.youtube.com/watch?v=jpm4ea8mvv4"
             },
             {
                 "name": "Geometrical Dominato",
                 "id": null,
-                "progressId": "nlw:Insane:888:Geometrical Dominato",
+                "progressId": "nlw:Insane:890:Geometrical Dominato",
                 "copyValue": "Geometrical Dominato",
                 "video": "https://youtu.be/Ey2AhDNwbU0?si=0Y0ORDRfoYFYE6IA"
             },
             {
                 "name": "Glitch Control",
                 "id": null,
-                "progressId": "nlw:Insane:889:Glitch Control",
+                "progressId": "nlw:Insane:891:Glitch Control",
                 "copyValue": "Glitch Control",
                 "video": "https://www.youtube.com/watch?v=EmAWxaEAlXY"
             },
             {
                 "name": "i hate you",
                 "id": null,
-                "progressId": "nlw:Insane:890:i hate you",
+                "progressId": "nlw:Insane:892:i hate you",
                 "copyValue": "i hate you",
                 "video": "https://www.youtube.com/watch?v=eMVdLaQBiIY"
             },
             {
                 "name": "ikaros",
                 "id": null,
-                "progressId": "nlw:Insane:891:ikaros",
+                "progressId": "nlw:Insane:893:ikaros",
                 "copyValue": "ikaros",
                 "video": "https://www.youtube.com/watch?v=Sd7mx9JYzZs"
             },
             {
                 "name": "Infernal Abyss",
                 "id": null,
-                "progressId": "nlw:Insane:892:Infernal Abyss",
+                "progressId": "nlw:Insane:894:Infernal Abyss",
                 "copyValue": "Infernal Abyss",
                 "video": "https://www.youtube.com/watch?v=tVFud7BmzrU"
             },
             {
                 "name": "Io",
                 "id": null,
-                "progressId": "nlw:Insane:893:Io",
+                "progressId": "nlw:Insane:895:Io",
                 "copyValue": "Io",
                 "video": "https://www.youtube.com/watch?v=EHXBc7X6dMU"
             },
             {
                 "name": "Ithacropolis",
                 "id": null,
-                "progressId": "nlw:Insane:894:Ithacropolis",
+                "progressId": "nlw:Insane:896:Ithacropolis",
                 "copyValue": "Ithacropolis",
                 "video": "https://www.youtube.com/watch?v=O1tkKLrED9I"
             },
             {
                 "name": "Kinetic Bypass",
                 "id": null,
-                "progressId": "nlw:Insane:895:Kinetic Bypass",
+                "progressId": "nlw:Insane:897:Kinetic Bypass",
                 "copyValue": "Kinetic Bypass",
                 "video": "https://www.youtube.com/watch?v=LD4TpXOqGTg"
             },
             {
                 "name": "kuiper belt",
                 "id": null,
-                "progressId": "nlw:Insane:896:kuiper belt",
+                "progressId": "nlw:Insane:898:kuiper belt",
                 "copyValue": "kuiper belt",
                 "video": "https://www.youtube.com/watch?v=MGgPu5GV1BQ"
             },
             {
                 "name": "Loose Screws",
                 "id": null,
-                "progressId": "nlw:Insane:897:Loose Screws",
+                "progressId": "nlw:Insane:899:Loose Screws",
                 "copyValue": "Loose Screws",
                 "video": "https://www.youtube.com/watch?v=v5XejJH_6m8"
             },
             {
                 "name": "MadMansion",
                 "id": null,
-                "progressId": "nlw:Insane:898:MadMansion",
+                "progressId": "nlw:Insane:900:MadMansion",
                 "copyValue": "MadMansion",
                 "video": "https://www.youtube.com/watch?v=fuec2DwoDvI"
             },
             {
                 "name": "Microsoft DriveThru",
                 "id": null,
-                "progressId": "nlw:Insane:899:Microsoft DriveThru",
+                "progressId": "nlw:Insane:901:Microsoft DriveThru",
                 "copyValue": "Microsoft DriveThru",
                 "video": "https://www.youtube.com/watch?v=bIm3XUE8J_A"
             },
             {
                 "name": "milo",
                 "id": null,
-                "progressId": "nlw:Insane:900:milo",
+                "progressId": "nlw:Insane:902:milo",
                 "copyValue": "milo",
                 "video": "https://www.youtube.com/watch?v=CZIpNKmVZGw"
             },
             {
                 "name": "miss you",
                 "id": null,
-                "progressId": "nlw:Insane:901:miss you",
+                "progressId": "nlw:Insane:903:miss you",
                 "copyValue": "miss you",
                 "video": "https://www.youtube.com/watch?v=rn1gIWfHMEQ"
             },
             {
                 "name": "MONSTROSITY",
                 "id": null,
-                "progressId": "nlw:Insane:902:MONSTROSITY",
+                "progressId": "nlw:Insane:904:MONSTROSITY",
                 "copyValue": "MONSTROSITY",
                 "video": "https://www.youtube.com/watch?v=aSqMBvRvZzo"
             },
             {
                 "name": "Mujigae",
                 "id": null,
-                "progressId": "nlw:Insane:903:Mujigae",
+                "progressId": "nlw:Insane:905:Mujigae",
                 "copyValue": "Mujigae",
                 "video": "https://www.youtube.com/watch?v=CrDC0SXsvCE"
             },
             {
                 "name": "Mystic",
                 "id": null,
-                "progressId": "nlw:Insane:904:Mystic",
+                "progressId": "nlw:Insane:906:Mystic",
                 "copyValue": "Mystic",
                 "video": "https://www.youtube.com/watch?v=lZHREIzHp44"
             },
             {
                 "name": "Necrocide",
                 "id": null,
-                "progressId": "nlw:Insane:905:Necrocide",
+                "progressId": "nlw:Insane:907:Necrocide",
                 "copyValue": "Necrocide",
                 "video": "https://www.youtube.com/watch?v=OcyhU26dPRY"
             },
             {
                 "name": "New Record",
                 "id": null,
-                "progressId": "nlw:Insane:906:New Record",
+                "progressId": "nlw:Insane:908:New Record",
                 "copyValue": "New Record",
                 "video": "https://www.youtube.com/watch?v=Y6M82SUp3-Y"
             },
             {
                 "name": "Nostalgia",
                 "id": null,
-                "progressId": "nlw:Insane:907:Nostalgia",
+                "progressId": "nlw:Insane:909:Nostalgia",
                 "copyValue": "Nostalgia",
                 "video": "https://youtu.be/csFoFoxnsmw?si=Ypmtw-fapBkX9g3d"
             },
             {
                 "name": "Ouroboros Startpos 2",
                 "id": null,
-                "progressId": "nlw:Insane:908:Ouroboros Startpos 2",
+                "progressId": "nlw:Insane:910:Ouroboros Startpos 2",
                 "copyValue": "Ouroboros Startpos 2",
                 "video": "https://www.youtube.com/watch?v=1wB8UG1ThYc"
             },
             {
                 "name": "QuantumSonic",
                 "id": null,
-                "progressId": "nlw:Insane:909:QuantumSonic",
+                "progressId": "nlw:Insane:911:QuantumSonic",
                 "copyValue": "QuantumSonic",
                 "video": "https://www.youtube.com/watch?v=RN8HTl28qLU"
             },
             {
                 "name": "RASH",
                 "id": null,
-                "progressId": "nlw:Insane:910:RASH",
+                "progressId": "nlw:Insane:912:RASH",
                 "copyValue": "RASH",
                 "video": "https://www.youtube.com/watch?v=PlJdpVve3Vo"
             },
             {
                 "name": "ruber cash 22",
                 "id": null,
-                "progressId": "nlw:Insane:911:ruber cash 22",
+                "progressId": "nlw:Insane:913:ruber cash 22",
                 "copyValue": "ruber cash 22",
                 "video": "https://www.youtube.com/watch?v=q07EmMES7f0"
             },
             {
                 "name": "S3NT1M3NT",
                 "id": null,
-                "progressId": "nlw:Insane:912:S3NT1M3NT",
+                "progressId": "nlw:Insane:914:S3NT1M3NT",
                 "copyValue": "S3NT1M3NT",
                 "video": "https://www.youtube.com/watch?v=kZpuKsQhro0"
             },
             {
                 "name": "Screaming",
                 "id": null,
-                "progressId": "nlw:Insane:913:Screaming",
+                "progressId": "nlw:Insane:915:Screaming",
                 "copyValue": "Screaming",
                 "video": "https://youtu.be/YX1sc-hns-g?si=xSuVLP4jiukkof_1"
             },
             {
                 "name": "Shock Breaker",
                 "id": null,
-                "progressId": "nlw:Insane:914:Shock Breaker",
+                "progressId": "nlw:Insane:916:Shock Breaker",
                 "copyValue": "Shock Breaker",
                 "video": "https://www.youtube.com/watch?v=Hv6H1s8i_3s"
             },
             {
                 "name": "SINGULARITY",
                 "id": null,
-                "progressId": "nlw:Insane:915:SINGULARITY",
+                "progressId": "nlw:Insane:917:SINGULARITY",
                 "copyValue": "SINGULARITY",
                 "video": "https://www.youtube.com/watch?v=1IeCwzoMDok"
             },
             {
                 "name": "Sleeptalk",
                 "id": null,
-                "progressId": "nlw:Insane:916:Sleeptalk",
+                "progressId": "nlw:Insane:918:Sleeptalk",
                 "copyValue": "Sleeptalk",
                 "video": "https://youtu.be/n8yfQ5_vLnc?si=dFelm0WcoQKJklQH"
             },
             {
                 "name": "Spectrum Split",
                 "id": null,
-                "progressId": "nlw:Insane:917:Spectrum Split",
+                "progressId": "nlw:Insane:919:Spectrum Split",
                 "copyValue": "Spectrum Split",
                 "video": "https://www.youtube.com/watch?v=ItELLVQ-P2I"
             },
             {
                 "name": "SPEEDRUN",
                 "id": null,
-                "progressId": "nlw:Insane:918:SPEEDRUN",
+                "progressId": "nlw:Insane:920:SPEEDRUN",
                 "copyValue": "SPEEDRUN",
                 "video": "https://www.youtube.com/watch?v=KobLgwR-Jg4"
             },
             {
                 "name": "Static Ignition",
                 "id": null,
-                "progressId": "nlw:Insane:919:Static Ignition",
+                "progressId": "nlw:Insane:921:Static Ignition",
                 "copyValue": "Static Ignition",
                 "video": "https://www.youtube.com/watch?v=3MbMFg9qWY0"
             },
             {
                 "name": "STICKS FOR BONES",
                 "id": null,
-                "progressId": "nlw:Insane:920:STICKS FOR BONES",
+                "progressId": "nlw:Insane:922:STICKS FOR BONES",
                 "copyValue": "STICKS FOR BONES",
                 "video": "https://www.youtube.com/watch?v=tBhZCH6Rlbk"
             },
             {
                 "name": "SubSonic",
                 "id": null,
-                "progressId": "nlw:Insane:921:SubSonic",
+                "progressId": "nlw:Insane:923:SubSonic",
                 "copyValue": "SubSonic",
                 "video": "https://www.youtube.com/watch?v=8h_Zx25MQP0"
             },
             {
                 "name": "Sunk",
                 "id": null,
-                "progressId": "nlw:Insane:922:Sunk",
+                "progressId": "nlw:Insane:924:Sunk",
                 "copyValue": "Sunk",
                 "video": "https://www.youtube.com/watch?v=Xm2ua9Iy7IM&amp;pp=ygUHc3VuayBnZA%3D%3D"
             },
             {
                 "name": "SUPERMAYOHATECLUB",
                 "id": null,
-                "progressId": "nlw:Insane:923:SUPERMAYOHATECLUB",
+                "progressId": "nlw:Insane:925:SUPERMAYOHATECLUB",
                 "copyValue": "SUPERMAYOHATECLUB",
                 "video": "https://www.youtube.com/watch?v=TE3x7zmJnYE&amp;pp=ygUUc3VwZXJtYXlvaGF0ZWNsdWIgZ2Q%3D"
             },
             {
                 "name": "Supreme Demon Mix",
                 "id": null,
-                "progressId": "nlw:Insane:924:Supreme Demon Mix",
+                "progressId": "nlw:Insane:926:Supreme Demon Mix",
                 "copyValue": "Supreme Demon Mix",
                 "video": "https://www.youtube.com/watch?v=1Wl771VCwQY&amp;pp=ygURc3VwcmVtZSBkZW1vbiBtaXg%3D"
             },
             {
                 "name": "TeaM Z",
                 "id": null,
-                "progressId": "nlw:Insane:925:TeaM Z",
+                "progressId": "nlw:Insane:927:TeaM Z",
                 "copyValue": "TeaM Z",
                 "video": "https://www.youtube.com/watch?v=hy__cqJHlmY"
             },
             {
                 "name": "The Cellar Path",
                 "id": null,
-                "progressId": "nlw:Insane:926:The Cellar Path",
+                "progressId": "nlw:Insane:928:The Cellar Path",
                 "copyValue": "The Cellar Path",
                 "video": "https://www.youtube.com/watch?v=BKJ0PP7yOH0"
             },
             {
                 "name": "The Hell Field",
                 "id": null,
-                "progressId": "nlw:Insane:927:The Hell Field",
+                "progressId": "nlw:Insane:929:The Hell Field",
                 "copyValue": "The Hell Field",
                 "video": "https://youtu.be/dmdfc9NO72M?si=yohIvBI5vaelWhol"
             },
             {
                 "name": "The Hell Inferno",
                 "id": null,
-                "progressId": "nlw:Insane:928:The Hell Inferno",
+                "progressId": "nlw:Insane:930:The Hell Inferno",
                 "copyValue": "The Hell Inferno",
                 "video": "https://www.youtube.com/watch?v=YYNvvdeJvgM"
             },
             {
                 "name": "The Hell Origin",
                 "id": null,
-                "progressId": "nlw:Insane:929:The Hell Origin",
+                "progressId": "nlw:Insane:931:The Hell Origin",
                 "copyValue": "The Hell Origin",
                 "video": "https://www.youtube.com/watch?v=wPWm0_0u3Cc"
             },
             {
                 "name": "The Hell World",
                 "id": null,
-                "progressId": "nlw:Insane:930:The Hell World",
+                "progressId": "nlw:Insane:932:The Hell World",
                 "copyValue": "The Hell World",
                 "video": "https://www.youtube.com/watch?v=xmVorgmosA0"
             },
             {
                 "name": "The Old Trail",
                 "id": null,
-                "progressId": "nlw:Insane:931:The Old Trail",
+                "progressId": "nlw:Insane:933:The Old Trail",
                 "copyValue": "The Old Trail",
                 "video": "https://youtu.be/X6bbpKYdJAg?si=m1x6PaxwQ64AUQ47"
             },
             {
                 "name": "Tunnel",
                 "id": null,
-                "progressId": "nlw:Insane:932:Tunnel",
+                "progressId": "nlw:Insane:934:Tunnel",
                 "copyValue": "Tunnel",
                 "video": "https://www.youtube.com/watch?v=DQn-46QY31M"
             },
             {
                 "name": "Turbulent Valley",
                 "id": null,
-                "progressId": "nlw:Insane:933:Turbulent Valley",
+                "progressId": "nlw:Insane:935:Turbulent Valley",
                 "copyValue": "Turbulent Valley",
                 "video": "https://www.youtube.com/watch?v=65W1Aho6jeY"
             },
             {
                 "name": "ULTRA VIOLET",
                 "id": null,
-                "progressId": "nlw:Insane:934:ULTRA VIOLET",
+                "progressId": "nlw:Insane:936:ULTRA VIOLET",
                 "copyValue": "ULTRA VIOLET",
                 "video": "https://www.youtube.com/watch?v=oDpxCYnB31Y"
             },
             {
                 "name": "Unfair Evening",
                 "id": null,
-                "progressId": "nlw:Insane:935:Unfair Evening",
+                "progressId": "nlw:Insane:937:Unfair Evening",
                 "copyValue": "Unfair Evening",
                 "video": "https://www.youtube.com/watch?v=lksIyobQA9M"
             },
             {
                 "name": "unsaved changes",
                 "id": null,
-                "progressId": "nlw:Insane:936:unsaved changes",
+                "progressId": "nlw:Insane:938:unsaved changes",
                 "copyValue": "unsaved changes",
                 "video": "https://www.youtube.com/watch?v=c-Hh-0BSpKE"
             },
             {
                 "name": "Viridian",
                 "id": null,
-                "progressId": "nlw:Insane:937:Viridian",
+                "progressId": "nlw:Insane:939:Viridian",
                 "copyValue": "Viridian",
                 "video": "https://www.youtube.com/watch?v=G7PBvvFQm3o"
             },
             {
                 "name": "Voltage",
                 "id": null,
-                "progressId": "nlw:Insane:938:Voltage",
+                "progressId": "nlw:Insane:940:Voltage",
                 "copyValue": "Voltage",
                 "video": "https://www.youtube.com/watch?v=e2KrQhHlOxg"
             },
             {
                 "name": "Voyager 1",
                 "id": null,
-                "progressId": "nlw:Insane:939:Voyager 1",
+                "progressId": "nlw:Insane:941:Voyager 1",
                 "copyValue": "Voyager 1",
                 "video": "https://www.youtube.com/watch?v=NgZksoCUwkc"
             },
             {
                 "name": "WcropoliX",
                 "id": null,
-                "progressId": "nlw:Insane:940:WcropoliX",
+                "progressId": "nlw:Insane:942:WcropoliX",
                 "copyValue": "WcropoliX",
                 "video": "https://www.youtube.com/watch?v=5AnE0Nsxe2o"
             },
             {
                 "name": "Wild Rose",
                 "id": null,
-                "progressId": "nlw:Insane:941:Wild Rose",
+                "progressId": "nlw:Insane:943:Wild Rose",
                 "copyValue": "Wild Rose",
                 "video": "https://www.youtube.com/watch?v=r2PIxDVMnB0"
             },
             {
                 "name": "Worse Trip",
                 "id": null,
-                "progressId": "nlw:Insane:942:Worse Trip",
+                "progressId": "nlw:Insane:944:Worse Trip",
                 "copyValue": "Worse Trip",
                 "video": "https://www.youtube.com/watch?v=Af7ndbssKqc"
             },
             {
                 "name": "xuser morelike luser",
                 "id": null,
-                "progressId": "nlw:Insane:943:xuser morelike luser",
+                "progressId": "nlw:Insane:945:xuser morelike luser",
                 "copyValue": "xuser morelike luser",
                 "video": "https://www.youtube.com/watch?v=qV7DwXrwNc0"
             }
@@ -6377,574 +6391,574 @@ export const nlwLevels = [
             {
                 "name": "2 1 1",
                 "id": null,
-                "progressId": "nlw:Extreme:945:2 1 1",
+                "progressId": "nlw:Extreme:947:2 1 1",
                 "copyValue": "2 1 1",
                 "video": "https://www.youtube.com/watch?v=7kIbi2H_OZA"
             },
             {
                 "name": "Astral Divinity",
                 "id": null,
-                "progressId": "nlw:Extreme:946:Astral Divinity",
+                "progressId": "nlw:Extreme:948:Astral Divinity",
                 "copyValue": "Astral Divinity",
                 "video": "https://www.youtube.com/watch?v=_gBEcGlBC3s"
             },
             {
                 "name": "Auditory Breaker",
                 "id": null,
-                "progressId": "nlw:Extreme:947:Auditory Breaker",
+                "progressId": "nlw:Extreme:949:Auditory Breaker",
                 "copyValue": "Auditory Breaker",
                 "video": "https://www.youtube.com/watch?v=ohWu3rVLO64"
             },
             {
                 "name": "Auroral Ascent",
                 "id": null,
-                "progressId": "nlw:Extreme:948:Auroral Ascent",
+                "progressId": "nlw:Extreme:950:Auroral Ascent",
                 "copyValue": "Auroral Ascent",
                 "video": "https://www.youtube.com/watch?v=ihk5B28k560"
             },
             {
                 "name": "Balengu Vortex",
                 "id": null,
-                "progressId": "nlw:Extreme:949:Balengu Vortex",
+                "progressId": "nlw:Extreme:951:Balengu Vortex",
                 "copyValue": "Balengu Vortex",
                 "video": "https://www.youtube.com/watch?v=FozwrjHJNJc"
             },
             {
                 "name": "Bass Cave",
                 "id": null,
-                "progressId": "nlw:Extreme:950:Bass Cave",
+                "progressId": "nlw:Extreme:952:Bass Cave",
                 "copyValue": "Bass Cave",
                 "video": "https://www.youtube.com/watch?v=L_Or0l6wulE"
             },
             {
                 "name": "Bausha Vortex",
                 "id": null,
-                "progressId": "nlw:Extreme:951:Bausha Vortex",
+                "progressId": "nlw:Extreme:953:Bausha Vortex",
                 "copyValue": "Bausha Vortex",
                 "video": "https://www.youtube.com/watch?v=5q9TsodFVRw"
             },
             {
                 "name": "BBBBBBBBBBBBBBBBBBBB",
                 "id": null,
-                "progressId": "nlw:Extreme:952:BBBBBBBBBBBBBBBBBBBB",
+                "progressId": "nlw:Extreme:954:BBBBBBBBBBBBBBBBBBBB",
                 "copyValue": "BBBBBBBBBBBBBBBBBBBB",
                 "video": "https://www.youtube.com/watch?v=OvPZCkym8_E"
             },
             {
                 "name": "Berserk",
                 "id": null,
-                "progressId": "nlw:Extreme:953:Berserk",
+                "progressId": "nlw:Extreme:955:Berserk",
                 "copyValue": "Berserk",
                 "video": "https://www.youtube.com/watch?v=djQfT9rDHd4"
             },
             {
                 "name": "Black Blizzard",
                 "id": null,
-                "progressId": "nlw:Extreme:954:Black Blizzard",
+                "progressId": "nlw:Extreme:956:Black Blizzard",
                 "copyValue": "Black Blizzard",
                 "video": "https://www.youtube.com/watch?v=lsT5TjQ1Ubc"
             },
             {
                 "name": "Black Flag",
                 "id": null,
-                "progressId": "nlw:Extreme:955:Black Flag",
+                "progressId": "nlw:Extreme:957:Black Flag",
                 "copyValue": "Black Flag",
                 "video": "https://www.youtube.com/watch?v=oZ8xU_tkeFU"
             },
             {
                 "name": "Breakout Redux",
                 "id": null,
-                "progressId": "nlw:Extreme:956:Breakout Redux",
+                "progressId": "nlw:Extreme:958:Breakout Redux",
                 "copyValue": "Breakout Redux",
                 "video": "https://www.youtube.com/watch?v=65pWRTI67Wg"
             },
             {
                 "name": "BuTiTi III",
                 "id": null,
-                "progressId": "nlw:Extreme:957:BuTiTi III",
+                "progressId": "nlw:Extreme:959:BuTiTi III",
                 "copyValue": "BuTiTi III",
                 "video": "https://www.youtube.com/watch?v=-ejI1zX8ng0"
             },
             {
                 "name": "Cadrega Mode",
                 "id": null,
-                "progressId": "nlw:Extreme:958:Cadrega Mode",
+                "progressId": "nlw:Extreme:960:Cadrega Mode",
                 "copyValue": "Cadrega Mode",
                 "video": "https://www.youtube.com/watch?v=rAvJqUfEXaU"
             },
             {
                 "name": "Chainsaw",
                 "id": null,
-                "progressId": "nlw:Extreme:959:Chainsaw",
+                "progressId": "nlw:Extreme:961:Chainsaw",
                 "copyValue": "Chainsaw",
                 "video": "https://www.youtube.com/watch?v=YIxvoHw3mvI"
             },
             {
                 "name": "CHROMA II",
                 "id": null,
-                "progressId": "nlw:Extreme:960:CHROMA II",
+                "progressId": "nlw:Extreme:962:CHROMA II",
                 "copyValue": "CHROMA II",
                 "video": "https://www.youtube.com/watch?v=1PDfjV5HNj4"
             },
             {
                 "name": "cloud",
                 "id": null,
-                "progressId": "nlw:Extreme:961:cloud",
+                "progressId": "nlw:Extreme:963:cloud",
                 "copyValue": "cloud",
                 "video": "https://youtu.be/7InwRiJNyKY?si=TDGqC-_NgLUYFdmH"
             },
             {
                 "name": "Collapse",
                 "id": null,
-                "progressId": "nlw:Extreme:962:Collapse",
+                "progressId": "nlw:Extreme:964:Collapse",
                 "copyValue": "Collapse",
                 "video": "https://www.youtube.com/watch?v=A_1WNOe7rnw"
             },
             {
                 "name": "DESOLATE",
                 "id": null,
-                "progressId": "nlw:Extreme:963:DESOLATE",
+                "progressId": "nlw:Extreme:965:DESOLATE",
                 "copyValue": "DESOLATE",
                 "video": "https://youtu.be/rYfYyTQdAtY"
             },
             {
                 "name": "Disaster Dive",
                 "id": null,
-                "progressId": "nlw:Extreme:964:Disaster Dive",
+                "progressId": "nlw:Extreme:966:Disaster Dive",
                 "copyValue": "Disaster Dive",
                 "video": "https://www.youtube.com/watch?v=j8sKLLbZwWE"
             },
             {
                 "name": "distraught",
                 "id": null,
-                "progressId": "nlw:Extreme:965:distraught",
+                "progressId": "nlw:Extreme:967:distraught",
                 "copyValue": "distraught",
                 "video": "https://www.youtube.com/watch?v=dM8BnR40xCw"
             },
             {
                 "name": "DMG CTRL",
                 "id": null,
-                "progressId": "nlw:Extreme:966:DMG CTRL",
+                "progressId": "nlw:Extreme:968:DMG CTRL",
                 "copyValue": "DMG CTRL",
                 "video": "https://www.youtube.com/watch?v=ib5JolMCvaY"
             },
             {
                 "name": "Dormant World",
                 "id": null,
-                "progressId": "nlw:Extreme:967:Dormant World",
+                "progressId": "nlw:Extreme:969:Dormant World",
                 "copyValue": "Dormant World",
                 "video": "https://www.youtube.com/watch?v=KI2gfJcwmbs"
             },
             {
                 "name": "Edelweiss",
                 "id": null,
-                "progressId": "nlw:Extreme:968:Edelweiss",
+                "progressId": "nlw:Extreme:970:Edelweiss",
                 "copyValue": "Edelweiss",
                 "video": "https://www.youtube.com/watch?v=5GhloU4DkGU"
             },
             {
                 "name": "EnCrypted",
                 "id": null,
-                "progressId": "nlw:Extreme:969:EnCrypted",
+                "progressId": "nlw:Extreme:971:EnCrypted",
                 "copyValue": "EnCrypted",
                 "video": "https://www.youtube.com/watch?v=4PFvyB-r66k"
             },
             {
                 "name": "Ethereal Artifice",
                 "id": null,
-                "progressId": "nlw:Extreme:970:Ethereal Artifice",
+                "progressId": "nlw:Extreme:972:Ethereal Artifice",
                 "copyValue": "Ethereal Artifice",
                 "video": "https://www.youtube.com/watch?v=xLr5UyAFx-Y"
             },
             {
                 "name": "Fabulous",
                 "id": null,
-                "progressId": "nlw:Extreme:971:Fabulous",
+                "progressId": "nlw:Extreme:973:Fabulous",
                 "copyValue": "Fabulous",
                 "video": "https://www.youtube.com/watch?v=1C4JfrxfnBc"
             },
             {
                 "name": "Flyway",
                 "id": null,
-                "progressId": "nlw:Extreme:972:Flyway",
+                "progressId": "nlw:Extreme:974:Flyway",
                 "copyValue": "Flyway",
                 "video": "https://www.youtube.com/watch?v=MkL7K7_IAbE"
             },
             {
                 "name": "Fractured Dreams",
                 "id": null,
-                "progressId": "nlw:Extreme:973:Fractured Dreams",
+                "progressId": "nlw:Extreme:975:Fractured Dreams",
                 "copyValue": "Fractured Dreams",
                 "video": ""
             },
             {
                 "name": "Free For All 2",
                 "id": null,
-                "progressId": "nlw:Extreme:974:Free For All 2",
+                "progressId": "nlw:Extreme:976:Free For All 2",
                 "copyValue": "Free For All 2",
                 "video": "https://www.youtube.com/watch?v=-Ju3S6l7jx8"
             },
             {
                 "name": "Funnyname Funnygame",
                 "id": null,
-                "progressId": "nlw:Extreme:975:Funnyname Funnygame",
+                "progressId": "nlw:Extreme:977:Funnyname Funnygame",
                 "copyValue": "Funnyname Funnygame",
                 "video": "https://www.youtube.com/watch?v=QJYAbZyE2wo"
             },
             {
                 "name": "Furious Flames",
                 "id": null,
-                "progressId": "nlw:Extreme:976:Furious Flames",
+                "progressId": "nlw:Extreme:978:Furious Flames",
                 "copyValue": "Furious Flames",
                 "video": "https://www.youtube.com/watch?v=_Bp4ZuEqv7E"
             },
             {
                 "name": "Future Chaos",
                 "id": null,
-                "progressId": "nlw:Extreme:977:Future Chaos",
+                "progressId": "nlw:Extreme:979:Future Chaos",
                 "copyValue": "Future Chaos",
                 "video": "https://www.youtube.com/watch?v=dZNBFyLRSUk"
             },
             {
                 "name": "Galactic Shift",
                 "id": null,
-                "progressId": "nlw:Extreme:978:Galactic Shift",
+                "progressId": "nlw:Extreme:980:Galactic Shift",
                 "copyValue": "Galactic Shift",
                 "video": "https://www.youtube.com/watch?v=Nx152jSsCoc"
             },
             {
                 "name": "Glitched Memories",
                 "id": null,
-                "progressId": "nlw:Extreme:979:Glitched Memories",
+                "progressId": "nlw:Extreme:981:Glitched Memories",
                 "copyValue": "Glitched Memories",
                 "video": "https://www.youtube.com/watch?v=J2KJrB9x1qk"
             },
             {
                 "name": "Glowy",
                 "id": null,
-                "progressId": "nlw:Extreme:980:Glowy",
+                "progressId": "nlw:Extreme:982:Glowy",
                 "copyValue": "Glowy",
                 "video": "https://www.youtube.com/watch?v=8s67C1KRwbY"
             },
             {
                 "name": "GREAT FURY OF HEAVEN",
                 "id": null,
-                "progressId": "nlw:Extreme:981:GREAT FURY OF HEAVEN",
+                "progressId": "nlw:Extreme:983:GREAT FURY OF HEAVEN",
                 "copyValue": "GREAT FURY OF HEAVEN",
                 "video": "https://www.youtube.com/watch?v=-bUg-kBV1k4"
             },
             {
                 "name": "Hatred",
                 "id": null,
-                "progressId": "nlw:Extreme:982:Hatred",
+                "progressId": "nlw:Extreme:984:Hatred",
                 "copyValue": "Hatred",
                 "video": "https://www.youtube.com/watch?v=ez5Y6jM_C-M"
             },
             {
                 "name": "Hyper Paradox",
                 "id": null,
-                "progressId": "nlw:Extreme:983:Hyper Paradox",
+                "progressId": "nlw:Extreme:985:Hyper Paradox",
                 "copyValue": "Hyper Paradox",
                 "video": "https://www.youtube.com/watch?v=z9uDRDRdutM"
             },
             {
                 "name": "Hyperchaos",
                 "id": null,
-                "progressId": "nlw:Extreme:984:Hyperchaos",
+                "progressId": "nlw:Extreme:986:Hyperchaos",
                 "copyValue": "Hyperchaos",
                 "video": "https://www.youtube.com/watch?v=Zb-zweW1u_E"
             },
             {
                 "name": "IMOISTAR",
                 "id": null,
-                "progressId": "nlw:Extreme:985:IMOISTAR",
+                "progressId": "nlw:Extreme:987:IMOISTAR",
                 "copyValue": "IMOISTAR",
                 "video": "https://www.youtube.com/watch?v=i-rIrBS82ic"
             },
             {
                 "name": "Insane Techniques",
                 "id": null,
-                "progressId": "nlw:Extreme:986:Insane Techniques",
+                "progressId": "nlw:Extreme:988:Insane Techniques",
                 "copyValue": "Insane Techniques",
                 "video": "https://www.youtube.com/watch?v=73CAbLX_COg"
             },
             {
                 "name": "Khorne",
                 "id": null,
-                "progressId": "nlw:Extreme:987:Khorne",
+                "progressId": "nlw:Extreme:989:Khorne",
                 "copyValue": "Khorne",
                 "video": "https://youtu.be/s-yjiXNnZG4?si=KjM0cbf7MRoofUzx"
             },
             {
                 "name": "La Cueva",
                 "id": null,
-                "progressId": "nlw:Extreme:988:La Cueva",
+                "progressId": "nlw:Extreme:990:La Cueva",
                 "copyValue": "La Cueva",
                 "video": "https://www.youtube.com/watch?v=Xv68zhN3SfQ"
             },
             {
                 "name": "LinuGi",
                 "id": null,
-                "progressId": "nlw:Extreme:989:LinuGi",
+                "progressId": "nlw:Extreme:991:LinuGi",
                 "copyValue": "LinuGi",
                 "video": "https://www.youtube.com/watch?v=Xdnkppud_rs"
             },
             {
                 "name": "lodin da fish washer",
                 "id": null,
-                "progressId": "nlw:Extreme:990:lodin da fish washer",
+                "progressId": "nlw:Extreme:992:lodin da fish washer",
                 "copyValue": "lodin da fish washer",
                 "video": "https://www.youtube.com/watch?v=DXG4caMN6K8"
             },
             {
                 "name": "Lovestruck",
                 "id": null,
-                "progressId": "nlw:Extreme:991:Lovestruck",
+                "progressId": "nlw:Extreme:993:Lovestruck",
                 "copyValue": "Lovestruck",
                 "video": "https://www.youtube.com/watch?v=QGyaHyN84WE"
             },
             {
                 "name": "Magnificent Gaps",
                 "id": null,
-                "progressId": "nlw:Extreme:992:Magnificent Gaps",
+                "progressId": "nlw:Extreme:994:Magnificent Gaps",
                 "copyValue": "Magnificent Gaps",
                 "video": "https://youtu.be/uUE_ow7tcuY"
             },
             {
                 "name": "memories",
                 "id": null,
-                "progressId": "nlw:Extreme:993:memories",
+                "progressId": "nlw:Extreme:995:memories",
                 "copyValue": "memories",
                 "video": "https://www.youtube.com/watch?v=kYdgaYFU7fE"
             },
             {
                 "name": "Mind Control",
                 "id": null,
-                "progressId": "nlw:Extreme:994:Mind Control",
+                "progressId": "nlw:Extreme:996:Mind Control",
                 "copyValue": "Mind Control",
                 "video": "https://youtu.be/JKc_2xMjgJQ?si=AkUIxLlbD3QCyLl5"
             },
             {
                 "name": "MISFIRE",
                 "id": null,
-                "progressId": "nlw:Extreme:995:MISFIRE",
+                "progressId": "nlw:Extreme:997:MISFIRE",
                 "copyValue": "MISFIRE",
                 "video": "https://www.youtube.com/watch?v=DkSxOrkSJss"
             },
             {
                 "name": "multi arm",
                 "id": null,
-                "progressId": "nlw:Extreme:996:multi arm",
+                "progressId": "nlw:Extreme:998:multi arm",
                 "copyValue": "multi arm",
                 "video": "https://www.youtube.com/watch?v=PLoCI6xNei4"
             },
             {
                 "name": "My Worst Demon Level",
                 "id": null,
-                "progressId": "nlw:Extreme:997:My Worst Demon Level",
+                "progressId": "nlw:Extreme:999:My Worst Demon Level",
                 "copyValue": "My Worst Demon Level",
                 "video": "https://www.youtube.com/watch?v=vHf-2aMtDQY"
             },
             {
                 "name": "Neurostasis",
                 "id": null,
-                "progressId": "nlw:Extreme:998:Neurostasis",
+                "progressId": "nlw:Extreme:1000:Neurostasis",
                 "copyValue": "Neurostasis",
                 "video": "https://www.youtube.com/watch?v=XqnO2D7Eh78"
             },
             {
                 "name": "Never Beat It",
                 "id": null,
-                "progressId": "nlw:Extreme:999:Never Beat It",
+                "progressId": "nlw:Extreme:1001:Never Beat It",
                 "copyValue": "Never Beat It",
                 "video": "https://www.youtube.com/watch?v=KyPgT7rW71s"
             },
             {
                 "name": "Pandemonium",
                 "id": null,
-                "progressId": "nlw:Extreme:1000:Pandemonium",
+                "progressId": "nlw:Extreme:1002:Pandemonium",
                 "copyValue": "Pandemonium",
                 "video": "https://www.youtube.com/watch?v=LivJiKIE384"
             },
             {
                 "name": "Polygonal Paradox",
                 "id": null,
-                "progressId": "nlw:Extreme:1001:Polygonal Paradox",
+                "progressId": "nlw:Extreme:1003:Polygonal Paradox",
                 "copyValue": "Polygonal Paradox",
                 "video": "https://www.youtube.com/watch?v=kDK_souoBb8"
             },
             {
                 "name": "Prisma",
                 "id": null,
-                "progressId": "nlw:Extreme:1002:Prisma",
+                "progressId": "nlw:Extreme:1004:Prisma",
                 "copyValue": "Prisma",
                 "video": "https://www.youtube.com/watch?v=ZMg37lY236s"
             },
             {
                 "name": "Quantum Processing",
                 "id": null,
-                "progressId": "nlw:Extreme:1003:Quantum Processing",
+                "progressId": "nlw:Extreme:1005:Quantum Processing",
                 "copyValue": "Quantum Processing",
                 "video": "https://www.youtube.com/watch?v=M_nFrwv63sg"
             },
             {
                 "name": "Quaoar",
                 "id": null,
-                "progressId": "nlw:Extreme:1004:Quaoar",
+                "progressId": "nlw:Extreme:1006:Quaoar",
                 "copyValue": "Quaoar",
                 "video": "https://www.youtube.com/watch?v=uap1LCs-KIE"
             },
             {
                 "name": "Rate Demon",
                 "id": null,
-                "progressId": "nlw:Extreme:1005:Rate Demon",
+                "progressId": "nlw:Extreme:1007:Rate Demon",
                 "copyValue": "Rate Demon",
                 "video": "https://www.youtube.com/watch?v=qM4Kwg1HaHk"
             },
             {
                 "name": "Reactor Core",
                 "id": null,
-                "progressId": "nlw:Extreme:1006:Reactor Core",
+                "progressId": "nlw:Extreme:1008:Reactor Core",
                 "copyValue": "Reactor Core",
                 "video": "https://www.youtube.com/watch?v=_b87xWwG_GY"
             },
             {
                 "name": "REDEEMER",
                 "id": null,
-                "progressId": "nlw:Extreme:1007:REDEEMER",
+                "progressId": "nlw:Extreme:1009:REDEEMER",
                 "copyValue": "REDEEMER",
                 "video": "https://www.youtube.com/watch?v=_mjtY9C77cQ"
             },
             {
                 "name": "rosedynamix",
                 "id": null,
-                "progressId": "nlw:Extreme:1008:rosedynamix",
+                "progressId": "nlw:Extreme:1010:rosedynamix",
                 "copyValue": "rosedynamix",
                 "video": "https://www.youtube.com/watch?v=jP9Hub4jTbY"
             },
             {
                 "name": "SECTOR 19",
                 "id": null,
-                "progressId": "nlw:Extreme:1009:SECTOR 19",
+                "progressId": "nlw:Extreme:1011:SECTOR 19",
                 "copyValue": "SECTOR 19",
                 "video": "https://www.youtube.com/watch?v=3qcrO6nSg4Q"
             },
             {
                 "name": "🎄 Shock Therapy 🎄",
                 "id": null,
-                "progressId": "nlw:Extreme:1010:🎄 Shock Therapy 🎄",
+                "progressId": "nlw:Extreme:1012:🎄 Shock Therapy 🎄",
                 "copyValue": "🎄 Shock Therapy 🎄",
                 "video": "https://www.youtube.com/watch?v=IjdQk0d8mTM"
             },
             {
                 "name": "silent hills",
                 "id": null,
-                "progressId": "nlw:Extreme:1011:silent hills",
+                "progressId": "nlw:Extreme:1013:silent hills",
                 "copyValue": "silent hills",
                 "video": "https://www.youtube.com/watch?v=mNmye_a9GOg"
             },
             {
                 "name": "Sinister Incision",
                 "id": null,
-                "progressId": "nlw:Extreme:1012:Sinister Incision",
+                "progressId": "nlw:Extreme:1014:Sinister Incision",
                 "copyValue": "Sinister Incision",
                 "video": "https://www.youtube.com/watch?v=AOY9LT3EqP8"
             },
             {
                 "name": "SnowFall Fiesta",
                 "id": null,
-                "progressId": "nlw:Extreme:1013:SnowFall Fiesta",
+                "progressId": "nlw:Extreme:1015:SnowFall Fiesta",
                 "copyValue": "SnowFall Fiesta",
                 "video": "https://www.youtube.com/watch?v=F_YRkldEKww"
             },
             {
                 "name": "Spectrum Rave",
                 "id": null,
-                "progressId": "nlw:Extreme:1014:Spectrum Rave",
+                "progressId": "nlw:Extreme:1016:Spectrum Rave",
                 "copyValue": "Spectrum Rave",
                 "video": "https://www.youtube.com/watch?v=nXhzm1sAdyY"
             },
             {
                 "name": "Spirit House",
                 "id": null,
-                "progressId": "nlw:Extreme:1015:Spirit House",
+                "progressId": "nlw:Extreme:1017:Spirit House",
                 "copyValue": "Spirit House",
                 "video": "https://www.youtube.com/watch?v=ZRZTrpMp2Zk"
             },
             {
                 "name": "Step To Hell",
                 "id": null,
-                "progressId": "nlw:Extreme:1016:Step To Hell",
+                "progressId": "nlw:Extreme:1018:Step To Hell",
                 "copyValue": "Step To Hell",
                 "video": "https://www.youtube.com/watch?v=AYqHHiTxndk"
             },
             {
                 "name": "Surge of Memories",
                 "id": null,
-                "progressId": "nlw:Extreme:1017:Surge of Memories",
+                "progressId": "nlw:Extreme:1019:Surge of Memories",
                 "copyValue": "Surge of Memories",
                 "video": "https://www.youtube.com/watch?v=bMa_IEFpYDQ"
             },
             {
                 "name": "Surge of the Shield",
                 "id": null,
-                "progressId": "nlw:Extreme:1018:Surge of the Shield",
+                "progressId": "nlw:Extreme:1020:Surge of the Shield",
                 "copyValue": "Surge of the Shield",
                 "video": "https://www.youtube.com/watch?v=5MJpBTiMSnE"
             },
             {
                 "name": "SyrEX",
                 "id": null,
-                "progressId": "nlw:Extreme:1019:SyrEX",
+                "progressId": "nlw:Extreme:1021:SyrEX",
                 "copyValue": "SyrEX",
                 "video": "https://youtu.be/p9l8WhJ2eps?si=li8rl4SzIAiZlbGt"
             },
             {
                 "name": "The Hell Zone",
                 "id": null,
-                "progressId": "nlw:Extreme:1020:The Hell Zone",
+                "progressId": "nlw:Extreme:1022:The Hell Zone",
                 "copyValue": "The Hell Zone",
                 "video": "https://www.youtube.com/watch?v=C0jAkfbi_vI"
             },
             {
                 "name": "The Sulphur Sea",
                 "id": null,
-                "progressId": "nlw:Extreme:1021:The Sulphur Sea",
+                "progressId": "nlw:Extreme:1023:The Sulphur Sea",
                 "copyValue": "The Sulphur Sea",
                 "video": "https://www.youtube.com/watch?v=kkylB6UxPMY"
             },
             {
                 "name": "VALOVI",
                 "id": null,
-                "progressId": "nlw:Extreme:1022:VALOVI",
+                "progressId": "nlw:Extreme:1024:VALOVI",
                 "copyValue": "VALOVI",
                 "video": "https://youtu.be/2xVA31gOZoU?si=e491YYxZrnqO_-3W"
             },
             {
                 "name": "Visurient",
                 "id": null,
-                "progressId": "nlw:Extreme:1023:Visurient",
+                "progressId": "nlw:Extreme:1025:Visurient",
                 "copyValue": "Visurient",
                 "video": "https://www.youtube.com/watch?v=ERDMA4RqaIA"
             },
             {
                 "name": "Void Wave",
                 "id": null,
-                "progressId": "nlw:Extreme:1024:Void Wave",
+                "progressId": "nlw:Extreme:1026:Void Wave",
                 "copyValue": "Void Wave",
                 "video": "https://www.youtube.com/watch?v=1y6U29ZeWs8"
             },
             {
                 "name": "Ziroikabi",
                 "id": null,
-                "progressId": "nlw:Extreme:1025:Ziroikabi",
+                "progressId": "nlw:Extreme:1027:Ziroikabi",
                 "copyValue": "Ziroikabi",
                 "video": "https://www.youtube.com/watch?v=EnpRdFZJvKw"
             },
             {
                 "name": "Ziroikapi",
                 "id": null,
-                "progressId": "nlw:Extreme:1026:Ziroikapi",
+                "progressId": "nlw:Extreme:1028:Ziroikapi",
                 "copyValue": "Ziroikapi",
                 "video": "https://www.youtube.com/watch?v=V2CZ2aQrKO4"
             }
@@ -6958,546 +6972,546 @@ export const nlwLevels = [
             {
                 "name": "0 Techno",
                 "id": null,
-                "progressId": "nlw:Remorseless:1028:0 Techno",
+                "progressId": "nlw:Remorseless:1030:0 Techno",
                 "copyValue": "0 Techno",
                 "video": "https://www.youtube.com/watch?v=nbAS6ugBvPc"
             },
             {
                 "name": "ABEL",
                 "id": null,
-                "progressId": "nlw:Remorseless:1029:ABEL",
+                "progressId": "nlw:Remorseless:1031:ABEL",
                 "copyValue": "ABEL",
                 "video": "https://youtu.be/VRYqlKjVr8s?si=Y0IyfnQaxGNtBi7y"
             },
             {
                 "name": "Absolute Anarchy",
                 "id": null,
-                "progressId": "nlw:Remorseless:1030:Absolute Anarchy",
+                "progressId": "nlw:Remorseless:1032:Absolute Anarchy",
                 "copyValue": "Absolute Anarchy",
                 "video": "https://youtu.be/w6vmR-xzMZo?si=NMtcP2htGz-InG5R"
             },
             {
                 "name": "Adelucid",
                 "id": null,
-                "progressId": "nlw:Remorseless:1031:Adelucid",
+                "progressId": "nlw:Remorseless:1033:Adelucid",
                 "copyValue": "Adelucid",
                 "video": "https://youtu.be/y0JbGkAZaO8?si=VBEG286I0Kylw3bA"
             },
             {
                 "name": "Aesthetic",
                 "id": null,
-                "progressId": "nlw:Remorseless:1032:Aesthetic",
+                "progressId": "nlw:Remorseless:1034:Aesthetic",
                 "copyValue": "Aesthetic",
                 "video": "https://youtu.be/rz7MZz4cE1c?si=CTFAJw1LoB9SOFU2"
             },
             {
                 "name": "Agony",
                 "id": null,
-                "progressId": "nlw:Remorseless:1033:Agony",
+                "progressId": "nlw:Remorseless:1035:Agony",
                 "copyValue": "Agony",
                 "video": "https://www.youtube.com/watch?v=QRgNDngbvaY"
             },
             {
                 "name": "ameliorate",
                 "id": null,
-                "progressId": "nlw:Remorseless:1034:ameliorate",
+                "progressId": "nlw:Remorseless:1036:ameliorate",
                 "copyValue": "ameliorate",
                 "video": "https://youtu.be/FE5jhkjSCBs?si=esCEkDBb1NWR6Ea6"
             },
             {
                 "name": "Apollo 11",
                 "id": null,
-                "progressId": "nlw:Remorseless:1035:Apollo 11",
+                "progressId": "nlw:Remorseless:1037:Apollo 11",
                 "copyValue": "Apollo 11",
                 "video": "https://youtu.be/gW_cscLFS_4?si=kMMFwOb05L5UAZ9V"
             },
             {
                 "name": "Artificial Ascent",
                 "id": null,
-                "progressId": "nlw:Remorseless:1036:Artificial Ascent",
+                "progressId": "nlw:Remorseless:1038:Artificial Ascent",
                 "copyValue": "Artificial Ascent",
                 "video": "https://youtu.be/URwPErFdH7c?si=Esi2J_26kE4DNWRn"
             },
             {
                 "name": "Auroral Darkness",
                 "id": null,
-                "progressId": "nlw:Remorseless:1037:Auroral Darkness",
+                "progressId": "nlw:Remorseless:1039:Auroral Darkness",
                 "copyValue": "Auroral Darkness",
                 "video": "https://youtu.be/FY3eDPhZ-Ok?si=ibQbzCTPpB5Ne1_l"
             },
             {
                 "name": "Belloq",
                 "id": null,
-                "progressId": "nlw:Remorseless:1038:Belloq",
+                "progressId": "nlw:Remorseless:1040:Belloq",
                 "copyValue": "Belloq",
                 "video": "https://youtu.be/Vt86fz7xaMk?si=H9JDpPQjgk8WbcUL"
             },
             {
                 "name": "Bete Noire",
                 "id": null,
-                "progressId": "nlw:Remorseless:1039:Bete Noire",
+                "progressId": "nlw:Remorseless:1041:Bete Noire",
                 "copyValue": "Bete Noire",
                 "video": "https://youtu.be/RC0AdJffy-w?si=i8fPaCOx-KqE7bT6"
             },
             {
                 "name": "Biohazard",
                 "id": null,
-                "progressId": "nlw:Remorseless:1040:Biohazard",
+                "progressId": "nlw:Remorseless:1042:Biohazard",
                 "copyValue": "Biohazard",
                 "video": "https://youtu.be/8RAw1e9_Mrg?si=h1JaHCJ3xf_DnkHO"
             },
             {
                 "name": "Bitcrusher",
                 "id": null,
-                "progressId": "nlw:Remorseless:1041:Bitcrusher",
+                "progressId": "nlw:Remorseless:1043:Bitcrusher",
                 "copyValue": "Bitcrusher",
                 "video": "https://youtu.be/_cwjXeIr99M?si=3ZhT4NYbHY-e_ZL6"
             },
             {
                 "name": "Budding Roses",
                 "id": null,
-                "progressId": "nlw:Remorseless:1042:Budding Roses",
+                "progressId": "nlw:Remorseless:1044:Budding Roses",
                 "copyValue": "Budding Roses",
                 "video": "https://youtu.be/oCBtGmwkaSY?si=TwmEMVwAmt505Qfs"
             },
             {
                 "name": "Cadrega City",
                 "id": null,
-                "progressId": "nlw:Remorseless:1043:Cadrega City",
+                "progressId": "nlw:Remorseless:1045:Cadrega City",
                 "copyValue": "Cadrega City",
                 "video": "https://youtu.be/6-3WBzIJPDE?si=ugsWluuOJaMoFFcW"
             },
             {
                 "name": "ConFusion",
                 "id": null,
-                "progressId": "nlw:Remorseless:1044:ConFusion",
+                "progressId": "nlw:Remorseless:1046:ConFusion",
                 "copyValue": "ConFusion",
                 "video": "https://youtu.be/WozTkaIJFH0?si=uT9zDzOAib40LCWA"
             },
             {
                 "name": "Crystal",
                 "id": null,
-                "progressId": "nlw:Remorseless:1045:Crystal",
+                "progressId": "nlw:Remorseless:1047:Crystal",
                 "copyValue": "Crystal",
                 "video": "https://youtu.be/E5cC83yxRko?si=NVTW22LMIZx8wOah"
             },
             {
                 "name": "Death",
                 "id": null,
-                "progressId": "nlw:Remorseless:1046:Death",
+                "progressId": "nlw:Remorseless:1048:Death",
                 "copyValue": "Death",
                 "video": "https://youtu.be/Y2ib900grDQ?si=jZGsdUwcgHP4hvz8"
             },
             {
                 "name": "Delete File",
                 "id": null,
-                "progressId": "nlw:Remorseless:1047:Delete File",
+                "progressId": "nlw:Remorseless:1049:Delete File",
                 "copyValue": "Delete File",
                 "video": "https://www.youtube.com/watch?v=Gg_ATL6B6kU"
             },
             {
                 "name": "Delta Interface",
                 "id": null,
-                "progressId": "nlw:Remorseless:1048:Delta Interface",
+                "progressId": "nlw:Remorseless:1050:Delta Interface",
                 "copyValue": "Delta Interface",
                 "video": "https://youtu.be/POiOb_JSwMM?si=WwdfQLqPpnJiNS8s"
             },
             {
                 "name": "Demonicat",
                 "id": null,
-                "progressId": "nlw:Remorseless:1049:Demonicat",
+                "progressId": "nlw:Remorseless:1051:Demonicat",
                 "copyValue": "Demonicat",
                 "video": "https://youtu.be/AYCwaipuJqI?si=NBGxEVWatduX54Wu"
             },
             {
                 "name": "Diamond Disco",
                 "id": null,
-                "progressId": "nlw:Remorseless:1050:Diamond Disco",
+                "progressId": "nlw:Remorseless:1052:Diamond Disco",
                 "copyValue": "Diamond Disco",
                 "video": "https://www.youtube.com/watch?v=7zi8X8uInHE"
             },
             {
                 "name": "Digital Descent",
                 "id": null,
-                "progressId": "nlw:Remorseless:1051:Digital Descent",
+                "progressId": "nlw:Remorseless:1053:Digital Descent",
                 "copyValue": "Digital Descent",
                 "video": "https://youtu.be/U7nn_HVknKA?si=dt3PHwOGFjltUFNx"
             },
             {
                 "name": "Dole Damos",
                 "id": null,
-                "progressId": "nlw:Remorseless:1052:Dole Damos",
+                "progressId": "nlw:Remorseless:1054:Dole Damos",
                 "copyValue": "Dole Damos",
                 "video": "https://youtu.be/uDaTSKLUL2w?si=h2WLLHyl7-XVFC41"
             },
             {
                 "name": "Dualies",
                 "id": null,
-                "progressId": "nlw:Remorseless:1053:Dualies",
+                "progressId": "nlw:Remorseless:1055:Dualies",
                 "copyValue": "Dualies",
                 "video": "https://youtu.be/oe0SzIu7_q8?si=ZUlW1DOZSwPyVofD"
             },
             {
                 "name": "DubKore X",
                 "id": null,
-                "progressId": "nlw:Remorseless:1054:DubKore X",
+                "progressId": "nlw:Remorseless:1056:DubKore X",
                 "copyValue": "DubKore X",
                 "video": "https://www.youtube.com/watch?v=zytU7E5Smp8"
             },
             {
                 "name": "Effect II",
                 "id": null,
-                "progressId": "nlw:Remorseless:1055:Effect II",
+                "progressId": "nlw:Remorseless:1057:Effect II",
                 "copyValue": "Effect II",
                 "video": "https://youtu.be/CXhBO1LKWRg?si=YTjG4HcgSZ7Iov4J"
             },
             {
                 "name": "Fabrication",
                 "id": null,
-                "progressId": "nlw:Remorseless:1056:Fabrication",
+                "progressId": "nlw:Remorseless:1058:Fabrication",
                 "copyValue": "Fabrication",
                 "video": "https://youtu.be/jz4LRT0Qi_k?si=42mlPhkp_PNCLZBb"
             },
             {
                 "name": "Factory Realm X",
                 "id": null,
-                "progressId": "nlw:Remorseless:1057:Factory Realm X",
+                "progressId": "nlw:Remorseless:1059:Factory Realm X",
                 "copyValue": "Factory Realm X",
                 "video": "https://youtu.be/gWcVQWl4A7Q?si=pbIKMSOOxgEINnlc"
             },
             {
                 "name": "find the answer",
                 "id": null,
-                "progressId": "nlw:Remorseless:1058:find the answer",
+                "progressId": "nlw:Remorseless:1060:find the answer",
                 "copyValue": "find the answer",
                 "video": "https://youtu.be/qSIHnwCpzAU?si=pZqawv6Qukk18mNz"
             },
             {
                 "name": "FIREPOWER",
                 "id": null,
-                "progressId": "nlw:Remorseless:1059:FIREPOWER",
+                "progressId": "nlw:Remorseless:1061:FIREPOWER",
                 "copyValue": "FIREPOWER",
                 "video": "https://youtu.be/15_tMJR2bzo?si=edPR5udnjVaWDtCL"
             },
             {
                 "name": "GREFG",
                 "id": null,
-                "progressId": "nlw:Remorseless:1060:GREFG",
+                "progressId": "nlw:Remorseless:1062:GREFG",
                 "copyValue": "GREFG",
                 "video": "https://www.youtube.com/watch?v=BKMSh4IGcGM"
             },
             {
                 "name": "I Cry",
                 "id": null,
-                "progressId": "nlw:Remorseless:1061:I Cry",
+                "progressId": "nlw:Remorseless:1063:I Cry",
                 "copyValue": "I Cry",
                 "video": "https://www.youtube.com/watch?v=D2w9piSciX8"
             },
             {
                 "name": "IMAPHONE",
                 "id": null,
-                "progressId": "nlw:Remorseless:1062:IMAPHONE",
+                "progressId": "nlw:Remorseless:1064:IMAPHONE",
                 "copyValue": "IMAPHONE",
                 "video": "https://youtu.be/BA9ZPD5ktyg?si=NI2GLxrfKzDHfwzh"
             },
             {
                 "name": "inanimate INSANITY",
                 "id": null,
-                "progressId": "nlw:Remorseless:1063:inanimate INSANITY",
+                "progressId": "nlw:Remorseless:1065:inanimate INSANITY",
                 "copyValue": "inanimate INSANITY",
                 "video": "https://youtu.be/SSgqHSy99dw?si=jvF630_MlopFESnv"
             },
             {
                 "name": "Infinite Highway",
                 "id": null,
-                "progressId": "nlw:Remorseless:1064:Infinite Highway",
+                "progressId": "nlw:Remorseless:1066:Infinite Highway",
                 "copyValue": "Infinite Highway",
                 "video": "https://youtu.be/CQXMM19Ydw8?si=ZGVBLLjJBvf_86fo"
             },
             {
                 "name": "Jard Factory",
                 "id": null,
-                "progressId": "nlw:Remorseless:1065:Jard Factory",
+                "progressId": "nlw:Remorseless:1067:Jard Factory",
                 "copyValue": "Jard Factory",
                 "video": "https://youtu.be/lNOo3UyCiEs?si=1bbJpylAs5pv9Dld"
             },
             {
                 "name": "Killbot",
                 "id": null,
-                "progressId": "nlw:Remorseless:1066:Killbot",
+                "progressId": "nlw:Remorseless:1068:Killbot",
                 "copyValue": "Killbot",
                 "video": "https://youtu.be/b3HgBQM5204?si=l1ttwml4P4MxjHWw"
             },
             {
                 "name": "lacy",
                 "id": null,
-                "progressId": "nlw:Remorseless:1067:lacy",
+                "progressId": "nlw:Remorseless:1069:lacy",
                 "copyValue": "lacy",
                 "video": "https://www.youtube.com/watch?v=wVdY0WzbYSw"
             },
             {
                 "name": "Lateral Myst",
                 "id": null,
-                "progressId": "nlw:Remorseless:1068:Lateral Myst",
+                "progressId": "nlw:Remorseless:1070:Lateral Myst",
                 "copyValue": "Lateral Myst",
                 "video": "https://youtu.be/7bQ-uFS04vU?si=Qd6THPetveyLF1-q"
             },
             {
                 "name": "lovel",
                 "id": null,
-                "progressId": "nlw:Remorseless:1069:lovel",
+                "progressId": "nlw:Remorseless:1071:lovel",
                 "copyValue": "lovel",
                 "video": "https://youtu.be/dtMvWIQJDFk?si=X4NEGhG6hT08uUcw"
             },
             {
                 "name": "Low Death",
                 "id": null,
-                "progressId": "nlw:Remorseless:1070:Low Death",
+                "progressId": "nlw:Remorseless:1072:Low Death",
                 "copyValue": "Low Death",
                 "video": "https://youtu.be/VX15EL06cPw?si=Lu5-yh6PyLaiDGRu"
             },
             {
                 "name": "Luxtra",
                 "id": null,
-                "progressId": "nlw:Remorseless:1071:Luxtra",
+                "progressId": "nlw:Remorseless:1073:Luxtra",
                 "copyValue": "Luxtra",
                 "video": "https://youtu.be/Kf7J6yX7GuM?si=pRhEdT94rX0ztKEq"
             },
             {
                 "name": "Missing Benefits",
                 "id": null,
-                "progressId": "nlw:Remorseless:1072:Missing Benefits",
+                "progressId": "nlw:Remorseless:1074:Missing Benefits",
                 "copyValue": "Missing Benefits",
                 "video": "https://youtu.be/OST9uj6_ge8?si=-CSEyQE8WftZz0S7"
             },
             {
                 "name": "NetzWerk",
                 "id": null,
-                "progressId": "nlw:Remorseless:1073:NetzWerk",
+                "progressId": "nlw:Remorseless:1075:NetzWerk",
                 "copyValue": "NetzWerk",
                 "video": "https://youtu.be/agsvkmo7m24?si=8VATQ9Awov6J2ol_"
             },
             {
                 "name": "Night Rider",
                 "id": null,
-                "progressId": "nlw:Remorseless:1074:Night Rider",
+                "progressId": "nlw:Remorseless:1076:Night Rider",
                 "copyValue": "Night Rider",
                 "video": "https://youtu.be/DuVMVHvVtes?si=rXaWa4WaD2LYi3fw"
             },
             {
                 "name": "Nightmare Chasm",
                 "id": null,
-                "progressId": "nlw:Remorseless:1075:Nightmare Chasm",
+                "progressId": "nlw:Remorseless:1077:Nightmare Chasm",
                 "copyValue": "Nightmare Chasm",
                 "video": "https://www.youtube.com/watch?v=EcBhQ8YYPng"
             },
             {
                 "name": "Occult Outcry",
                 "id": null,
-                "progressId": "nlw:Remorseless:1076:Occult Outcry",
+                "progressId": "nlw:Remorseless:1078:Occult Outcry",
                 "copyValue": "Occult Outcry",
                 "video": "https://youtu.be/9Oc3llEwuqo?si=OCUbVI7a2KLd3B_b"
             },
             {
                 "name": "Omicron",
                 "id": null,
-                "progressId": "nlw:Remorseless:1077:Omicron",
+                "progressId": "nlw:Remorseless:1079:Omicron",
                 "copyValue": "Omicron",
                 "video": "https://youtu.be/tWxZPc1DYMg?si=Wms1pBCw6fRrXuGO"
             },
             {
                 "name": "Paroxysm",
                 "id": null,
-                "progressId": "nlw:Remorseless:1078:Paroxysm",
+                "progressId": "nlw:Remorseless:1080:Paroxysm",
                 "copyValue": "Paroxysm",
                 "video": "https://youtu.be/0ochUZRrESM?si=e0RBal_tBtJTEbn-"
             },
             {
                 "name": "Photovoltaic II",
                 "id": null,
-                "progressId": "nlw:Remorseless:1079:Photovoltaic II",
+                "progressId": "nlw:Remorseless:1081:Photovoltaic II",
                 "copyValue": "Photovoltaic II",
                 "video": "https://youtu.be/Ktz0dlNb6pw?si=qIZPJOEqktRfstCI"
             },
             {
                 "name": "poocu4ever",
                 "id": null,
-                "progressId": "nlw:Remorseless:1080:poocu4ever",
+                "progressId": "nlw:Remorseless:1082:poocu4ever",
                 "copyValue": "poocu4ever",
                 "video": "https://youtu.be/f-R-2VLU3f4?si=01kPi-ZRT-nyEJnj"
             },
             {
                 "name": "POW",
                 "id": null,
-                "progressId": "nlw:Remorseless:1081:POW",
+                "progressId": "nlw:Remorseless:1083:POW",
                 "copyValue": "POW",
                 "video": "https://www.youtube.com/watch?v=qb12FPn5VFA"
             },
             {
                 "name": "Power Grid",
                 "id": null,
-                "progressId": "nlw:Remorseless:1082:Power Grid",
+                "progressId": "nlw:Remorseless:1084:Power Grid",
                 "copyValue": "Power Grid",
                 "video": "https://youtu.be/cZvZTTy9HmU"
             },
             {
                 "name": "RAINBOW GIRL",
                 "id": null,
-                "progressId": "nlw:Remorseless:1083:RAINBOW GIRL",
+                "progressId": "nlw:Remorseless:1085:RAINBOW GIRL",
                 "copyValue": "RAINBOW GIRL",
                 "video": "https://youtu.be/zFIUOdOF2rg?si=FeYRzBlZiVO5t0M5"
             },
             {
                 "name": "Raisins",
                 "id": null,
-                "progressId": "nlw:Remorseless:1084:Raisins",
+                "progressId": "nlw:Remorseless:1086:Raisins",
                 "copyValue": "Raisins",
                 "video": "https://youtu.be/PSZtlL7EAQs?si=OlKNkDZiSpzFCay3"
             },
             {
                 "name": "Retention Rush",
                 "id": null,
-                "progressId": "nlw:Remorseless:1085:Retention Rush",
+                "progressId": "nlw:Remorseless:1087:Retention Rush",
                 "copyValue": "Retention Rush",
                 "video": "https://youtu.be/09Oi74VyMCY?si=xY2fSzSr3s1KUhi1"
             },
             {
                 "name": "snowing in las vegas",
                 "id": null,
-                "progressId": "nlw:Remorseless:1086:snowing in las vegas",
+                "progressId": "nlw:Remorseless:1088:snowing in las vegas",
                 "copyValue": "snowing in las vegas",
                 "video": "https://www.youtube.com/watch?v=zxUCGkuHp3U"
             },
             {
                 "name": "Solarion",
                 "id": null,
-                "progressId": "nlw:Remorseless:1087:Solarion",
+                "progressId": "nlw:Remorseless:1089:Solarion",
                 "copyValue": "Solarion",
                 "video": "https://youtu.be/-fh9MlCONns?si=xCAaLpd0rG3Ja7KG"
             },
             {
                 "name": "SOLEIL",
                 "id": null,
-                "progressId": "nlw:Remorseless:1088:SOLEIL",
+                "progressId": "nlw:Remorseless:1090:SOLEIL",
                 "copyValue": "SOLEIL",
                 "video": "https://www.youtube.com/watch?v=uaGDrD-0hPo"
             },
             {
                 "name": "Springtime",
                 "id": null,
-                "progressId": "nlw:Remorseless:1089:Springtime",
+                "progressId": "nlw:Remorseless:1091:Springtime",
                 "copyValue": "Springtime",
                 "video": "https://youtu.be/RfSlb7aqhjM?si=x4BwqA43T2cMz0Vl"
             },
             {
                 "name": "Stalemate Redux",
                 "id": null,
-                "progressId": "nlw:Remorseless:1090:Stalemate Redux",
+                "progressId": "nlw:Remorseless:1092:Stalemate Redux",
                 "copyValue": "Stalemate Redux",
                 "video": "https://youtu.be/pAff40qw5pY?si=KdprVb4h2DSZG6co"
             },
             {
                 "name": "Stereo Extremeness",
                 "id": null,
-                "progressId": "nlw:Remorseless:1091:Stereo Extremeness",
+                "progressId": "nlw:Remorseless:1093:Stereo Extremeness",
                 "copyValue": "Stereo Extremeness",
                 "video": "https://youtu.be/spxZu-sRpHc?si=R58LsjHJTekKr-3g"
             },
             {
                 "name": "SUPER SERIOUS WORLD",
                 "id": null,
-                "progressId": "nlw:Remorseless:1092:SUPER SERIOUS WORLD",
+                "progressId": "nlw:Remorseless:1094:SUPER SERIOUS WORLD",
                 "copyValue": "SUPER SERIOUS WORLD",
                 "video": "https://youtu.be/yO2pvA5JXl4?si=1WKUYuZJpLUryh1A"
             },
             {
                 "name": "Tempered Steel",
                 "id": null,
-                "progressId": "nlw:Remorseless:1093:Tempered Steel",
+                "progressId": "nlw:Remorseless:1095:Tempered Steel",
                 "copyValue": "Tempered Steel",
                 "video": "https://youtu.be/wEaA7fEgheU?si=YFBerZqhGHNLa1qD"
             },
             {
                 "name": "The Hell Tribute",
                 "id": null,
-                "progressId": "nlw:Remorseless:1094:The Hell Tribute",
+                "progressId": "nlw:Remorseless:1096:The Hell Tribute",
                 "copyValue": "The Hell Tribute",
                 "video": "https://youtu.be/Oobet-6GGzQ?si=MhXx4pllxJ4zYyrJ"
             },
             {
                 "name": "The Moon Below",
                 "id": null,
-                "progressId": "nlw:Remorseless:1095:The Moon Below",
+                "progressId": "nlw:Remorseless:1097:The Moon Below",
                 "copyValue": "The Moon Below",
                 "video": "https://youtu.be/REzdF2IxCXc?si=0vhcebS0aqxOE9lB"
             },
             {
                 "name": "TheCinnyBun",
                 "id": null,
-                "progressId": "nlw:Remorseless:1096:TheCinnyBun",
+                "progressId": "nlw:Remorseless:1098:TheCinnyBun",
                 "copyValue": "TheCinnyBun",
                 "video": "https://youtu.be/GZPoIo_mHoE?si=jMqLkdq7URzXk85N"
             },
             {
                 "name": "Through time",
                 "id": null,
-                "progressId": "nlw:Remorseless:1097:Through time",
+                "progressId": "nlw:Remorseless:1099:Through time",
                 "copyValue": "Through time",
                 "video": "https://youtu.be/isOtSDQ_fLI?si=DtszvkmbkapkYXuU"
             },
             {
                 "name": "TURN THE LIGHTS OFF",
                 "id": null,
-                "progressId": "nlw:Remorseless:1098:TURN THE LIGHTS OFF",
+                "progressId": "nlw:Remorseless:1100:TURN THE LIGHTS OFF",
                 "copyValue": "TURN THE LIGHTS OFF",
                 "video": "https://youtu.be/QE4dSyU-6Zg"
             },
             {
                 "name": "vaenstep",
                 "id": null,
-                "progressId": "nlw:Remorseless:1099:vaenstep",
+                "progressId": "nlw:Remorseless:1101:vaenstep",
                 "copyValue": "vaenstep",
                 "video": "https://youtu.be/EUYhWTg-q3Q?si=FmUfz3N4v0Qt2NVn"
             },
             {
                 "name": "very rusty pipeline",
                 "id": null,
-                "progressId": "nlw:Remorseless:1100:very rusty pipeline",
+                "progressId": "nlw:Remorseless:1102:very rusty pipeline",
                 "copyValue": "very rusty pipeline",
                 "video": "https://youtu.be/2ayZZ9fYGiQ?si=tjM8vlOkMdRsUSx7"
             },
             {
                 "name": "Video",
                 "id": null,
-                "progressId": "nlw:Remorseless:1101:Video",
+                "progressId": "nlw:Remorseless:1103:Video",
                 "copyValue": "Video",
                 "video": "https://www.youtube.com/watch?v=jpoCIkhYNJE"
             },
             {
                 "name": "x steampunk x",
                 "id": null,
-                "progressId": "nlw:Remorseless:1102:x steampunk x",
+                "progressId": "nlw:Remorseless:1104:x steampunk x",
                 "copyValue": "x steampunk x",
                 "video": "https://www.youtube.com/watch?v=VT9wkGekNk4"
             },
             {
                 "name": "Xronier",
                 "id": null,
-                "progressId": "nlw:Remorseless:1103:Xronier",
+                "progressId": "nlw:Remorseless:1105:Xronier",
                 "copyValue": "Xronier",
                 "video": "https://youtu.be/JAsqb2OAysI"
             },
             {
                 "name": "Yuh",
                 "id": null,
-                "progressId": "nlw:Remorseless:1104:Yuh",
+                "progressId": "nlw:Remorseless:1106:Yuh",
                 "copyValue": "Yuh",
                 "video": "https://youtu.be/88Rpl8mhGFs?si=bJFNzDbJ1WxvRavx"
             },
             {
                 "name": "ZAPHKIEL",
                 "id": null,
-                "progressId": "nlw:Remorseless:1105:ZAPHKIEL",
+                "progressId": "nlw:Remorseless:1107:ZAPHKIEL",
                 "copyValue": "ZAPHKIEL",
                 "video": "https://youtu.be/D6O8OdLaNko?si=BWNI0WeN8l7B4d4Z"
             }
@@ -7505,573 +7519,566 @@ export const nlwLevels = [
     },
     {
         "rank": "Relentless",
-        "requirement": 81,
+        "requirement": 80,
         "headerColor": "B087EB",
         "levels": [
             {
                 "name": "Altered Ascent",
                 "id": null,
-                "progressId": "nlw:Relentless:1107:Altered Ascent",
+                "progressId": "nlw:Relentless:1109:Altered Ascent",
                 "copyValue": "Altered Ascent",
                 "video": "https://www.youtube.com/watch?v=LAqeeuJ9UnI"
             },
             {
                 "name": "Ascension",
                 "id": null,
-                "progressId": "nlw:Relentless:1108:Ascension",
+                "progressId": "nlw:Relentless:1110:Ascension",
                 "copyValue": "Ascension",
                 "video": "https://youtu.be/yZzS1mvqhJI?si=4zSIdAGt7IjNIOJa"
             },
             {
                 "name": "ASHES",
                 "id": null,
-                "progressId": "nlw:Relentless:1109:ASHES",
+                "progressId": "nlw:Relentless:1111:ASHES",
                 "copyValue": "ASHES",
                 "video": "https://youtu.be/I5BCHlVnlWE?si=cSQRjhtPjdeQVAQ1"
             },
             {
                 "name": "Basil",
                 "id": null,
-                "progressId": "nlw:Relentless:1110:Basil",
+                "progressId": "nlw:Relentless:1112:Basil",
                 "copyValue": "Basil",
                 "video": "https://www.youtube.com/watch?v=2F93EuIDyJ0"
             },
             {
                 "name": "BRKMGB8GJCZ",
                 "id": null,
-                "progressId": "nlw:Relentless:1111:BRKMGB8GJCZ",
+                "progressId": "nlw:Relentless:1113:BRKMGB8GJCZ",
                 "copyValue": "BRKMGB8GJCZ",
                 "video": "https://www.youtube.com/watch?v=S-5BvUl1L6A"
             },
             {
                 "name": "BuZzKiLl",
                 "id": null,
-                "progressId": "nlw:Relentless:1112:BuZzKiLl",
+                "progressId": "nlw:Relentless:1114:BuZzKiLl",
                 "copyValue": "BuZzKiLl",
                 "video": "https://www.youtube.com/watch?v=dBeByNJ6rwA"
             },
             {
                 "name": "Catalyze",
                 "id": null,
-                "progressId": "nlw:Relentless:1113:Catalyze",
+                "progressId": "nlw:Relentless:1115:Catalyze",
                 "copyValue": "Catalyze",
                 "video": "https://www.youtube.com/watch?v=xgWAIedYGS0"
             },
             {
                 "name": "Celestial Force",
                 "id": null,
-                "progressId": "nlw:Relentless:1114:Celestial Force",
+                "progressId": "nlw:Relentless:1116:Celestial Force",
                 "copyValue": "Celestial Force",
                 "video": "https://www.youtube.com/watch?v=irMjWF7Sp-8"
             },
             {
                 "name": "Cersia Difficult",
                 "id": null,
-                "progressId": "nlw:Relentless:1115:Cersia Difficult",
+                "progressId": "nlw:Relentless:1117:Cersia Difficult",
                 "copyValue": "Cersia Difficult",
                 "video": "https://www.youtube.com/watch?v=GDwXvsTUgxA"
             },
             {
                 "name": "Charge",
                 "id": null,
-                "progressId": "nlw:Relentless:1116:Charge",
+                "progressId": "nlw:Relentless:1118:Charge",
                 "copyValue": "Charge",
                 "video": "https://www.youtube.com/watch?v=I06fPe1fvqI"
             },
             {
                 "name": "Chromatic Haze",
                 "id": null,
-                "progressId": "nlw:Relentless:1117:Chromatic Haze",
+                "progressId": "nlw:Relentless:1119:Chromatic Haze",
                 "copyValue": "Chromatic Haze",
                 "video": "https://www.youtube.com/watch?v=fhWplQ2tojY"
             },
             {
                 "name": "Come to Daddy",
                 "id": null,
-                "progressId": "nlw:Relentless:1118:Come to Daddy",
+                "progressId": "nlw:Relentless:1120:Come to Daddy",
                 "copyValue": "Come to Daddy",
                 "video": "https://www.youtube.com/watch?v=J29mc1gvXls"
             },
             {
                 "name": "Controlled Chaos",
                 "id": null,
-                "progressId": "nlw:Relentless:1119:Controlled Chaos",
+                "progressId": "nlw:Relentless:1121:Controlled Chaos",
                 "copyValue": "Controlled Chaos",
                 "video": "https://www.youtube.com/watch?v=k2n8sKBPipc"
             },
             {
                 "name": "Cosmic Ray",
                 "id": null,
-                "progressId": "nlw:Relentless:1120:Cosmic Ray",
+                "progressId": "nlw:Relentless:1122:Cosmic Ray",
                 "copyValue": "Cosmic Ray",
                 "video": "https://www.youtube.com/watch?v=R1qfUuPulNw"
             },
             {
                 "name": "Dark Flare",
                 "id": null,
-                "progressId": "nlw:Relentless:1121:Dark Flare",
+                "progressId": "nlw:Relentless:1123:Dark Flare",
                 "copyValue": "Dark Flare",
                 "video": "https://www.youtube.com/watch?v=8M2ZV2LhUfg"
             },
             {
                 "name": "Ddiamond",
                 "id": null,
-                "progressId": "nlw:Relentless:1122:Ddiamond",
+                "progressId": "nlw:Relentless:1124:Ddiamond",
                 "copyValue": "Ddiamond",
                 "video": "https://www.youtube.com/watch?v=yeYbyKpTIDo"
             },
             {
                 "name": "Delebit Oblivio",
                 "id": null,
-                "progressId": "nlw:Relentless:1123:Delebit Oblivio",
+                "progressId": "nlw:Relentless:1125:Delebit Oblivio",
                 "copyValue": "Delebit Oblivio",
                 "video": "https://www.youtube.com/watch?v=etZ1iptHJKk"
             },
             {
                 "name": "Devil Vortex",
                 "id": null,
-                "progressId": "nlw:Relentless:1124:Devil Vortex",
+                "progressId": "nlw:Relentless:1126:Devil Vortex",
                 "copyValue": "Devil Vortex",
                 "video": "https://www.youtube.com/watch?v=_v2X5NanSOQ"
             },
             {
                 "name": "Devotion",
                 "id": null,
-                "progressId": "nlw:Relentless:1125:Devotion",
+                "progressId": "nlw:Relentless:1127:Devotion",
                 "copyValue": "Devotion",
                 "video": "https://www.youtube.com/watch?v=cKMdYaCFjm0"
             },
             {
                 "name": "Dreams",
                 "id": null,
-                "progressId": "nlw:Relentless:1126:Dreams",
+                "progressId": "nlw:Relentless:1128:Dreams",
                 "copyValue": "Dreams",
                 "video": "https://www.youtube.com/watch?v=p9bEMm_I5IA"
             },
             {
                 "name": "Dual Pulse",
                 "id": null,
-                "progressId": "nlw:Relentless:1127:Dual Pulse",
+                "progressId": "nlw:Relentless:1129:Dual Pulse",
                 "copyValue": "Dual Pulse",
                 "video": "https://www.youtube.com/watch?v=hQdlUM_1lUY"
             },
             {
                 "name": "Echoes of Neon",
                 "id": null,
-                "progressId": "nlw:Relentless:1128:Echoes of Neon",
+                "progressId": "nlw:Relentless:1130:Echoes of Neon",
                 "copyValue": "Echoes of Neon",
                 "video": "https://youtu.be/IjM4anps9Yc?si=ahEbI_3vQUB3kMtd"
             },
             {
                 "name": "Edge of the Blade",
                 "id": null,
-                "progressId": "nlw:Relentless:1129:Edge of the Blade",
+                "progressId": "nlw:Relentless:1131:Edge of the Blade",
                 "copyValue": "Edge of the Blade",
                 "video": "https://www.youtube.com/watch?v=OXlWEzEBWAo"
             },
             {
                 "name": "Erebus",
                 "id": null,
-                "progressId": "nlw:Relentless:1130:Erebus",
+                "progressId": "nlw:Relentless:1132:Erebus",
                 "copyValue": "Erebus",
                 "video": "https://www.youtube.com/watch?v=5rvFQFozHno"
             },
             {
                 "name": "Farthest Outpost",
                 "id": null,
-                "progressId": "nlw:Relentless:1131:Farthest Outpost",
+                "progressId": "nlw:Relentless:1133:Farthest Outpost",
                 "copyValue": "Farthest Outpost",
                 "video": "https://youtu.be/7XUYyKmndLw"
             },
             {
                 "name": "Framework",
                 "id": null,
-                "progressId": "nlw:Relentless:1132:Framework",
+                "progressId": "nlw:Relentless:1134:Framework",
                 "copyValue": "Framework",
                 "video": "https://www.youtube.com/watch?v=uS_HPEJajZU"
             },
             {
                 "name": "Freedom08",
                 "id": null,
-                "progressId": "nlw:Relentless:1133:Freedom08",
+                "progressId": "nlw:Relentless:1135:Freedom08",
                 "copyValue": "Freedom08",
                 "video": "https://www.youtube.com/watch?v=7AhCJ8i_AYw"
             },
             {
                 "name": "Friday Vortex",
                 "id": null,
-                "progressId": "nlw:Relentless:1134:Friday Vortex",
+                "progressId": "nlw:Relentless:1136:Friday Vortex",
                 "copyValue": "Friday Vortex",
                 "video": "https://www.youtube.com/watch?v=-6ZPEh0DoSk"
             },
             {
                 "name": "Generic Wave",
                 "id": null,
-                "progressId": "nlw:Relentless:1135:Generic Wave",
+                "progressId": "nlw:Relentless:1137:Generic Wave",
                 "copyValue": "Generic Wave",
                 "video": "https://www.youtube.com/watch?v=qsR3lEVg91Y"
             },
             {
                 "name": "Glory",
                 "id": null,
-                "progressId": "nlw:Relentless:1136:Glory",
+                "progressId": "nlw:Relentless:1138:Glory",
                 "copyValue": "Glory",
                 "video": "https://www.youtube.com/watch?v=HkHLlG3PWIE"
             },
             {
                 "name": "GONER",
                 "id": null,
-                "progressId": "nlw:Relentless:1137:GONER",
+                "progressId": "nlw:Relentless:1139:GONER",
                 "copyValue": "GONER",
                 "video": "https://www.youtube.com/watch?v=-3uQhu_oLr8"
             },
             {
-                "name": "Icefall",
-                "id": null,
-                "progressId": "nlw:Relentless:1138:Icefall",
-                "copyValue": "Icefall",
-                "video": "https://www.youtube.com/watch?v=f9J64UM54BI"
-            },
-            {
                 "name": "Icotact",
                 "id": null,
-                "progressId": "nlw:Relentless:1139:Icotact",
+                "progressId": "nlw:Relentless:1140:Icotact",
                 "copyValue": "Icotact",
                 "video": "https://www.youtube.com/watch?v=crFY7ZhkZWM"
             },
             {
                 "name": "Illusion",
                 "id": null,
-                "progressId": "nlw:Relentless:1140:Illusion",
+                "progressId": "nlw:Relentless:1141:Illusion",
                 "copyValue": "Illusion",
                 "video": "https://youtu.be/VjOxgoE-niQ?si=j9cU9GLqmWtNC5nx"
             },
             {
                 "name": "Infinite Iniquity",
                 "id": null,
-                "progressId": "nlw:Relentless:1141:Infinite Iniquity",
+                "progressId": "nlw:Relentless:1142:Infinite Iniquity",
                 "copyValue": "Infinite Iniquity",
                 "video": "https://www.youtube.com/watch?v=Sj21ueS936w"
             },
             {
                 "name": "Instinct",
                 "id": null,
-                "progressId": "nlw:Relentless:1142:Instinct",
+                "progressId": "nlw:Relentless:1143:Instinct",
                 "copyValue": "Instinct",
                 "video": "https://www.youtube.com/watch?v=2CUEFMVGVws"
             },
             {
                 "name": "Jamboree",
                 "id": null,
-                "progressId": "nlw:Relentless:1143:Jamboree",
+                "progressId": "nlw:Relentless:1144:Jamboree",
                 "copyValue": "Jamboree",
                 "video": "https://www.youtube.com/watch?v=7vRTPlQMnIc"
             },
             {
                 "name": "Kjdf8314jlfssf",
                 "id": null,
-                "progressId": "nlw:Relentless:1144:Kjdf8314jlfssf",
+                "progressId": "nlw:Relentless:1145:Kjdf8314jlfssf",
                 "copyValue": "Kjdf8314jlfssf",
                 "video": "https://www.youtube.com/watch?v=ld7jsMWeecM"
             },
             {
                 "name": "Kuzureta",
                 "id": null,
-                "progressId": "nlw:Relentless:1145:Kuzureta",
+                "progressId": "nlw:Relentless:1146:Kuzureta",
                 "copyValue": "Kuzureta",
                 "video": "https://www.youtube.com/watch?v=1AkY9OPyecU"
             },
             {
                 "name": "Loochiverse",
                 "id": null,
-                "progressId": "nlw:Relentless:1146:Loochiverse",
+                "progressId": "nlw:Relentless:1147:Loochiverse",
                 "copyValue": "Loochiverse",
                 "video": "https://www.youtube.com/watch?v=TJVggj9xpOQ"
             },
             {
                 "name": "Lucid Chaos",
                 "id": null,
-                "progressId": "nlw:Relentless:1147:Lucid Chaos",
+                "progressId": "nlw:Relentless:1148:Lucid Chaos",
                 "copyValue": "Lucid Chaos",
                 "video": "https://www.youtube.com/watch?v=8hxh9YUWxP4"
             },
             {
                 "name": "Luminosity",
                 "id": null,
-                "progressId": "nlw:Relentless:1148:Luminosity",
+                "progressId": "nlw:Relentless:1149:Luminosity",
                 "copyValue": "Luminosity",
                 "video": "https://www.youtube.com/watch?v=CPDZjjzEx4E"
             },
             {
                 "name": "Maniamatic",
                 "id": null,
-                "progressId": "nlw:Relentless:1149:Maniamatic",
+                "progressId": "nlw:Relentless:1150:Maniamatic",
                 "copyValue": "Maniamatic",
                 "video": "https://www.youtube.com/watch?v=Lrk1iTMAukA"
             },
             {
                 "name": "Molten Core",
                 "id": null,
-                "progressId": "nlw:Relentless:1150:Molten Core",
+                "progressId": "nlw:Relentless:1151:Molten Core",
                 "copyValue": "Molten Core",
                 "video": "https://www.youtube.com/watch?v=T8ovqdZ40Ak"
             },
             {
                 "name": "Molten Gear",
                 "id": null,
-                "progressId": "nlw:Relentless:1151:Molten Gear",
+                "progressId": "nlw:Relentless:1152:Molten Gear",
                 "copyValue": "Molten Gear",
                 "video": "https://www.youtube.com/watch?v=cKv2cS8cUOw"
             },
             {
                 "name": "Necromancer",
                 "id": null,
-                "progressId": "nlw:Relentless:1152:Necromancer",
+                "progressId": "nlw:Relentless:1153:Necromancer",
                 "copyValue": "Necromancer",
                 "video": "https://www.youtube.com/watch?v=JlR-JCl-44o"
             },
             {
                 "name": "Next Stage",
                 "id": null,
-                "progressId": "nlw:Relentless:1153:Next Stage",
+                "progressId": "nlw:Relentless:1154:Next Stage",
                 "copyValue": "Next Stage",
                 "video": "https://youtu.be/N-epss2NgkQ?si=O5G-mDUUt6v3p_fS"
             },
             {
                 "name": "Nightshade",
                 "id": null,
-                "progressId": "nlw:Relentless:1154:Nightshade",
+                "progressId": "nlw:Relentless:1155:Nightshade",
                 "copyValue": "Nightshade",
                 "video": "https://www.youtube.com/watch?v=3AvXMBEPHjE"
             },
             {
                 "name": "Nunri",
                 "id": null,
-                "progressId": "nlw:Relentless:1155:Nunri",
+                "progressId": "nlw:Relentless:1156:Nunri",
                 "copyValue": "Nunri",
                 "video": "https://www.youtube.com/watch?v=mWNxtojEqDU"
             },
             {
                 "name": "OVERKILL",
                 "id": null,
-                "progressId": "nlw:Relentless:1156:OVERKILL",
+                "progressId": "nlw:Relentless:1157:OVERKILL",
                 "copyValue": "OVERKILL",
                 "video": "https://www.youtube.com/watch?v=wPnsEBxqY_g"
             },
             {
                 "name": "Phantasma",
                 "id": null,
-                "progressId": "nlw:Relentless:1157:Phantasma",
+                "progressId": "nlw:Relentless:1158:Phantasma",
                 "copyValue": "Phantasma",
                 "video": "https://www.youtube.com/watch?v=kxEGwcEr9hI"
             },
             {
                 "name": "Pingas21",
                 "id": null,
-                "progressId": "nlw:Relentless:1158:Pingas21",
+                "progressId": "nlw:Relentless:1159:Pingas21",
                 "copyValue": "Pingas21",
                 "video": "https://www.youtube.com/watch?v=nJrClOFhR6k"
             },
             {
                 "name": "Quantum Dynamix",
                 "id": null,
-                "progressId": "nlw:Relentless:1159:Quantum Dynamix",
+                "progressId": "nlw:Relentless:1160:Quantum Dynamix",
                 "copyValue": "Quantum Dynamix",
                 "video": "https://youtu.be/880lC-4zyXQ?si=VPRO8gQJu0oJLF3I"
             },
             {
                 "name": "Quantum Theory",
                 "id": null,
-                "progressId": "nlw:Relentless:1160:Quantum Theory",
+                "progressId": "nlw:Relentless:1161:Quantum Theory",
                 "copyValue": "Quantum Theory",
                 "video": "https://www.youtube.com/watch?v=2C2lqaiPPoA"
             },
             {
                 "name": "RELENTLESS",
                 "id": null,
-                "progressId": "nlw:Relentless:1161:RELENTLESS",
+                "progressId": "nlw:Relentless:1162:RELENTLESS",
                 "copyValue": "RELENTLESS",
                 "video": "https://www.youtube.com/watch?v=2-6FeeeXlNU"
             },
             {
                 "name": "RGB",
                 "id": null,
-                "progressId": "nlw:Relentless:1162:RGB",
+                "progressId": "nlw:Relentless:1163:RGB",
                 "copyValue": "RGB",
                 "video": "https://youtu.be/Fuw5ZSF6VYY?si=jjyvwVGOR6W9Zn6S"
             },
             {
                 "name": "Sephiroth",
                 "id": null,
-                "progressId": "nlw:Relentless:1163:Sephiroth",
+                "progressId": "nlw:Relentless:1164:Sephiroth",
                 "copyValue": "Sephiroth",
                 "video": "https://www.youtube.com/watch?v=UrAiq4y0a9o"
             },
             {
                 "name": "Shmarley Ville",
                 "id": null,
-                "progressId": "nlw:Relentless:1164:Shmarley Ville",
+                "progressId": "nlw:Relentless:1165:Shmarley Ville",
                 "copyValue": "Shmarley Ville",
                 "video": "https://www.youtube.com/watch?v=FvvjI7t_5tg"
             },
             {
                 "name": "Silentium Clavas",
                 "id": null,
-                "progressId": "nlw:Relentless:1165:Silentium Clavas",
+                "progressId": "nlw:Relentless:1166:Silentium Clavas",
                 "copyValue": "Silentium Clavas",
                 "video": "https://www.youtube.com/watch?v=QNQG_hhS7nk"
             },
             {
                 "name": "Sonic Wave",
                 "id": null,
-                "progressId": "nlw:Relentless:1166:Sonic Wave",
+                "progressId": "nlw:Relentless:1167:Sonic Wave",
                 "copyValue": "Sonic Wave",
                 "video": "https://www.youtube.com/watch?v=Dfm_LegCN9Q"
             },
             {
                 "name": "Sonic Wave Rebirth",
                 "id": null,
-                "progressId": "nlw:Relentless:1167:Sonic Wave Rebirth",
+                "progressId": "nlw:Relentless:1168:Sonic Wave Rebirth",
                 "copyValue": "Sonic Wave Rebirth",
                 "video": "https://www.youtube.com/watch?v=yhkHuS_h6f0"
             },
             {
                 "name": "SoulbounD",
                 "id": null,
-                "progressId": "nlw:Relentless:1168:SoulbounD",
+                "progressId": "nlw:Relentless:1169:SoulbounD",
                 "copyValue": "SoulbounD",
                 "video": "https://www.youtube.com/watch?v=1ityzwakkC8"
             },
             {
                 "name": "Stygian Machinery",
                 "id": null,
-                "progressId": "nlw:Relentless:1169:Stygian Machinery",
+                "progressId": "nlw:Relentless:1170:Stygian Machinery",
                 "copyValue": "Stygian Machinery",
                 "video": "https://www.youtube.com/watch?v=hmVeFYYCKwk"
             },
             {
                 "name": "Sunset Sandstorm",
                 "id": null,
-                "progressId": "nlw:Relentless:1170:Sunset Sandstorm",
+                "progressId": "nlw:Relentless:1171:Sunset Sandstorm",
                 "copyValue": "Sunset Sandstorm",
                 "video": "https://www.youtube.com/watch?v=P7B5gqwOXi0"
             },
             {
                 "name": "super probably level",
                 "id": null,
-                "progressId": "nlw:Relentless:1171:super probably level",
+                "progressId": "nlw:Relentless:1172:super probably level",
                 "copyValue": "super probably level",
                 "video": "https://www.youtube.com/watch?v=HQ4H38fOrg0"
             },
             {
                 "name": "Tapwreck",
                 "id": null,
-                "progressId": "nlw:Relentless:1172:Tapwreck",
+                "progressId": "nlw:Relentless:1173:Tapwreck",
                 "copyValue": "Tapwreck",
                 "video": "https://www.youtube.com/watch?v=RkV-DFosDzk"
             },
             {
                 "name": "Tenochtitlan",
                 "id": null,
-                "progressId": "nlw:Relentless:1173:Tenochtitlan",
+                "progressId": "nlw:Relentless:1174:Tenochtitlan",
                 "copyValue": "Tenochtitlan",
                 "video": "https://www.youtube.com/watch?v=JQ1VXkERP3E"
             },
             {
                 "name": "the DEADLANDS",
                 "id": null,
-                "progressId": "nlw:Relentless:1174:the DEADLANDS",
+                "progressId": "nlw:Relentless:1175:the DEADLANDS",
                 "copyValue": "the DEADLANDS",
                 "video": "https://www.youtube.com/watch?v=1cdwPRRhuvo"
             },
             {
                 "name": "The Fog",
                 "id": null,
-                "progressId": "nlw:Relentless:1175:The Fog",
+                "progressId": "nlw:Relentless:1176:The Fog",
                 "copyValue": "The Fog",
                 "video": "https://www.youtube.com/watch?v=yMKRfGcCE5I"
             },
             {
                 "name": "The Hell Nutz",
                 "id": null,
-                "progressId": "nlw:Relentless:1176:The Hell Nutz",
+                "progressId": "nlw:Relentless:1177:The Hell Nutz",
                 "copyValue": "The Hell Nutz",
                 "video": "https://www.youtube.com/watch?v=H5c_EKEGLC0"
             },
             {
                 "name": "The Mainframe",
                 "id": null,
-                "progressId": "nlw:Relentless:1177:The Mainframe",
+                "progressId": "nlw:Relentless:1178:The Mainframe",
                 "copyValue": "The Mainframe",
                 "video": "https://www.youtube.com/watch?v=R0LKMVy4O70"
             },
             {
                 "name": "The Reaper",
                 "id": null,
-                "progressId": "nlw:Relentless:1178:The Reaper",
+                "progressId": "nlw:Relentless:1179:The Reaper",
                 "copyValue": "The Reaper",
                 "video": "https://www.youtube.com/watch?v=HwT0__zHQAM"
             },
             {
                 "name": "Thunderzone",
                 "id": null,
-                "progressId": "nlw:Relentless:1179:Thunderzone",
+                "progressId": "nlw:Relentless:1180:Thunderzone",
                 "copyValue": "Thunderzone",
                 "video": "https://www.youtube.com/watch?v=Xi8cNKY1XfU"
             },
             {
                 "name": "Timor",
                 "id": null,
-                "progressId": "nlw:Relentless:1180:Timor",
+                "progressId": "nlw:Relentless:1181:Timor",
                 "copyValue": "Timor",
                 "video": "https://www.youtube.com/watch?v=tb9u8E9OXYw"
             },
             {
                 "name": "Titan Complex",
                 "id": null,
-                "progressId": "nlw:Relentless:1181:Titan Complex",
+                "progressId": "nlw:Relentless:1182:Titan Complex",
                 "copyValue": "Titan Complex",
                 "video": "https://www.youtube.com/watch?v=XrIrl0PdBNY"
             },
             {
                 "name": "Trxpping Eyebxlls",
                 "id": null,
-                "progressId": "nlw:Relentless:1182:Trxpping Eyebxlls",
+                "progressId": "nlw:Relentless:1183:Trxpping Eyebxlls",
                 "copyValue": "Trxpping Eyebxlls",
                 "video": "https://www.youtube.com/watch?v=GV0r6KGQFyc"
             },
             {
                 "name": "Twisted Titanium",
                 "id": null,
-                "progressId": "nlw:Relentless:1183:Twisted Titanium",
+                "progressId": "nlw:Relentless:1184:Twisted Titanium",
                 "copyValue": "Twisted Titanium",
                 "video": "https://www.youtube.com/watch?v=lt_MwwGosz8"
             },
             {
                 "name": "WOW",
                 "id": null,
-                "progressId": "nlw:Relentless:1184:WOW",
+                "progressId": "nlw:Relentless:1185:WOW",
                 "copyValue": "WOW",
                 "video": "https://www.youtube.com/watch?v=U32VPAp0s_8"
             },
             {
                 "name": "X0",
                 "id": null,
-                "progressId": "nlw:Relentless:1185:X0",
+                "progressId": "nlw:Relentless:1186:X0",
                 "copyValue": "X0",
                 "video": "https://www.youtube.com/watch?v=wtz_os23GnI"
             },
             {
                 "name": "xo",
                 "id": null,
-                "progressId": "nlw:Relentless:1186:xo",
+                "progressId": "nlw:Relentless:1187:xo",
                 "copyValue": "xo",
                 "video": "https://www.youtube.com/watch?v=sYF4DcCdqGM"
             },
             {
                 "name": "Yatagarasu",
                 "id": null,
-                "progressId": "nlw:Relentless:1187:Yatagarasu",
+                "progressId": "nlw:Relentless:1188:Yatagarasu",
                 "copyValue": "Yatagarasu",
                 "video": "https://www.youtube.com/watch?v=5MNHe-qEuGU"
             }
@@ -8079,356 +8086,363 @@ export const nlwLevels = [
     },
     {
         "rank": "Terrifying",
-        "requirement": 50,
+        "requirement": 51,
         "headerColor": "F19EEA",
         "levels": [
             {
                 "name": "ADOMANIA",
                 "id": null,
-                "progressId": "nlw:Terrifying:1189:ADOMANIA",
+                "progressId": "nlw:Terrifying:1190:ADOMANIA",
                 "copyValue": "ADOMANIA",
                 "video": "https://www.youtube.com/watch?v=yFuu7-3tnEU"
             },
             {
                 "name": "AKIRA",
                 "id": null,
-                "progressId": "nlw:Terrifying:1190:AKIRA",
+                "progressId": "nlw:Terrifying:1191:AKIRA",
                 "copyValue": "AKIRA",
                 "video": "https://www.youtube.com/watch?v=lCUR9oAh9y4"
             },
             {
                 "name": "Alpha",
                 "id": null,
-                "progressId": "nlw:Terrifying:1191:Alpha",
+                "progressId": "nlw:Terrifying:1192:Alpha",
                 "copyValue": "Alpha",
                 "video": "https://www.youtube.com/watch?v=IZL65YK-j28"
             },
             {
                 "name": "Atmos",
                 "id": null,
-                "progressId": "nlw:Terrifying:1192:Atmos",
+                "progressId": "nlw:Terrifying:1193:Atmos",
                 "copyValue": "Atmos",
                 "video": "https://www.youtube.com/watch?v=eBcBGgXNN2I"
             },
             {
                 "name": "Beyond Hell",
                 "id": null,
-                "progressId": "nlw:Terrifying:1193:Beyond Hell",
+                "progressId": "nlw:Terrifying:1194:Beyond Hell",
                 "copyValue": "Beyond Hell",
                 "video": "https://www.youtube.com/watch?v=_gCxz5VMdLw"
             },
             {
                 "name": "Calamity",
                 "id": null,
-                "progressId": "nlw:Terrifying:1194:Calamity",
+                "progressId": "nlw:Terrifying:1195:Calamity",
                 "copyValue": "Calamity",
                 "video": "https://www.youtube.com/watch?v=_D_euvPN49o"
             },
             {
                 "name": "Cobalt hell",
                 "id": null,
-                "progressId": "nlw:Terrifying:1195:Cobalt hell",
+                "progressId": "nlw:Terrifying:1196:Cobalt hell",
                 "copyValue": "Cobalt hell",
                 "video": "https://www.youtube.com/watch?v=DlsllbJsvUc"
             },
             {
                 "name": "Collect All Pets",
                 "id": null,
-                "progressId": "nlw:Terrifying:1196:Collect All Pets",
+                "progressId": "nlw:Terrifying:1197:Collect All Pets",
                 "copyValue": "Collect All Pets",
                 "video": "https://www.youtube.com/watch?v=Im30hMN120I"
             },
             {
                 "name": "ConTroller",
                 "id": null,
-                "progressId": "nlw:Terrifying:1197:ConTroller",
+                "progressId": "nlw:Terrifying:1198:ConTroller",
                 "copyValue": "ConTroller",
                 "video": "https://www.youtube.com/watch?v=ZIgA-xgUtno"
             },
             {
                 "name": "CRIDIUM",
                 "id": null,
-                "progressId": "nlw:Terrifying:1198:CRIDIUM",
+                "progressId": "nlw:Terrifying:1199:CRIDIUM",
                 "copyValue": "CRIDIUM",
                 "video": "https://www.youtube.com/watch?v=scbaQ6IK7cE"
             },
             {
                 "name": "Cybernetic Crescent",
                 "id": null,
-                "progressId": "nlw:Terrifying:1199:Cybernetic Crescent",
+                "progressId": "nlw:Terrifying:1200:Cybernetic Crescent",
                 "copyValue": "Cybernetic Crescent",
                 "video": "https://www.youtube.com/watch?v=AheSetgfroA"
             },
             {
                 "name": "Dance of the Violins",
                 "id": null,
-                "progressId": "nlw:Terrifying:1200:Dance of the Violins",
+                "progressId": "nlw:Terrifying:1201:Dance of the Violins",
                 "copyValue": "Dance of the Violins",
                 "video": "https://www.youtube.com/watch?v=vBkLo9BShW4"
             },
             {
                 "name": "Edge of the World",
                 "id": null,
-                "progressId": "nlw:Terrifying:1201:Edge of the World",
+                "progressId": "nlw:Terrifying:1202:Edge of the World",
                 "copyValue": "Edge of the World",
                 "video": "https://www.youtube.com/watch?v=4XeYo0lINHM"
             },
             {
                 "name": "ELLIPSISM",
                 "id": null,
-                "progressId": "nlw:Terrifying:1202:ELLIPSISM",
+                "progressId": "nlw:Terrifying:1203:ELLIPSISM",
                 "copyValue": "ELLIPSISM",
                 "video": "https://www.youtube.com/watch?v=i1lOrPzPxEY"
             },
             {
                 "name": "Eternal Moment",
                 "id": null,
-                "progressId": "nlw:Terrifying:1203:Eternal Moment",
+                "progressId": "nlw:Terrifying:1204:Eternal Moment",
                 "copyValue": "Eternal Moment",
                 "video": "https://www.youtube.com/watch?v=l33MV9r8aFM"
             },
             {
                 "name": "FIFTY THREE",
                 "id": null,
-                "progressId": "nlw:Terrifying:1204:FIFTY THREE",
+                "progressId": "nlw:Terrifying:1205:FIFTY THREE",
                 "copyValue": "FIFTY THREE",
                 "video": "https://www.youtube.com/watch?v=qMShbuB6S_g"
             },
             {
                 "name": "Gamma",
                 "id": null,
-                "progressId": "nlw:Terrifying:1205:Gamma",
+                "progressId": "nlw:Terrifying:1206:Gamma",
                 "copyValue": "Gamma",
                 "video": "https://www.youtube.com/watch?v=lE2jUb9qNNg"
             },
             {
                 "name": "GBS",
                 "id": null,
-                "progressId": "nlw:Terrifying:1206:GBS",
+                "progressId": "nlw:Terrifying:1207:GBS",
                 "copyValue": "GBS",
                 "video": "https://www.youtube.com/watch?v=bk3niTpdTaw"
             },
             {
                 "name": "Ghoul",
                 "id": null,
-                "progressId": "nlw:Terrifying:1207:Ghoul",
+                "progressId": "nlw:Terrifying:1208:Ghoul",
                 "copyValue": "Ghoul",
                 "video": "https://www.youtube.com/watch?v=TxoixNz5BEQ"
             },
             {
                 "name": "Golden Club",
                 "id": null,
-                "progressId": "nlw:Terrifying:1208:Golden Club",
+                "progressId": "nlw:Terrifying:1209:Golden Club",
                 "copyValue": "Golden Club",
                 "video": "https://www.youtube.com/watch?v=pUsUOaidaiM"
             },
             {
                 "name": "Hyper Paracosm",
                 "id": null,
-                "progressId": "nlw:Terrifying:1209:Hyper Paracosm",
+                "progressId": "nlw:Terrifying:1210:Hyper Paracosm",
                 "copyValue": "Hyper Paracosm",
                 "video": "https://www.youtube.com/watch?v=Cn-7_enr8Jg"
             },
             {
+                "name": "Icefall",
+                "id": null,
+                "progressId": "nlw:Terrifying:1211:Icefall",
+                "copyValue": "Icefall",
+                "video": "https://www.youtube.com/watch?v=f9J64UM54BI"
+            },
+            {
                 "name": "IMMORTALITY",
                 "id": null,
-                "progressId": "nlw:Terrifying:1210:IMMORTALITY",
+                "progressId": "nlw:Terrifying:1212:IMMORTALITY",
                 "copyValue": "IMMORTALITY",
                 "video": "https://www.youtube.com/watch?v=F9GvqzUhKeA"
             },
             {
                 "name": "In the Generator",
                 "id": null,
-                "progressId": "nlw:Terrifying:1211:In the Generator",
+                "progressId": "nlw:Terrifying:1213:In the Generator",
                 "copyValue": "In the Generator",
                 "video": "https://www.youtube.com/watch?v=2-B8a0GWpoA&amp;pp=ygUTSW4gdGhlIEdlbmVyYXRvciBnZA%3D%3D"
             },
             {
                 "name": "LUMINA",
                 "id": null,
-                "progressId": "nlw:Terrifying:1212:LUMINA",
+                "progressId": "nlw:Terrifying:1214:LUMINA",
                 "copyValue": "LUMINA",
                 "video": "https://www.youtube.com/watch?v=0ip9O83I6qg"
             },
             {
                 "name": "Macabre",
                 "id": null,
-                "progressId": "nlw:Terrifying:1213:Macabre",
+                "progressId": "nlw:Terrifying:1215:Macabre",
                 "copyValue": "Macabre",
                 "video": "https://www.youtube.com/watch?v=KWQ4IAZzJWY"
             },
             {
                 "name": "Midnight Tokyo",
                 "id": null,
-                "progressId": "nlw:Terrifying:1214:Midnight Tokyo",
+                "progressId": "nlw:Terrifying:1216:Midnight Tokyo",
                 "copyValue": "Midnight Tokyo",
                 "video": "https://www.youtube.com/watch?v=OkmMRJOL9sk"
             },
             {
                 "name": "Mirrored Calamity",
                 "id": null,
-                "progressId": "nlw:Terrifying:1215:Mirrored Calamity",
+                "progressId": "nlw:Terrifying:1217:Mirrored Calamity",
                 "copyValue": "Mirrored Calamity",
                 "video": "https://www.youtube.com/watch?v=ziKVNxb16CQ"
             },
             {
                 "name": "network",
                 "id": null,
-                "progressId": "nlw:Terrifying:1216:network",
+                "progressId": "nlw:Terrifying:1218:network",
                 "copyValue": "network",
                 "video": "https://www.youtube.com/watch?v=xtR7-kCwJWg"
             },
             {
                 "name": "nevermore",
                 "id": null,
-                "progressId": "nlw:Terrifying:1217:nevermore",
+                "progressId": "nlw:Terrifying:1219:nevermore",
                 "copyValue": "nevermore",
                 "video": "https://www.youtube.com/watch?v=AZGcAotdGnk"
             },
             {
                 "name": "of Ambrosia",
                 "id": null,
-                "progressId": "nlw:Terrifying:1218:of Ambrosia",
+                "progressId": "nlw:Terrifying:1220:of Ambrosia",
                 "copyValue": "of Ambrosia",
                 "video": "https://www.youtube.com/watch?v=l_0JJabCK1k"
             },
             {
                 "name": "Omega",
                 "id": null,
-                "progressId": "nlw:Terrifying:1219:Omega",
+                "progressId": "nlw:Terrifying:1221:Omega",
                 "copyValue": "Omega",
                 "video": "https://www.youtube.com/watch?v=N33-73ESbx8"
             },
             {
                 "name": "Rage",
                 "id": null,
-                "progressId": "nlw:Terrifying:1220:Rage",
+                "progressId": "nlw:Terrifying:1222:Rage",
                 "copyValue": "Rage",
                 "video": "https://www.youtube.com/watch?v=jD447_mNKIE"
             },
             {
                 "name": "RANDOM ACCESS MEMORY",
                 "id": null,
-                "progressId": "nlw:Terrifying:1221:RANDOM ACCESS MEMORY",
+                "progressId": "nlw:Terrifying:1223:RANDOM ACCESS MEMORY",
                 "copyValue": "RANDOM ACCESS MEMORY",
                 "video": "https://www.youtube.com/watch?v=zv2frzfk5vI"
             },
             {
                 "name": "reeses potentially",
                 "id": null,
-                "progressId": "nlw:Terrifying:1222:reeses potentially",
+                "progressId": "nlw:Terrifying:1224:reeses potentially",
                 "copyValue": "reeses potentially",
                 "video": "https://www.youtube.com/watch?v=JqGKnno8kgs"
             },
             {
                 "name": "REPENTLESS",
                 "id": null,
-                "progressId": "nlw:Terrifying:1223:REPENTLESS",
+                "progressId": "nlw:Terrifying:1225:REPENTLESS",
                 "copyValue": "REPENTLESS",
                 "video": "https://www.youtube.com/watch?v=H3FpOKZ0TFU"
             },
             {
                 "name": "Requiem",
                 "id": null,
-                "progressId": "nlw:Terrifying:1224:Requiem",
+                "progressId": "nlw:Terrifying:1226:Requiem",
                 "copyValue": "Requiem",
                 "video": "https://www.youtube.com/watch?v=lYcSElB6XmE"
             },
             {
                 "name": "Ryft",
                 "id": null,
-                "progressId": "nlw:Terrifying:1225:Ryft",
+                "progressId": "nlw:Terrifying:1227:Ryft",
                 "copyValue": "Ryft",
                 "video": "https://www.youtube.com/watch?v=GeULOLdCCQ4"
             },
             {
                 "name": "Sewers",
                 "id": null,
-                "progressId": "nlw:Terrifying:1226:Sewers",
+                "progressId": "nlw:Terrifying:1228:Sewers",
                 "copyValue": "Sewers",
                 "video": "https://www.youtube.com/watch?v=cKNp_T3d9iw"
             },
             {
                 "name": "SHIP",
                 "id": null,
-                "progressId": "nlw:Terrifying:1227:SHIP",
+                "progressId": "nlw:Terrifying:1229:SHIP",
                 "copyValue": "SHIP",
                 "video": "https://youtu.be/84SkFELs9_Q?si=VsIdxrT1OPf4hkuG"
             },
             {
                 "name": "🌝 Shirakami",
                 "id": null,
-                "progressId": "nlw:Terrifying:1228:🌝 Shirakami",
+                "progressId": "nlw:Terrifying:1230:🌝 Shirakami",
                 "copyValue": "🌝 Shirakami",
                 "video": "https://youtu.be/9Z2tAz9gYrQ?si=UqJjJxI4WOFa7LAc"
             },
             {
                 "name": "Sink",
                 "id": null,
-                "progressId": "nlw:Terrifying:1229:Sink",
+                "progressId": "nlw:Terrifying:1231:Sink",
                 "copyValue": "Sink",
                 "video": "https://www.youtube.com/watch?v=sm7UEejOBkA"
             },
             {
                 "name": "SisuSonic",
                 "id": null,
-                "progressId": "nlw:Terrifying:1230:SisuSonic",
+                "progressId": "nlw:Terrifying:1232:SisuSonic",
                 "copyValue": "SisuSonic",
                 "video": "https://www.youtube.com/watch?v=ST3t8ZBdHDk"
             },
             {
                 "name": "Spacial Rend",
                 "id": null,
-                "progressId": "nlw:Terrifying:1231:Spacial Rend",
+                "progressId": "nlw:Terrifying:1233:Spacial Rend",
                 "copyValue": "Spacial Rend",
                 "video": "https://www.youtube.com/watch?v=nL_v8SaPDLU"
             },
             {
                 "name": "Sparkling",
                 "id": null,
-                "progressId": "nlw:Terrifying:1232:Sparkling",
+                "progressId": "nlw:Terrifying:1234:Sparkling",
                 "copyValue": "Sparkling",
                 "video": "https://www.youtube.com/watch?v=9D3avCpRtnQ"
             },
             {
                 "name": "Spectrum Cyclone",
                 "id": null,
-                "progressId": "nlw:Terrifying:1233:Spectrum Cyclone",
+                "progressId": "nlw:Terrifying:1235:Spectrum Cyclone",
                 "copyValue": "Spectrum Cyclone",
                 "video": "https://www.youtube.com/watch?v=mo6gIbVtSAo"
             },
             {
                 "name": "Storming Summit",
                 "id": null,
-                "progressId": "nlw:Terrifying:1234:Storming Summit",
+                "progressId": "nlw:Terrifying:1236:Storming Summit",
                 "copyValue": "Storming Summit",
                 "video": "https://www.youtube.com/watch?v=GciIUBWkKXo"
             },
             {
                 "name": "Time Extreme",
                 "id": null,
-                "progressId": "nlw:Terrifying:1235:Time Extreme",
+                "progressId": "nlw:Terrifying:1237:Time Extreme",
                 "copyValue": "Time Extreme",
                 "video": "https://www.youtube.com/watch?v=TlUoifcQwCQ"
             },
             {
                 "name": "Violet Illusions",
                 "id": null,
-                "progressId": "nlw:Terrifying:1236:Violet Illusions",
+                "progressId": "nlw:Terrifying:1238:Violet Illusions",
                 "copyValue": "Violet Illusions",
                 "video": "https://www.youtube.com/watch?v=t_mrZjioX5c"
             },
             {
                 "name": "Wasureta",
                 "id": null,
-                "progressId": "nlw:Terrifying:1237:Wasureta",
+                "progressId": "nlw:Terrifying:1239:Wasureta",
                 "copyValue": "Wasureta",
                 "video": "https://www.youtube.com/watch?v=ipZl9Kvckc4"
             },
             {
                 "name": "WORSTBRAINMAP",
                 "id": null,
-                "progressId": "nlw:Terrifying:1238:WORSTBRAINMAP",
+                "progressId": "nlw:Terrifying:1240:WORSTBRAINMAP",
                 "copyValue": "WORSTBRAINMAP",
                 "video": "https://www.youtube.com/watch?v=z8Dz27H40Xs"
             }
@@ -8442,406 +8456,406 @@ export const nlwLevels = [
             {
                 "name": "2 Comme le vent",
                 "id": null,
-                "progressId": "nlw:Catastrophic:1240:2 Comme le vent",
+                "progressId": "nlw:Catastrophic:1242:2 Comme le vent",
                 "copyValue": "2 Comme le vent",
                 "video": "https://youtu.be/0FePhOKu9s0?si=9lHDSzKubHgC7ABM"
             },
             {
                 "name": "Apotheosis",
                 "id": null,
-                "progressId": "nlw:Catastrophic:1241:Apotheosis",
+                "progressId": "nlw:Catastrophic:1243:Apotheosis",
                 "copyValue": "Apotheosis",
                 "video": "https://youtu.be/WYZx2KSrpvQ?si=zTFd2kk-_JFEy2YL"
             },
             {
                 "name": "Aquatic Auroras",
                 "id": null,
-                "progressId": "nlw:Catastrophic:1242:Aquatic Auroras",
+                "progressId": "nlw:Catastrophic:1244:Aquatic Auroras",
                 "copyValue": "Aquatic Auroras",
                 "video": "https://www.youtube.com/watch?v=Il8zhWmWsbE"
             },
             {
                 "name": "Arctic Lights",
                 "id": null,
-                "progressId": "nlw:Catastrophic:1243:Arctic Lights",
+                "progressId": "nlw:Catastrophic:1245:Arctic Lights",
                 "copyValue": "Arctic Lights",
                 "video": "https://www.youtube.com/watch?v=LJrrhn4zL88"
             },
             {
                 "name": "Aronia",
                 "id": null,
-                "progressId": "nlw:Catastrophic:1244:Aronia",
+                "progressId": "nlw:Catastrophic:1246:Aronia",
                 "copyValue": "Aronia",
                 "video": "https://www.youtube.com/watch?v=KyyQft8Bem4"
             },
             {
                 "name": "Astrion",
                 "id": null,
-                "progressId": "nlw:Catastrophic:1245:Astrion",
+                "progressId": "nlw:Catastrophic:1247:Astrion",
                 "copyValue": "Astrion",
                 "video": "https://youtu.be/JBM0l43vdaI?si=q_pivp4HsuXDs8Ha"
             },
             {
                 "name": "ATOMIC CANNON",
                 "id": null,
-                "progressId": "nlw:Catastrophic:1246:ATOMIC CANNON",
+                "progressId": "nlw:Catastrophic:1248:ATOMIC CANNON",
                 "copyValue": "ATOMIC CANNON",
                 "video": "https://www.youtube.com/watch?v=SBuzcLdQYwQ"
             },
             {
                 "name": "Awedsy",
                 "id": null,
-                "progressId": "nlw:Catastrophic:1247:Awedsy",
+                "progressId": "nlw:Catastrophic:1249:Awedsy",
                 "copyValue": "Awedsy",
                 "video": "https://www.youtube.com/watch?v=M80IhzGhKHg"
             },
             {
                 "name": "Cersia Madness",
                 "id": null,
-                "progressId": "nlw:Catastrophic:1248:Cersia Madness",
+                "progressId": "nlw:Catastrophic:1250:Cersia Madness",
                 "copyValue": "Cersia Madness",
                 "video": "https://www.youtube.com/watch?v=366oxx498fc"
             },
             {
                 "name": "CHROMA FINALE",
                 "id": null,
-                "progressId": "nlw:Catastrophic:1249:CHROMA FINALE",
+                "progressId": "nlw:Catastrophic:1251:CHROMA FINALE",
                 "copyValue": "CHROMA FINALE",
                 "video": "https://www.youtube.com/watch?v=k2eC-tiqFSE"
             },
             {
                 "name": "Cicatrize",
                 "id": null,
-                "progressId": "nlw:Catastrophic:1250:Cicatrize",
+                "progressId": "nlw:Catastrophic:1252:Cicatrize",
                 "copyValue": "Cicatrize",
                 "video": "https://www.youtube.com/watch?v=JPAH7H2fIro"
             },
             {
                 "name": "CITRA",
                 "id": null,
-                "progressId": "nlw:Catastrophic:1251:CITRA",
+                "progressId": "nlw:Catastrophic:1253:CITRA",
                 "copyValue": "CITRA",
                 "video": "https://www.youtube.com/watch?v=HQenD3w0uFQ"
             },
             {
                 "name": "Congregation",
                 "id": null,
-                "progressId": "nlw:Catastrophic:1252:Congregation",
+                "progressId": "nlw:Catastrophic:1254:Congregation",
                 "copyValue": "Congregation",
                 "video": "https://www.youtube.com/watch?v=hd52E6f2hI8"
             },
             {
                 "name": "CONNECT",
                 "id": null,
-                "progressId": "nlw:Catastrophic:1253:CONNECT",
+                "progressId": "nlw:Catastrophic:1255:CONNECT",
                 "copyValue": "CONNECT",
                 "video": "https://www.youtube.com/watch?v=7zIgVxe_Few"
             },
             {
                 "name": "Death Corridor Z",
                 "id": null,
-                "progressId": "nlw:Catastrophic:1254:Death Corridor Z",
+                "progressId": "nlw:Catastrophic:1256:Death Corridor Z",
                 "copyValue": "Death Corridor Z",
                 "video": "https://youtu.be/vAyUO8PteIs?si=Ds76AMnEFOSsdOsc"
             },
             {
                 "name": "Dedohexdragon",
                 "id": null,
-                "progressId": "nlw:Catastrophic:1255:Dedohexdragon",
+                "progressId": "nlw:Catastrophic:1257:Dedohexdragon",
                 "copyValue": "Dedohexdragon",
                 "video": "https://www.youtube.com/watch?v=TDr5ldYBVlM"
             },
             {
                 "name": "Deimos",
                 "id": null,
-                "progressId": "nlw:Catastrophic:1256:Deimos",
+                "progressId": "nlw:Catastrophic:1258:Deimos",
                 "copyValue": "Deimos",
                 "video": "https://www.youtube.com/watch?v=HQhdDfAgYz0"
             },
             {
                 "name": "Disordered Stars",
                 "id": null,
-                "progressId": "nlw:Catastrophic:1257:Disordered Stars",
+                "progressId": "nlw:Catastrophic:1259:Disordered Stars",
                 "copyValue": "Disordered Stars",
                 "video": "https://www.youtube.com/watch?v=lzT9gVADIEY"
             },
             {
                 "name": "Dump",
                 "id": null,
-                "progressId": "nlw:Catastrophic:1258:Dump",
+                "progressId": "nlw:Catastrophic:1260:Dump",
                 "copyValue": "Dump",
                 "video": "https://www.youtube.com/watch?v=XRdvRFMWzDs"
             },
             {
                 "name": "Dust Bowl",
                 "id": null,
-                "progressId": "nlw:Catastrophic:1259:Dust Bowl",
+                "progressId": "nlw:Catastrophic:1261:Dust Bowl",
                 "copyValue": "Dust Bowl",
                 "video": "https://www.youtube.com/watch?v=QpWMbZSb8Zo"
             },
             {
                 "name": "EGO KILLING",
                 "id": null,
-                "progressId": "nlw:Catastrophic:1260:EGO KILLING",
+                "progressId": "nlw:Catastrophic:1262:EGO KILLING",
                 "copyValue": "EGO KILLING",
                 "video": "https://www.youtube.com/watch?v=Cl5aYqffIfw"
             },
             {
                 "name": "End of the Universe",
                 "id": null,
-                "progressId": "nlw:Catastrophic:1261:End of the Universe",
+                "progressId": "nlw:Catastrophic:1263:End of the Universe",
                 "copyValue": "End of the Universe",
                 "video": "https://www.youtube.com/watch?v=2aJnlSqIMb4"
             },
             {
                 "name": "Exosphere",
                 "id": null,
-                "progressId": "nlw:Catastrophic:1262:Exosphere",
+                "progressId": "nlw:Catastrophic:1264:Exosphere",
                 "copyValue": "Exosphere",
                 "video": "https://youtu.be/jrSurQdo0W4?si=EAvQi3XEVRe_SdSX"
             },
             {
                 "name": "Fever Dream",
                 "id": null,
-                "progressId": "nlw:Catastrophic:1263:Fever Dream",
+                "progressId": "nlw:Catastrophic:1265:Fever Dream",
                 "copyValue": "Fever Dream",
                 "video": "https://www.youtube.com/watch?v=5-4URfQex8w"
             },
             {
                 "name": "Fog",
                 "id": null,
-                "progressId": "nlw:Catastrophic:1264:Fog",
+                "progressId": "nlw:Catastrophic:1266:Fog",
                 "copyValue": "Fog",
                 "video": "https://www.youtube.com/watch?v=3SPY2CJGixE"
             },
             {
                 "name": "Fragmented",
                 "id": null,
-                "progressId": "nlw:Catastrophic:1265:Fragmented",
+                "progressId": "nlw:Catastrophic:1267:Fragmented",
                 "copyValue": "Fragmented",
                 "video": "https://www.youtube.com/watch?v=T-UqBH_VOG4"
             },
             {
                 "name": "FRIDAY",
                 "id": null,
-                "progressId": "nlw:Catastrophic:1266:FRIDAY",
+                "progressId": "nlw:Catastrophic:1268:FRIDAY",
                 "copyValue": "FRIDAY",
                 "video": "https://www.youtube.com/watch?v=KJNSAqv28dc"
             },
             {
                 "name": "Frozen Cave",
                 "id": null,
-                "progressId": "nlw:Catastrophic:1267:Frozen Cave",
+                "progressId": "nlw:Catastrophic:1269:Frozen Cave",
                 "copyValue": "Frozen Cave",
                 "video": "https://www.youtube.com/watch?v=Xdjjv0YSepQ"
             },
             {
                 "name": "Gracefully",
                 "id": null,
-                "progressId": "nlw:Catastrophic:1268:Gracefully",
+                "progressId": "nlw:Catastrophic:1270:Gracefully",
                 "copyValue": "Gracefully",
                 "video": "https://www.youtube.com/watch?v=Q0QocDchdz4"
             },
             {
                 "name": "Gustavo Fring",
                 "id": null,
-                "progressId": "nlw:Catastrophic:1269:Gustavo Fring",
+                "progressId": "nlw:Catastrophic:1271:Gustavo Fring",
                 "copyValue": "Gustavo Fring",
                 "video": "https://www.youtube.com/watch?v=gKsBOjM76wk"
             },
             {
                 "name": "Hardry",
                 "id": null,
-                "progressId": "nlw:Catastrophic:1270:Hardry",
+                "progressId": "nlw:Catastrophic:1272:Hardry",
                 "copyValue": "Hardry",
                 "video": "https://www.youtube.com/watch?v=e0Tyj_5HuZw"
             },
             {
                 "name": "Iris of a Puppeteer",
                 "id": null,
-                "progressId": "nlw:Catastrophic:1271:Iris of a Puppeteer",
+                "progressId": "nlw:Catastrophic:1273:Iris of a Puppeteer",
                 "copyValue": "Iris of a Puppeteer",
                 "video": "https://www.youtube.com/watch?v=Jd1UUHepxGY"
             },
             {
                 "name": "IthacropoliX",
                 "id": null,
-                "progressId": "nlw:Catastrophic:1272:IthacropoliX",
+                "progressId": "nlw:Catastrophic:1274:IthacropoliX",
                 "copyValue": "IthacropoliX",
                 "video": "https://www.youtube.com/watch?v=X-9Kw2JRELI"
             },
             {
                 "name": "Knights of Thunder",
                 "id": null,
-                "progressId": "nlw:Catastrophic:1273:Knights of Thunder",
+                "progressId": "nlw:Catastrophic:1275:Knights of Thunder",
                 "copyValue": "Knights of Thunder",
                 "video": "https://www.youtube.com/watch?v=P_6O2blwvR8"
             },
             {
                 "name": "kowareta",
                 "id": null,
-                "progressId": "nlw:Catastrophic:1274:kowareta",
+                "progressId": "nlw:Catastrophic:1276:kowareta",
                 "copyValue": "kowareta",
                 "video": "https://www.youtube.com/watch?v=Z_D3xzEEg00"
             },
             {
                 "name": "MewneI",
                 "id": null,
-                "progressId": "nlw:Catastrophic:1275:MewneI",
+                "progressId": "nlw:Catastrophic:1277:MewneI",
                 "copyValue": "MewneI",
                 "video": "https://www.youtube.com/watch?v=_bxncSKEUnU"
             },
             {
                 "name": "Nhelv",
                 "id": null,
-                "progressId": "nlw:Catastrophic:1276:Nhelv",
+                "progressId": "nlw:Catastrophic:1278:Nhelv",
                 "copyValue": "Nhelv",
                 "video": "https://www.youtube.com/watch?v=goiPwwbffHI"
             },
             {
                 "name": "Ouroboros",
                 "id": null,
-                "progressId": "nlw:Catastrophic:1277:Ouroboros",
+                "progressId": "nlw:Catastrophic:1279:Ouroboros",
                 "copyValue": "Ouroboros",
                 "video": "https://www.youtube.com/watch?v=Tks9DNwfxz4"
             },
             {
                 "name": "Ourwa",
                 "id": null,
-                "progressId": "nlw:Catastrophic:1278:Ourwa",
+                "progressId": "nlw:Catastrophic:1280:Ourwa",
                 "copyValue": "Ourwa",
                 "video": "https://www.youtube.com/watch?v=yCQb0sLXHiM"
             },
             {
                 "name": "Pagoda",
                 "id": null,
-                "progressId": "nlw:Catastrophic:1279:Pagoda",
+                "progressId": "nlw:Catastrophic:1281:Pagoda",
                 "copyValue": "Pagoda",
                 "video": "https://youtu.be/9Hhacst2gbY?si=qSjZAmPApkf05aqr"
             },
             {
                 "name": "Plasma Pulse Finale",
                 "id": null,
-                "progressId": "nlw:Catastrophic:1280:Plasma Pulse Finale",
+                "progressId": "nlw:Catastrophic:1282:Plasma Pulse Finale",
                 "copyValue": "Plasma Pulse Finale",
                 "video": "https://www.youtube.com/watch?v=CDUcdR1-uho"
             },
             {
                 "name": "Ploink",
                 "id": null,
-                "progressId": "nlw:Catastrophic:1281:Ploink",
+                "progressId": "nlw:Catastrophic:1283:Ploink",
                 "copyValue": "Ploink",
                 "video": "https://www.youtube.com/watch?v=WA2ryrexIBI"
             },
             {
                 "name": "Pootis Engage XTREME",
                 "id": null,
-                "progressId": "nlw:Catastrophic:1282:Pootis Engage XTREME",
+                "progressId": "nlw:Catastrophic:1284:Pootis Engage XTREME",
                 "copyValue": "Pootis Engage XTREME",
                 "video": "https://www.youtube.com/watch?v=0Mnldw0I9oE"
             },
             {
                 "name": "PROTON LAUNCHER",
                 "id": null,
-                "progressId": "nlw:Catastrophic:1283:PROTON LAUNCHER",
+                "progressId": "nlw:Catastrophic:1285:PROTON LAUNCHER",
                 "copyValue": "PROTON LAUNCHER",
                 "video": "https://youtu.be/aoo-EoWgVp0"
             },
             {
                 "name": "RAM",
                 "id": null,
-                "progressId": "nlw:Catastrophic:1284:RAM",
+                "progressId": "nlw:Catastrophic:1286:RAM",
                 "copyValue": "RAM",
                 "video": "https://www.youtube.com/watch?v=NSuESER99WI"
             },
             {
                 "name": "Retention Redux",
                 "id": null,
-                "progressId": "nlw:Catastrophic:1285:Retention Redux",
+                "progressId": "nlw:Catastrophic:1287:Retention Redux",
                 "copyValue": "Retention Redux",
                 "video": "https://youtu.be/Ud6sqDfAy4w?si=xRQk7hwrwKbWmNij"
             },
             {
                 "name": "ROCKY ROAD",
                 "id": null,
-                "progressId": "nlw:Catastrophic:1286:ROCKY ROAD",
+                "progressId": "nlw:Catastrophic:1288:ROCKY ROAD",
                 "copyValue": "ROCKY ROAD",
                 "video": "https://youtu.be/kAHrbj1IsS8?si=Pee8VrIUFF36wwSj"
             },
             {
                 "name": "Sazerix",
                 "id": null,
-                "progressId": "nlw:Catastrophic:1287:Sazerix",
+                "progressId": "nlw:Catastrophic:1289:Sazerix",
                 "copyValue": "Sazerix",
                 "video": "https://www.youtube.com/watch?v=RLzNKgSkH6s"
             },
             {
                 "name": "Shutdown",
                 "id": null,
-                "progressId": "nlw:Catastrophic:1288:Shutdown",
+                "progressId": "nlw:Catastrophic:1290:Shutdown",
                 "copyValue": "Shutdown",
                 "video": "https://www.youtube.com/watch?v=kuwudym1-vM"
             },
             {
                 "name": "Sigma",
                 "id": null,
-                "progressId": "nlw:Catastrophic:1289:Sigma",
+                "progressId": "nlw:Catastrophic:1291:Sigma",
                 "copyValue": "Sigma",
                 "video": "https://www.youtube.com/watch?v=B5e9Z3bZOuw"
             },
             {
                 "name": "SZYSLAK",
                 "id": null,
-                "progressId": "nlw:Catastrophic:1290:SZYSLAK",
+                "progressId": "nlw:Catastrophic:1292:SZYSLAK",
                 "copyValue": "SZYSLAK",
                 "video": "https://www.youtube.com/watch?v=-y0GE3NlrDU"
             },
             {
                 "name": "Th3Dev0n",
                 "id": null,
-                "progressId": "nlw:Catastrophic:1291:Th3Dev0n",
+                "progressId": "nlw:Catastrophic:1293:Th3Dev0n",
                 "copyValue": "Th3Dev0n",
                 "video": "https://www.youtube.com/watch?v=CG0hcVhcR94"
             },
             {
                 "name": "the wiener",
                 "id": null,
-                "progressId": "nlw:Catastrophic:1292:the wiener",
+                "progressId": "nlw:Catastrophic:1294:the wiener",
                 "copyValue": "the wiener",
                 "video": "https://www.youtube.com/watch?v=pEcaej_t7Uc"
             },
             {
                 "name": "The Yandere",
                 "id": null,
-                "progressId": "nlw:Catastrophic:1293:The Yandere",
+                "progressId": "nlw:Catastrophic:1295:The Yandere",
                 "copyValue": "The Yandere",
                 "video": "https://www.youtube.com/watch?v=YI5u7U2BaXA"
             },
             {
                 "name": "untitled unmastered",
                 "id": null,
-                "progressId": "nlw:Catastrophic:1294:untitled unmastered",
+                "progressId": "nlw:Catastrophic:1296:untitled unmastered",
                 "copyValue": "untitled unmastered",
                 "video": "https://www.youtube.com/watch?v=oo0IWR31jMg"
             },
             {
                 "name": "Visible Ray",
                 "id": null,
-                "progressId": "nlw:Catastrophic:1295:Visible Ray",
+                "progressId": "nlw:Catastrophic:1297:Visible Ray",
                 "copyValue": "Visible Ray",
                 "video": "https://www.youtube.com/watch?v=4ngzCQDdMVA"
             },
             {
                 "name": "X84",
                 "id": null,
-                "progressId": "nlw:Catastrophic:1296:X84",
+                "progressId": "nlw:Catastrophic:1298:X84",
                 "copyValue": "X84",
                 "video": "https://www.youtube.com/watch?v=tS3uHx25mfM"
             },
             {
                 "name": "XRAY",
                 "id": null,
-                "progressId": "nlw:Catastrophic:1297:XRAY",
+                "progressId": "nlw:Catastrophic:1299:XRAY",
                 "copyValue": "XRAY",
                 "video": "https://www.youtube.com/watch?v=PJlZkCAO664"
             }
@@ -8855,315 +8869,315 @@ export const nlwLevels = [
             {
                 "name": "Akashic Records",
                 "id": null,
-                "progressId": "nlw:Inexorable:1299:Akashic Records",
+                "progressId": "nlw:Inexorable:1301:Akashic Records",
                 "copyValue": "Akashic Records",
                 "video": "https://www.youtube.com/watch?v=HcfZmnmjHso"
             },
             {
                 "name": "Amalgam",
                 "id": null,
-                "progressId": "nlw:Inexorable:1300:Amalgam",
+                "progressId": "nlw:Inexorable:1302:Amalgam",
                 "copyValue": "Amalgam",
                 "video": "https://www.youtube.com/watch?v=ydKYofj8tKQ"
             },
             {
                 "name": "Asterios",
                 "id": null,
-                "progressId": "nlw:Inexorable:1301:Asterios",
+                "progressId": "nlw:Inexorable:1303:Asterios",
                 "copyValue": "Asterios",
                 "video": "https://www.youtube.com/watch?v=XPRDGOw4hFE"
             },
             {
                 "name": "BarbarosFinaleFinale",
                 "id": null,
-                "progressId": "nlw:Inexorable:1302:BarbarosFinaleFinale",
+                "progressId": "nlw:Inexorable:1304:BarbarosFinaleFinale",
                 "copyValue": "BarbarosFinaleFinale",
                 "video": "https://www.youtube.com/watch?v=y7IBLzs7lT4"
             },
             {
                 "name": "Bloodlust",
                 "id": null,
-                "progressId": "nlw:Inexorable:1303:Bloodlust",
+                "progressId": "nlw:Inexorable:1305:Bloodlust",
                 "copyValue": "Bloodlust",
                 "video": "https://www.youtube.com/watch?v=sITZbV7kcBk"
             },
             {
                 "name": "Call Me Maybe",
                 "id": null,
-                "progressId": "nlw:Inexorable:1304:Call Me Maybe",
+                "progressId": "nlw:Inexorable:1306:Call Me Maybe",
                 "copyValue": "Call Me Maybe",
                 "video": "https://youtu.be/mJPbUqiNVME?si=WoZkBOv4CHRB-qUp"
             },
             {
                 "name": "Cobwebs",
                 "id": null,
-                "progressId": "nlw:Inexorable:1305:Cobwebs",
+                "progressId": "nlw:Inexorable:1307:Cobwebs",
                 "copyValue": "Cobwebs",
                 "video": "https://www.youtube.com/watch?v=mGyprqjpl4Q&amp;pp=ygUKY29id2VicyBnZA%3D%3D"
             },
             {
                 "name": "Coral Cave",
                 "id": null,
-                "progressId": "nlw:Inexorable:1306:Coral Cave",
+                "progressId": "nlw:Inexorable:1308:Coral Cave",
                 "copyValue": "Coral Cave",
                 "video": "https://www.youtube.com/watch?v=ZAEc78nPU1Y"
             },
             {
                 "name": "Deep Bass",
                 "id": null,
-                "progressId": "nlw:Inexorable:1307:Deep Bass",
+                "progressId": "nlw:Inexorable:1309:Deep Bass",
                 "copyValue": "Deep Bass",
                 "video": "https://www.youtube.com/watch?v=6r-QcnzhWw8"
             },
             {
                 "name": "Descent Into Exile",
                 "id": null,
-                "progressId": "nlw:Inexorable:1308:Descent Into Exile",
+                "progressId": "nlw:Inexorable:1310:Descent Into Exile",
                 "copyValue": "Descent Into Exile",
                 "video": "https://www.youtube.com/watch?v=-VXoxbumxkI&amp;pp=ygUbZGVzY2VudCBpbnRvIGV4aWxlIGljZWRjYXZl"
             },
             {
                 "name": "DsinK",
                 "id": null,
-                "progressId": "nlw:Inexorable:1309:DsinK",
+                "progressId": "nlw:Inexorable:1311:DsinK",
                 "copyValue": "DsinK",
                 "video": "https://youtu.be/tKsBtpSVvds"
             },
             {
                 "name": "Excruciation Chamber",
                 "id": null,
-                "progressId": "nlw:Inexorable:1310:Excruciation Chamber",
+                "progressId": "nlw:Inexorable:1312:Excruciation Chamber",
                 "copyValue": "Excruciation Chamber",
                 "video": "https://www.youtube.com/watch?v=5qTxS1r4RfY"
             },
             {
                 "name": "Escape Room",
                 "id": null,
-                "progressId": "nlw:Inexorable:1311:Escape Room",
+                "progressId": "nlw:Inexorable:1313:Escape Room",
                 "copyValue": "Escape Room",
                 "video": "https://youtu.be/g8eKMNvec0k?feature=shared"
             },
             {
                 "name": "FARBIDI THEORY",
                 "id": null,
-                "progressId": "nlw:Inexorable:1312:FARBIDI THEORY",
+                "progressId": "nlw:Inexorable:1314:FARBIDI THEORY",
                 "copyValue": "FARBIDI THEORY",
                 "video": "https://www.youtube.com/watch?v=KZkRM5ArPNY"
             },
             {
                 "name": "Gloxinia",
                 "id": null,
-                "progressId": "nlw:Inexorable:1313:Gloxinia",
+                "progressId": "nlw:Inexorable:1315:Gloxinia",
                 "copyValue": "Gloxinia",
                 "video": "https://www.youtube.com/watch?v=4UMac2nWL5w"
             },
             {
                 "name": "Jesse Pinkman",
                 "id": null,
-                "progressId": "nlw:Inexorable:1314:Jesse Pinkman",
+                "progressId": "nlw:Inexorable:1316:Jesse Pinkman",
                 "copyValue": "Jesse Pinkman",
                 "video": "https://youtu.be/3YQtDDnUEm4?feature=shared"
             },
             {
                 "name": "Jupiter My Favourite",
                 "id": null,
-                "progressId": "nlw:Inexorable:1315:Jupiter My Favourite",
+                "progressId": "nlw:Inexorable:1317:Jupiter My Favourite",
                 "copyValue": "Jupiter My Favourite",
                 "video": "https://youtu.be/adVQ_yflcGM?feature=shared"
             },
             {
                 "name": "Kappa",
                 "id": null,
-                "progressId": "nlw:Inexorable:1316:Kappa",
+                "progressId": "nlw:Inexorable:1318:Kappa",
                 "copyValue": "Kappa",
                 "video": "https://youtu.be/wZtfr9hM8A4?feature=shared"
             },
             {
                 "name": "Launchpad Labyrinth",
                 "id": null,
-                "progressId": "nlw:Inexorable:1317:Launchpad Labyrinth",
+                "progressId": "nlw:Inexorable:1319:Launchpad Labyrinth",
                 "copyValue": "Launchpad Labyrinth",
                 "video": "https://www.youtube.com/watch?v=o2UDqa6-dW0"
             },
             {
                 "name": "LD50",
                 "id": null,
-                "progressId": "nlw:Inexorable:1318:LD50",
+                "progressId": "nlw:Inexorable:1320:LD50",
                 "copyValue": "LD50",
                 "video": "https://youtu.be/nB7kP6DOtnI?feature=shared"
             },
             {
                 "name": "Lucid Nightmares",
                 "id": null,
-                "progressId": "nlw:Inexorable:1319:Lucid Nightmares",
+                "progressId": "nlw:Inexorable:1321:Lucid Nightmares",
                 "copyValue": "Lucid Nightmares",
                 "video": "https://www.youtube.com/watch?v=l2ZYDfMl8iU"
             },
             {
                 "name": "Magic",
                 "id": null,
-                "progressId": "nlw:Inexorable:1320:Magic",
+                "progressId": "nlw:Inexorable:1322:Magic",
                 "copyValue": "Magic",
                 "video": "https://youtu.be/S-f9T2Kxogs?si=mesWW96ZS0Xv8yUz"
             },
             {
                 "name": "meow hard",
                 "id": null,
-                "progressId": "nlw:Inexorable:1321:meow hard",
+                "progressId": "nlw:Inexorable:1323:meow hard",
                 "copyValue": "meow hard",
                 "video": "https://www.youtube.com/watch?v=3PGZ2e2MntQ"
             },
             {
                 "name": "Moving Forward",
                 "id": null,
-                "progressId": "nlw:Inexorable:1322:Moving Forward",
+                "progressId": "nlw:Inexorable:1324:Moving Forward",
                 "copyValue": "Moving Forward",
                 "video": "https://youtu.be/i6UbaNunoFU?feature=shared"
             },
             {
                 "name": "Nabil Let Go",
                 "id": null,
-                "progressId": "nlw:Inexorable:1323:Nabil Let Go",
+                "progressId": "nlw:Inexorable:1325:Nabil Let Go",
                 "copyValue": "Nabil Let Go",
                 "video": "https://youtu.be/vYA9OcTv6j0?feature=shared"
             },
             {
                 "name": "no jokes",
                 "id": null,
-                "progressId": "nlw:Inexorable:1324:no jokes",
+                "progressId": "nlw:Inexorable:1326:no jokes",
                 "copyValue": "no jokes",
                 "video": "https://youtu.be/9AQEQoyOO-M?feature=shared"
             },
             {
                 "name": "NYUTOPIA",
                 "id": null,
-                "progressId": "nlw:Inexorable:1325:NYUTOPIA",
+                "progressId": "nlw:Inexorable:1327:NYUTOPIA",
                 "copyValue": "NYUTOPIA",
                 "video": "https://www.youtube.com/watch?v=aFL4OWyD75o"
             },
             {
                 "name": "obsession",
                 "id": null,
-                "progressId": "nlw:Inexorable:1326:obsession",
+                "progressId": "nlw:Inexorable:1328:obsession",
                 "copyValue": "obsession",
                 "video": "https://www.youtube.com/watch?v=aEDUkNBpbnY"
             },
             {
                 "name": "Omega Interface",
                 "id": null,
-                "progressId": "nlw:Inexorable:1327:Omega Interface",
+                "progressId": "nlw:Inexorable:1329:Omega Interface",
                 "copyValue": "Omega Interface",
                 "video": "https://www.youtube.com/watch?v=lZXDaQVj6sc"
             },
             {
                 "name": "Pandemonium",
                 "id": null,
-                "progressId": "nlw:Inexorable:1328:Pandemonium",
+                "progressId": "nlw:Inexorable:1330:Pandemonium",
                 "copyValue": "Pandemonium",
                 "video": "https://youtu.be/dvkPdYVR7PU"
             },
             {
                 "name": "Porridge Factory",
                 "id": null,
-                "progressId": "nlw:Inexorable:1329:Porridge Factory",
+                "progressId": "nlw:Inexorable:1331:Porridge Factory",
                 "copyValue": "Porridge Factory",
                 "video": "https://www.youtube.com/watch?v=L_9TI_Ssss8"
             },
             {
                 "name": "Ragnarok",
                 "id": null,
-                "progressId": "nlw:Inexorable:1330:Ragnarok",
+                "progressId": "nlw:Inexorable:1332:Ragnarok",
                 "copyValue": "Ragnarok",
                 "video": "https://www.youtube.com/watch?v=mrddGyXkYNI&amp;pp=ygUQcmFnbm1hcm9rIGdkIHpvZtIHCQnrCQGHKiGM7w%3D%3D"
             },
             {
                 "name": "RUST",
                 "id": null,
-                "progressId": "nlw:Inexorable:1331:RUST",
+                "progressId": "nlw:Inexorable:1333:RUST",
                 "copyValue": "RUST",
                 "video": "https://www.youtube.com/watch?v=q25Y6Ix6VWw"
             },
             {
                 "name": "RUTHLESS",
                 "id": null,
-                "progressId": "nlw:Inexorable:1332:RUTHLESS",
+                "progressId": "nlw:Inexorable:1334:RUTHLESS",
                 "copyValue": "RUTHLESS",
                 "video": "https://www.youtube.com/watch?v=VM3GJwWvUo0"
             },
             {
                 "name": "SAND SAILOR",
                 "id": null,
-                "progressId": "nlw:Inexorable:1333:SAND SAILOR",
+                "progressId": "nlw:Inexorable:1335:SAND SAILOR",
                 "copyValue": "SAND SAILOR",
                 "video": "https://www.youtube.com/watch?v=Ay8itQfsLGw"
             },
             {
                 "name": "Sank",
                 "id": null,
-                "progressId": "nlw:Inexorable:1334:Sank",
+                "progressId": "nlw:Inexorable:1336:Sank",
                 "copyValue": "Sank",
                 "video": "https://www.youtube.com/watch?v=AMHdIWYmVbc"
             },
             {
                 "name": "Shardscapes",
                 "id": null,
-                "progressId": "nlw:Inexorable:1335:Shardscapes",
+                "progressId": "nlw:Inexorable:1337:Shardscapes",
                 "copyValue": "Shardscapes",
                 "video": "https://www.youtube.com/watch?v=Sh2bK8v7amA"
             },
             {
                 "name": "SUPERHATEMEWORLD",
                 "id": null,
-                "progressId": "nlw:Inexorable:1336:SUPERHATEMEWORLD",
+                "progressId": "nlw:Inexorable:1338:SUPERHATEMEWORLD",
                 "copyValue": "SUPERHATEMEWORLD",
                 "video": "https://www.youtube.com/watch?v=K7HEXUJwoqw"
             },
             {
                 "name": "Terminux",
                 "id": null,
-                "progressId": "nlw:Inexorable:1337:Terminux",
+                "progressId": "nlw:Inexorable:1339:Terminux",
                 "copyValue": "Terminux",
                 "video": "https://www.youtube.com/watch?v=2epXfYJCoxU"
             },
             {
                 "name": "The Art of the Blade",
                 "id": null,
-                "progressId": "nlw:Inexorable:1338:The Art of the Blade",
+                "progressId": "nlw:Inexorable:1340:The Art of the Blade",
                 "copyValue": "The Art of the Blade",
                 "video": "https://www.youtube.com/watch?v=ipQBogLtb7o"
             },
             {
                 "name": "the ocean of fish",
                 "id": null,
-                "progressId": "nlw:Inexorable:1339:the ocean of fish",
+                "progressId": "nlw:Inexorable:1341:the ocean of fish",
                 "copyValue": "the ocean of fish",
                 "video": "https://youtu.be/hbSkJKhS-3I?si=dIEHss5X7BO5uVbT"
             },
             {
                 "name": "The Rupture",
                 "id": null,
-                "progressId": "nlw:Inexorable:1340:The Rupture",
+                "progressId": "nlw:Inexorable:1342:The Rupture",
                 "copyValue": "The Rupture",
                 "video": "https://youtu.be/FQLS9G52wQ8?feature=shared"
             },
             {
                 "name": "TORN",
                 "id": null,
-                "progressId": "nlw:Inexorable:1341:TORN",
+                "progressId": "nlw:Inexorable:1343:TORN",
                 "copyValue": "TORN",
                 "video": "https://www.youtube.com/watch?v=qxxb9p1nBSA"
             },
             {
                 "name": "Twilight",
                 "id": null,
-                "progressId": "nlw:Inexorable:1342:Twilight",
+                "progressId": "nlw:Inexorable:1344:Twilight",
                 "copyValue": "Twilight",
                 "video": "https://www.youtube.com/watch?v=RKzxzx_GAdA"
             },
             {
                 "name": "Ykds1479ymdppr",
                 "id": null,
-                "progressId": "nlw:Inexorable:1343:Ykds1479ymdppr",
+                "progressId": "nlw:Inexorable:1345:Ykds1479ymdppr",
                 "copyValue": "Ykds1479ymdppr",
                 "video": "https://youtu.be/SYSIdDLlvfg?si=JbLsemZmLtLgbi0i"
             }
@@ -9177,273 +9191,273 @@ export const nlwLevels = [
             {
                 "name": "Ascent",
                 "id": null,
-                "progressId": "nlw:Excruciating:1345:Ascent",
+                "progressId": "nlw:Excruciating:1347:Ascent",
                 "copyValue": "Ascent",
                 "video": "https://www.youtube.com/watch?v=sII8zQZIJlg"
             },
             {
                 "name": "ATOMIC CANNON Mk II",
                 "id": null,
-                "progressId": "nlw:Excruciating:1346:ATOMIC CANNON Mk II",
+                "progressId": "nlw:Excruciating:1348:ATOMIC CANNON Mk II",
                 "copyValue": "ATOMIC CANNON Mk II",
                 "video": "https://youtu.be/uvwH7zw6ej4?si=4CQfX0rToC_9bsTT"
             },
             {
                 "name": "Axiom Asterism",
                 "id": null,
-                "progressId": "nlw:Excruciating:1347:Axiom Asterism",
+                "progressId": "nlw:Excruciating:1349:Axiom Asterism",
                 "copyValue": "Axiom Asterism",
                 "video": "https://youtu.be/7Pmivk6EKh4?si=V-uqI-A8UOIO1uDw"
             },
             {
                 "name": "BLITZ",
                 "id": null,
-                "progressId": "nlw:Excruciating:1348:BLITZ",
+                "progressId": "nlw:Excruciating:1350:BLITZ",
                 "copyValue": "BLITZ",
                 "video": "https://www.youtube.com/watch?v=22I-2au0JaM"
             },
             {
                 "name": "Calculator Core",
                 "id": null,
-                "progressId": "nlw:Excruciating:1349:Calculator Core",
+                "progressId": "nlw:Excruciating:1351:Calculator Core",
                 "copyValue": "Calculator Core",
                 "video": "https://www.youtube.com/watch?v=VrgNFsF2NGw&amp;pp=ygUYQ0FMQ1VMQVRPUiBDT1JFIFNIT1dDQVNF"
             },
             {
                 "name": "Cognition",
                 "id": null,
-                "progressId": "nlw:Excruciating:1350:Cognition",
+                "progressId": "nlw:Excruciating:1352:Cognition",
                 "copyValue": "Cognition",
                 "video": "https://www.youtube.com/watch?v=6mlS8yNlpb8"
             },
             {
                 "name": "Cold Sweat",
                 "id": null,
-                "progressId": "nlw:Excruciating:1351:Cold Sweat",
+                "progressId": "nlw:Excruciating:1353:Cold Sweat",
                 "copyValue": "Cold Sweat",
                 "video": "https://www.youtube.com/watch?v=HDzTmbnsR-o"
             },
             {
                 "name": "ConClusion",
                 "id": null,
-                "progressId": "nlw:Excruciating:1352:ConClusion",
+                "progressId": "nlw:Excruciating:1354:ConClusion",
                 "copyValue": "ConClusion",
                 "video": "https://www.youtube.com/watch?v=6zHr7dmhUn0"
             },
             {
                 "name": "CORRODERE",
                 "id": null,
-                "progressId": "nlw:Excruciating:1353:CORRODERE",
+                "progressId": "nlw:Excruciating:1355:CORRODERE",
                 "copyValue": "CORRODERE",
                 "video": "https://www.youtube.com/watch?v=hWYvlpUDq_s"
             },
             {
                 "name": "Cosmic Cyclone",
                 "id": null,
-                "progressId": "nlw:Excruciating:1354:Cosmic Cyclone",
+                "progressId": "nlw:Excruciating:1356:Cosmic Cyclone",
                 "copyValue": "Cosmic Cyclone",
                 "video": "https://youtu.be/zN7-vQIaABg?si=NdvIMj6AQ_j_-Hkw"
             },
             {
                 "name": "Crimson Planet",
                 "id": null,
-                "progressId": "nlw:Excruciating:1355:Crimson Planet",
+                "progressId": "nlw:Excruciating:1357:Crimson Planet",
                 "copyValue": "Crimson Planet",
                 "video": "https://www.youtube.com/watch?v=cfLGIxfsl20&amp;pp=ygUaQ1JJTVNPTiBQTEFORVQgR0Qgc2hvd2Nhc2U%3D"
             },
             {
                 "name": "Cycles X",
                 "id": null,
-                "progressId": "nlw:Excruciating:1356:Cycles X",
+                "progressId": "nlw:Excruciating:1358:Cycles X",
                 "copyValue": "Cycles X",
                 "video": "https://youtu.be/PISfNl7Zbv0?si=lL4VtFN0MpdcqgfK"
             },
             {
                 "name": "DIRECTIONS",
                 "id": null,
-                "progressId": "nlw:Excruciating:1357:DIRECTIONS",
+                "progressId": "nlw:Excruciating:1359:DIRECTIONS",
                 "copyValue": "DIRECTIONS",
                 "video": "https://youtu.be/0jCj6uVuezY?si=dt-hgi0spmJmpHDN"
             },
             {
                 "name": "Disconnected Descent",
                 "id": null,
-                "progressId": "nlw:Excruciating:1358:Disconnected Descent",
+                "progressId": "nlw:Excruciating:1360:Disconnected Descent",
                 "copyValue": "Disconnected Descent",
                 "video": "https://youtu.be/qUyVMrieFDI?si=LD3zh-gn2VeDGfW8"
             },
             {
                 "name": "Dry Out Copyable 2",
                 "id": null,
-                "progressId": "nlw:Excruciating:1359:Dry Out Copyable 2",
+                "progressId": "nlw:Excruciating:1361:Dry Out Copyable 2",
                 "copyValue": "Dry Out Copyable 2",
                 "video": "https://www.youtube.com/watch?v=FXW9J9CaREU"
             },
             {
                 "name": "Frost Spirit",
                 "id": null,
-                "progressId": "nlw:Excruciating:1360:Frost Spirit",
+                "progressId": "nlw:Excruciating:1362:Frost Spirit",
                 "copyValue": "Frost Spirit",
                 "video": "https://www.youtube.com/watch?v=zjF_Oobp9R8"
             },
             {
                 "name": "Galeforce",
                 "id": null,
-                "progressId": "nlw:Excruciating:1361:Galeforce",
+                "progressId": "nlw:Excruciating:1363:Galeforce",
                 "copyValue": "Galeforce",
                 "video": "https://youtu.be/wiO50Q745_8?si=Xm71ZVOb51YnvwBF"
             },
             {
                 "name": "GLUNGUS ADVENTURES",
                 "id": null,
-                "progressId": "nlw:Excruciating:1362:GLUNGUS ADVENTURES",
+                "progressId": "nlw:Excruciating:1364:GLUNGUS ADVENTURES",
                 "copyValue": "GLUNGUS ADVENTURES",
                 "video": "https://www.youtube.com/watch?v=1209BX8b9Xo"
             },
             {
                 "name": "Goober Rage Stage",
                 "id": null,
-                "progressId": "nlw:Excruciating:1363:Goober Rage Stage",
+                "progressId": "nlw:Excruciating:1365:Goober Rage Stage",
                 "copyValue": "Goober Rage Stage",
                 "video": "https://www.youtube.com/watch?v=2eAJhG8xGVc"
             },
             {
                 "name": "Indivine",
                 "id": null,
-                "progressId": "nlw:Excruciating:1364:Indivine",
+                "progressId": "nlw:Excruciating:1366:Indivine",
                 "copyValue": "Indivine",
                 "video": "https://www.youtube.com/watch?v=ncl0ieyXdaU"
             },
             {
                 "name": "Instinct",
                 "id": null,
-                "progressId": "nlw:Excruciating:1365:Instinct",
+                "progressId": "nlw:Excruciating:1367:Instinct",
                 "copyValue": "Instinct",
                 "video": "https://www.youtube.com/watch?v=DUMqFNhT2Gs"
             },
             {
                 "name": "Keres",
                 "id": null,
-                "progressId": "nlw:Excruciating:1366:Keres",
+                "progressId": "nlw:Excruciating:1368:Keres",
                 "copyValue": "Keres",
                 "video": "https://www.youtube.com/watch?v=yPPXETzL10c"
             },
             {
                 "name": "Lithium",
                 "id": null,
-                "progressId": "nlw:Excruciating:1367:Lithium",
+                "progressId": "nlw:Excruciating:1369:Lithium",
                 "copyValue": "Lithium",
                 "video": "https://www.youtube.com/watch?v=Mwea98gxk8k&amp;pp=ygUKbGl0aGl1bSBnZA%3D%3D"
             },
             {
                 "name": "Lotus Flower",
                 "id": null,
-                "progressId": "nlw:Excruciating:1368:Lotus Flower",
+                "progressId": "nlw:Excruciating:1370:Lotus Flower",
                 "copyValue": "Lotus Flower",
                 "video": "https://www.youtube.com/watch?v=VdkP-9DvGsw&amp;pp=ygUQbG90dXMgZmxvd2VyciBmZA%3D%3D"
             },
             {
                 "name": "Neon Skyline",
                 "id": null,
-                "progressId": "nlw:Excruciating:1369:Neon Skyline",
+                "progressId": "nlw:Excruciating:1371:Neon Skyline",
                 "copyValue": "Neon Skyline",
                 "video": "https://www.youtube.com/watch?v=-rbARSMSY2Q"
             },
             {
                 "name": "Promethean",
                 "id": null,
-                "progressId": "nlw:Excruciating:1370:Promethean",
+                "progressId": "nlw:Excruciating:1372:Promethean",
                 "copyValue": "Promethean",
                 "video": "https://www.youtube.com/watch?v=19kE_Yo8puE"
             },
             {
                 "name": "qoUEO",
                 "id": null,
-                "progressId": "nlw:Excruciating:1371:qoUEO",
+                "progressId": "nlw:Excruciating:1373:qoUEO",
                 "copyValue": "qoUEO",
                 "video": "https://www.youtube.com/watch?v=84MH-LoroCg"
             },
             {
                 "name": "Renevant",
                 "id": null,
-                "progressId": "nlw:Excruciating:1372:Renevant",
+                "progressId": "nlw:Excruciating:1374:Renevant",
                 "copyValue": "Renevant",
                 "video": "https://www.youtube.com/watch?v=k7CcLLKZYJ4"
             },
             {
                 "name": "Rigel",
                 "id": null,
-                "progressId": "nlw:Excruciating:1373:Rigel",
+                "progressId": "nlw:Excruciating:1375:Rigel",
                 "copyValue": "Rigel",
                 "video": "https://youtu.be/liJFeLHcW_Q?si=90Xnmd2gYkVc692v"
             },
             {
                 "name": "Ringy Paracosm",
                 "id": null,
-                "progressId": "nlw:Excruciating:1374:Ringy Paracosm",
+                "progressId": "nlw:Excruciating:1376:Ringy Paracosm",
                 "copyValue": "Ringy Paracosm",
                 "video": "https://youtu.be/RIDuh4IVGiw?si=V-E8O-NrqerG1pSI"
             },
             {
                 "name": "SARY NEVER CLEAR",
                 "id": null,
-                "progressId": "nlw:Excruciating:1375:SARY NEVER CLEAR",
+                "progressId": "nlw:Excruciating:1377:SARY NEVER CLEAR",
                 "copyValue": "SARY NEVER CLEAR",
                 "video": "https://youtu.be/bPeKRImkZ2U?si=kbWK25fAYsK6cTMU"
             },
             {
                 "name": "Scrubbabingo force",
                 "id": null,
-                "progressId": "nlw:Excruciating:1376:Scrubbabingo force",
+                "progressId": "nlw:Excruciating:1378:Scrubbabingo force",
                 "copyValue": "Scrubbabingo force",
                 "video": "https://youtu.be/ln4Jw4ANEf0?feature=shared"
             },
             {
                 "name": "shimmer",
                 "id": null,
-                "progressId": "nlw:Excruciating:1377:shimmer",
+                "progressId": "nlw:Excruciating:1379:shimmer",
                 "copyValue": "shimmer",
                 "video": "https://youtu.be/_vuXb2PHiOI?si=1FTN3yPpV_Y9mm1s"
             },
             {
                 "name": "Sky Shredder",
                 "id": null,
-                "progressId": "nlw:Excruciating:1378:Sky Shredder",
+                "progressId": "nlw:Excruciating:1380:Sky Shredder",
                 "copyValue": "Sky Shredder",
                 "video": "https://www.youtube.com/watch?v=n2YzbsQxdAo"
             },
             {
                 "name": "ta1LSD0ll",
                 "id": null,
-                "progressId": "nlw:Excruciating:1379:ta1LSD0ll",
+                "progressId": "nlw:Excruciating:1381:ta1LSD0ll",
                 "copyValue": "ta1LSD0ll",
                 "video": "https://www.youtube.com/watch?v=TyQ2b4Kpt1U&amp;pp=ygUMdGExTFNEMGxsIGdk0gcJCU8KAYcqIYzv"
             },
             {
                 "name": "Thinking Space",
                 "id": null,
-                "progressId": "nlw:Excruciating:1380:Thinking Space",
+                "progressId": "nlw:Excruciating:1382:Thinking Space",
                 "copyValue": "Thinking Space",
                 "video": "https://www.youtube.com/watch?v=iHf2nanWjvE"
             },
             {
                 "name": "Trotil",
                 "id": null,
-                "progressId": "nlw:Excruciating:1381:Trotil",
+                "progressId": "nlw:Excruciating:1383:Trotil",
                 "copyValue": "Trotil",
                 "video": "https://www.youtube.com/watch?v=dQytJhTLtMY"
             },
             {
                 "name": "Widestep",
                 "id": null,
-                "progressId": "nlw:Excruciating:1382:Widestep",
+                "progressId": "nlw:Excruciating:1384:Widestep",
                 "copyValue": "Widestep",
                 "video": "https://www.youtube.com/watch?v=Zj9SKL0pv2k"
             },
             {
                 "name": "Xenolith",
                 "id": null,
-                "progressId": "nlw:Excruciating:1383:Xenolith",
+                "progressId": "nlw:Excruciating:1385:Xenolith",
                 "copyValue": "Xenolith",
                 "video": "https://www.youtube.com/watch?v=VoWti51G_Cc"
             }
@@ -9457,133 +9471,133 @@ export const nlwLevels = [
             {
                 "name": "Axinie",
                 "id": null,
-                "progressId": "nlw:Merciless:1385:Axinie",
+                "progressId": "nlw:Merciless:1387:Axinie",
                 "copyValue": "Axinie",
                 "video": "https://www.youtube.com/watch?v=kFFubPDa2rg"
             },
             {
                 "name": "Crackhead Circles",
                 "id": null,
-                "progressId": "nlw:Merciless:1386:Crackhead Circles",
+                "progressId": "nlw:Merciless:1388:Crackhead Circles",
                 "copyValue": "Crackhead Circles",
                 "video": "https://www.youtube.com/watch?v=UmB7ryRF6eI"
             },
             {
                 "name": "Dark Dimension",
                 "id": null,
-                "progressId": "nlw:Merciless:1387:Dark Dimension",
+                "progressId": "nlw:Merciless:1389:Dark Dimension",
                 "copyValue": "Dark Dimension",
                 "video": "https://www.youtube.com/watch?v=1FhFCF2EaaI"
             },
             {
                 "name": "Destruction 19",
                 "id": null,
-                "progressId": "nlw:Merciless:1388:Destruction 19",
+                "progressId": "nlw:Merciless:1390:Destruction 19",
                 "copyValue": "Destruction 19",
                 "video": "https://www.youtube.com/watch?v=2q4f6CWXwwg&amp;pp=ygUOZGVzdHJ1Y3Rpb24gMTk%3D"
             },
             {
                 "name": "DISSONANCE",
                 "id": null,
-                "progressId": "nlw:Merciless:1389:DISSONANCE",
+                "progressId": "nlw:Merciless:1391:DISSONANCE",
                 "copyValue": "DISSONANCE",
                 "video": "https://www.youtube.com/watch?v=jm0CmXvpBX0"
             },
             {
                 "name": "Esfera",
                 "id": null,
-                "progressId": "nlw:Merciless:1390:Esfera",
+                "progressId": "nlw:Merciless:1392:Esfera",
                 "copyValue": "Esfera",
                 "video": "https://youtu.be/_xW5DMxHfbg?si=X4bIbiOVINtkT3St"
             },
             {
                 "name": "Guideless Goobering",
                 "id": null,
-                "progressId": "nlw:Merciless:1391:Guideless Goobering",
+                "progressId": "nlw:Merciless:1393:Guideless Goobering",
                 "copyValue": "Guideless Goobering",
                 "video": "https://youtu.be/VaZ9ovoYgpo?si=8YRSJw6En6bF-hCM"
             },
             {
                 "name": "Hard Machine",
                 "id": null,
-                "progressId": "nlw:Merciless:1392:Hard Machine",
+                "progressId": "nlw:Merciless:1394:Hard Machine",
                 "copyValue": "Hard Machine",
                 "video": "https://www.youtube.com/watch?v=RqVzOCBQHZ4"
             },
             {
                 "name": "in this",
                 "id": null,
-                "progressId": "nlw:Merciless:1393:in this",
+                "progressId": "nlw:Merciless:1395:in this",
                 "copyValue": "in this",
                 "video": "https://www.youtube.com/watch?v=yNrlv25aDzQ&amp;pp=ygUKaW4gdGhpcyBnZA%3D%3D"
             },
             {
                 "name": "IRIS",
                 "id": null,
-                "progressId": "nlw:Merciless:1394:IRIS",
+                "progressId": "nlw:Merciless:1396:IRIS",
                 "copyValue": "IRIS",
                 "video": "https://youtu.be/MxubKlhmtYY?si=0L680SlS8GBb5AYo"
             },
             {
                 "name": "Judgement Knights",
                 "id": null,
-                "progressId": "nlw:Merciless:1395:Judgement Knights",
+                "progressId": "nlw:Merciless:1397:Judgement Knights",
                 "copyValue": "Judgement Knights",
                 "video": "https://www.youtube.com/watch?v=HZR72ujXJA4"
             },
             {
                 "name": "NEUTRA",
                 "id": null,
-                "progressId": "nlw:Merciless:1396:NEUTRA",
+                "progressId": "nlw:Merciless:1398:NEUTRA",
                 "copyValue": "NEUTRA",
                 "video": "https://www.youtube.com/watch?v=hzvlfUXe4Xw"
             },
             {
                 "name": "Scream Machine",
                 "id": null,
-                "progressId": "nlw:Merciless:1397:Scream Machine",
+                "progressId": "nlw:Merciless:1399:Scream Machine",
                 "copyValue": "Scream Machine",
                 "video": "https://youtu.be/1WvpM-SATeQ?is=cyRTZn6SNZIXR1_h"
             },
             {
                 "name": "Silent Lunch",
                 "id": null,
-                "progressId": "nlw:Merciless:1398:Silent Lunch",
+                "progressId": "nlw:Merciless:1400:Silent Lunch",
                 "copyValue": "Silent Lunch",
                 "video": "https://www.youtube.com/watch?v=oYORFIbFzc0&amp;pp=ygUPc2lsZW50IGx1bmNoIGdk"
             },
             {
                 "name": "Starlight Summit",
                 "id": null,
-                "progressId": "nlw:Merciless:1399:Starlight Summit",
+                "progressId": "nlw:Merciless:1401:Starlight Summit",
                 "copyValue": "Starlight Summit",
                 "video": "https://www.youtube.com/watch?v=G76zzxWOhQY"
             },
             {
                 "name": "Swing Swing",
                 "id": null,
-                "progressId": "nlw:Merciless:1400:Swing Swing",
+                "progressId": "nlw:Merciless:1402:Swing Swing",
                 "copyValue": "Swing Swing",
                 "video": "https://youtu.be/BzAFcb44vOY?si=LPeJL8gnlbZfNGe4"
             },
             {
                 "name": "Time Lapse",
                 "id": null,
-                "progressId": "nlw:Merciless:1401:Time Lapse",
+                "progressId": "nlw:Merciless:1403:Time Lapse",
                 "copyValue": "Time Lapse",
                 "video": "https://www.youtube.com/watch?v=nzlsYmA36iM"
             },
             {
                 "name": "Zodiac",
                 "id": null,
-                "progressId": "nlw:Merciless:1402:Zodiac",
+                "progressId": "nlw:Merciless:1404:Zodiac",
                 "copyValue": "Zodiac",
                 "video": "https://youtu.be/HCQK_y8JutU?si=0Lhh5A1TlLvjIiuN"
             },
             {
                 "name": "ROCKBOTTOM",
                 "id": null,
-                "progressId": "nlw:Merciless:1403:ROCKBOTTOM",
+                "progressId": "nlw:Merciless:1405:ROCKBOTTOM",
                 "copyValue": "ROCKBOTTOM",
                 "video": "https://youtu.be/U2zNFh7-geY?si=5AVvZ1lrbdQOzxP0"
             }

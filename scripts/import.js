@@ -5,6 +5,7 @@ import { parseShip } from "./parsers/ship.js";
 import { parseWave } from "./parsers/wave.js";
 import { parseCCPL, parseCCPLDLC } from "./parsers/ccpl.js";
 import { parseDemons } from "./parsers/dl.js";
+import { parseWPPL } from "./parsers/wppl.js";
 
 const rootDir = path.resolve(".");
 const dataDir = path.join(rootDir, "src", "data");
@@ -89,6 +90,10 @@ async function importConfiguredSheet(name, settings) {
                 progressPrefix: "lw",
             }),
         };
+    }
+
+    if (name === "wppl") {
+        return { wppl: parseWPPL(sheet) };
     }
 
     throw new Error(`No parser configured for "${name}"`);

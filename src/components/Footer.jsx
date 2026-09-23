@@ -5,9 +5,9 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 export const Footer = () => {
     return (
-        <footer className="mt-16 bg-[#101010] px-6 py-5 text-center text-sm text-white/70">
-            <div className="grid grid-cols-1 items-center gap-3 sm:grid-cols-3">
-                <div className="flex flex-col sm:items-start">
+        <footer className="mt-16 bg-[#101010] px-6 py-5 text-sm text-white/70">
+            <div className="grid grid-cols-2 items-center gap-3 lg:grid-cols-3">
+                <div className="order-2 flex flex-col items-start text-left">
                     <span className="font-semibold text-white">
                         © 2026 gdsr.pages.dev
                     </span>
@@ -16,7 +16,7 @@ export const Footer = () => {
                     </span>
                 </div>
 
-                <nav className="flex items-center justify-center gap-3">
+                <nav className="order-1 col-span-2 flex flex-wrap items-center justify-center gap-x-3 gap-y-1 text-sm lg:order-2 lg:col-span-1">
                     <Link className="underline" to="/stats">
                         Stats
                     </Link>
@@ -42,7 +42,7 @@ export const Footer = () => {
                     </Link>
                 </nav>
 
-                <div className="flex items-center justify-center gap-4 sm:justify-end">
+                <div className="order-3 flex items-center justify-end gap-4">
                     <span>
                         Made by{" "}
                         <a

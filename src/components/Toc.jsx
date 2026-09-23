@@ -24,7 +24,7 @@ export const Toc = ({
                             <li key={getId(item)}>
                                 <a
                                     href={`#${getId(item)}`}
-                                    className={labelClassName}
+                                    className={`break-words ${labelClassName}`}
                                 >
                                     {renderLabel(item)}
                                 </a>

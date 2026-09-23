@@ -1,4 +1,10 @@
-import { getDuplicateIds, getLevelKey, isColorDark } from "../util.js";
+import {
+    getDuplicateIds,
+    getLevelKey,
+    isColorDark,
+    isColorYellow,
+    getYellowContrastColor,
+} from "../util.js";
 
 export const getAllLevels = (rank) =>
     rank.levels?.length
@@ -47,23 +53,34 @@ export const getRankStatus = ({
     const requirement = rank.requirement || 0;
     const rankLabel = rank.rank ?? rank.name;
     const nestedRanks = rank.ranks ?? rank.subranks;
+    const headerColor = rank.headerColor || activeTheme[rankLabel];
 
     if (
         rank.excludeFromTotal &&
         (!nestedRanks || nestedRanks.length === 0) &&
         completed < allLevels.length
     ) {
-        return "border-transparent";
+        return { className: "border-transparent" };
     }
 
-    if (completed >= requirement && completed < allLevels.length)
-        return "border-rank-complete";
-    if (completed === allLevels.length) {
-        return isColorDark(rank.headerColor || activeTheme[rankLabel], 50)
-            ? "border-white"
-            : "border-black";
+    if (completed >= requirement && completed < allLevels.length) {
+        return isColorYellow(headerColor)
+            ? {
+                  className: "",
+                  style: {
+                      borderColor: getYellowContrastColor(headerColor),
+                  },
+              }
+            : { className: "border-rank-complete" };
     }
-    return "border-transparent";
+
+    if (completed === allLevels.length) {
+        return isColorDark(headerColor, 50)
+            ? { className: "border-white" }
+            : { className: "border-black" };
+    }
+
+    return { className: "border-transparent" };
 };
 
 export const getRankMax = (completed, requirement, total, excludeFromTotal) =>

@@ -32,7 +32,7 @@ export const RankColumn = ({
     const excludedRankText = rank.excludeFromTotal
         ? "text-xl text-white/90 italic font-normal leading-none"
         : "";
-    const rankStatus = getRankStatus({
+    const rankBorder = getRankStatus({
         rank,
         progress,
         activeTheme,
@@ -47,10 +47,11 @@ export const RankColumn = ({
     return (
         <div>
             <div
-                className={`h-[52px] text-3xl px-4 py-1 text-center border-4 ${rankStatus} transition-all hover:brightness-110 relative flex items-center justify-center`}
+                className={`h-[52px] text-3xl px-4 py-1 text-center border-4 ${rankBorder.className} transition-all hover:brightness-110 relative flex items-center justify-center`}
                 style={{
                     backgroundColor: headerColor,
                     color: getContrastTextColor(headerColor),
+                    ...rankBorder.style,
                 }}
                 onContextMenu={(e) => onToggleRankBulk(e, rank)}
             >

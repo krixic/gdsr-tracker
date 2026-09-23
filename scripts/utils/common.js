@@ -99,7 +99,7 @@ function parseRequirement(text) {
         };
     }
 
-    const match = text.match(/CLEAR\s+(?:ANY\s+)?(\d+)/i);
+    const match = text.match(/(?:CLEAR|ROLL)\s+(?:ANY\s+)?(\d+)/i);
 
     if (match) {
         return {
@@ -109,7 +109,7 @@ function parseRequirement(text) {
         };
     }
 
-    if (/CLEAR\s+ANY/i.test(text)) {
+    if (/(?:CLEAR|ROLL)\b.*\bANY\b/i.test(text)) {
         return {
             requirement: 1,
             clearAll: false,

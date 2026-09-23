@@ -4,19 +4,19 @@ import { AppToaster } from "./AppToaster.jsx";
 import { RankColumn } from "./levels/RankColumn.jsx";
 import { getAllLevels, migrateProgressKeys } from "../utils/rankLevels.js";
 import { allLevels, duplicateLevelIds } from "../data/listConfig.js";
-import { usePersistedState, usePolledStorage, useToastLimit } from "../hooks.js";
+import {
+    usePersistedState,
+    usePolledStorage,
+    useToastLimit,
+} from "../hooks.js";
 
 export const Levels = ({ levels, type = "gdsr" }) => {
     const activeTheme = rankColors[type] || {};
-    const [progress, setProgress] = usePersistedState(
-        "progress",
-        {},
-        (data) => migrateProgressKeys(data, allLevels),
+    const [progress, setProgress] = usePersistedState("progress", {}, (data) =>
+        migrateProgressKeys(data, allLevels),
     );
-    const [attempts, setAttempts] = usePersistedState(
-        "attempts",
-        {},
-        (data) => migrateProgressKeys(data, allLevels),
+    const [attempts, setAttempts] = usePersistedState("attempts", {}, (data) =>
+        migrateProgressKeys(data, allLevels),
     );
     const settings = usePolledStorage("settings", { showAttempts: false });
 
@@ -33,7 +33,17 @@ export const Levels = ({ levels, type = "gdsr" }) => {
     };
 
     const setDoingValue = (levelKey, value, forceComplete = false) => {
+        if (!forceComplete && Number(value) === 0) {
+            setProgress((prev) => {
+                const next = { ...prev };
+                delete next[levelKey];
+                return next;
+            });
+            return;
+        }
+
         const v = forceComplete ? 100 : Math.min(100, Math.max(1, value));
+
         setProgress((prev) => ({ ...prev, [levelKey]: v }));
     };
 

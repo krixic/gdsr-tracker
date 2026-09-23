@@ -1,6 +1,10 @@
 import React from "react";
 import { getContrastTextColor, getLevelKey } from "../../util.js";
-import { getAllLevels, sumAttempts, hexToRgba } from "../../utils/rankLevels.js";
+import {
+    getAllLevels,
+    sumAttempts,
+    hexToRgba,
+} from "../../utils/rankLevels.js";
 
 export const RanksGrid = ({
     activeList,
@@ -90,7 +94,7 @@ export const RanksGrid = ({
                                 {showRequirementPanel ? (
                                     <div className="bg-black/15 px-3 py-3 whitespace-normal break-words leading-snug order-1 min-h-[64px] flex flex-col justify-center">
                                         <div className="text-xs uppercase tracking-wide text-white/50">
-                                            To Requirement
+                                            To Rank
                                         </div>
                                         <div className="text-white/90">
                                             {Math.min(
